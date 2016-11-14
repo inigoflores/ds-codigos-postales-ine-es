@@ -1,0 +1,6 @@
+{
+  "require":
+  {
+    "maximebf/consolekit": ">=1.0.0"
+  }
+}
