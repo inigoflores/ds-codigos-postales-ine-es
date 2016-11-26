@@ -15,9 +15,9 @@ class Config
     //TRAMOS-NAL.F151231
 
     static $datapackage = [
-        "name" => "ds-codigos-postales",
-        "title" => "Dataset de Códigos Postales",
-        "descriptions" => "Codigos postales de los municipios españoles",
+        "name" => "ds-codigos-postales-ine-es",
+        "title" => "Dataset de Códigos Postales (Callejero INE)",
+        "descriptions" => "Codigos postales de los municipios españoles obtenidos del Callejero INE",
         "licenses" => [
             [
                 "type" => "odc-pddl",
