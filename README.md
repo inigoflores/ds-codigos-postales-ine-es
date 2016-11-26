@@ -1,11 +1,12 @@
-# ds-codigos-postales
+# ds-codigos-postales-ine-es
 
 Dataset que proporciona un listado de todos los códigos postales de España asociados al código INE del municipio al que pertenecen.     
 
+Usa como fuente el Callejero del Censo Electoral (INE).
 
 ## Codigos Postales por Municipio
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
-- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_01[YYYY].zip` donde `YYYY` es el último año
+- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipios.csv](data/codigos_postales_municipios.csv) 
  
@@ -45,7 +46,7 @@ Ejemplo en CSV:
 
 ## Codigos Postales por Municipio (Histórico)
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
-- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_01[YYYY].zip` donde `YYYY` es el año, (desde 2013 hasta la actualidad))
+- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipios_historical.csv](data/codigos_postales_municipios_historical.csv) 
  
@@ -56,11 +57,11 @@ Ejemplo en CSV:
 
 Ejemplo en CSV:
 
-| codigo_postal | municipio_id | nombre_entidad_singular | year | 
-|---------------|--------------|-------------------------|------| 
-| 29610         | 29076        | OJEN                    | 2013 | 
-| 29610         | 29076        | OJEN                    | 2014 | 
-| 29612         | 29076        | OJEN                    | 2014 | 
+| codigo_postal | municipio_id | nombre_entidad_singular | year | month |
+|---------------|--------------|-------------------------|------|-------| 
+| 29610         | 29076        | OJEN                    | 2013 |    07 |
+| 29610         | 29076        | OJEN                    | 2014 |    01 |
+| 29612         | 29076        | OJEN                    | 2014 |    01 |
 
 
 En el ejemplo se aprecia como en 2014 aparece un nuevo código postal para el municipio de Ojén. 
@@ -74,7 +75,7 @@ El script se puede encontrar en [/scripts/ine](/scripts/ine).
 
 ## Merge con ds-organizacion-administrativa
 
-Para obtener el nombre de municipio se puede hacer un merge con `ds-organizacion-administrativa/ds-oa-municipios` mediante `csvjoin`:
+Para obtener el nombre de municipio asociado al codigo INE se puede hacer un merge con `ds-organizacion-administrativa/ds-oa-municipios` mediante `csvjoin`:
 
     $ `curl https://raw.githubusercontent.com/codeforspain/ds-organizacion-administrativa/master/data/municipios.csv |  
          csvcut -c 'municipio_id,nombre' |csvjoin -c "municipio_id"  codigos_postales_municipios.csv - |  

@@ -9,8 +9,7 @@
         }
     ],
     "author": {
-        "name": "Code for Spain",
-        "web": "http:\/\/www.codeforspain.org"
+        "name": "Iñigo Flores"
     },
     "keywords": [
         "Codigo Postal"
@@ -51,7 +50,7 @@
         },
         {
             "name": "ds_codigos_postales_municipios_historical",
-            "title": "Histórico de codigos postales por municipio (desde 2012)",
+            "title": "Histórico de codigos postales por municipio (desde 2013)",
             "format": "csv",
             "path": "data\/codigos_postales_municipios_historical.csv",
             "schema": {
@@ -77,6 +76,11 @@
                         "name": "year",
                         "type": "number",
                         "description": "Año del dato"
+                    },
+                    {
+                        "name": "month",
+                        "type": "number",
+                        "description": "Mes del dato"
                     }
                 ]
             }
@@ -110,7 +114,7 @@
         },
         {
             "name": "ds_codigos_postales_municipios_historical",
-            "title": "Histórico de codigos postales por municipio (desde 2012)",
+            "title": "Histórico de codigos postales por municipio (desde 2013)",
             "format": "json",
             "path": "data\/codigos_postales_municipios_historical.json",
             "schema": {
@@ -136,11 +140,16 @@
                         "name": "year",
                         "type": "number",
                         "description": "Año del dato"
+                    },
+                    {
+                        "name": "month",
+                        "type": "number",
+                        "description": "Mes del dato"
                     }
                 ]
             }
         }
     ],
-    "last_updated": "2016-05-16 ",
-    "version": "0.0.4"
+    "last_updated": "2016-11-26 ",
+    "version": "0.0.8"
 }

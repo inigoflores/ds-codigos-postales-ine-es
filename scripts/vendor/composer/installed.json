@@ -1,0 +1,48 @@
+[
+    {
+        "name": "maximebf/consolekit",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/maximebf/ConsoleKit.git",
+            "reference": "c46403e2cf98e8413168c523bdbb7c13a386abe5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/maximebf/ConsoleKit/zipball/c46403e2cf98e8413168c523bdbb7c13a386abe5",
+            "reference": "c46403e2cf98e8413168c523bdbb7c13a386abe5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-01-01 16:03:55",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "ConsoleKit": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Maxime Bouroumeau-Fuseau",
+                "email": "maxime.bouroumeau@gmail.com",
+                "homepage": "http://maximebf.com"
+            }
+        ],
+        "description": "Library to create command line utilities",
+        "homepage": "https://github.com/maximebf/ConsoleKit",
+        "keywords": [
+            "cli",
+            "commands",
+            "console",
+            "shell"
+        ]
+    }
+]
