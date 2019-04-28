@@ -57,17 +57,22 @@ Si se invoca sin subcomandos o argumentos, executa:
 ## Requisitos
 
 * PHP 5.4+
+* PHP Zip extension
 * csvkit 1.0.0
+
+PHP-ZIP se instala mediante:
+
+    $ sudo apt install php-zip
 
 ### csvkit
 
-Para poder generar los archivos en `.json`, hay que tener instalado [csvkit](https://csvkit.readthedocs.org/en/540/index.html). Para este script se ha usado la version 1.0.0.
+Para poder generar los archivos en `.json`, hay que tener instalado [csvkit](https://csvkit.readthedocs.org/en/540/index.html) y `jq`. Para este script se ha usado la version 1.0.4 de `csvkit`.
 
 
 Se instala mediante:
 
     $ sudo pip install csvkit
-
+    $ sudo apt install jq
 
 
 Así mismo, `pip` tiene que estar instalado. En Ubuntu esto se hace mediante:
