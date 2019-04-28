@@ -5,7 +5,7 @@ class Config
 
     const URL = "http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_0%d%d.zip";
 
-    const YEAR_START = 2013; //existe desde 2012, pero usa doble compresión. ToDo.
+    const YEAR_START = 2012;
     const DATA_FOLDER ="data";
     const ARCHIVE_FOLDER = "archive";
     const SOURCE_FILE = "caj_esp_0%d%d.zip";
