@@ -20,11 +20,12 @@ class UpdateCommand extends ConsoleKit\Command
         $box = new ConsoleKit\Widgets\Box($this->getConsole(), 'Actualizando datapackage.json');
         $box->write();$this->getConsole()->writeln("");
 
-        // Comprobobamos si hay que omitir JSON
+        // Comprobamos si hay que omitir JSON
         if (!isset($options['nojson']) && !isset($options['n'])){
             foreach ( Config::$datapackage['resources'] as $resource){
                 $resource['format'] = 'json';
-                $resource['path'] = array_shift(explode('.',$resource['path'])) . ".json";
+                $parts = explode('.',$resource['path']);
+                $resource['path'] = array_shift($parts) . ".json";
                 $datapackageNew['resources'][]=$resource;
             }
         }
