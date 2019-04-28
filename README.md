@@ -77,9 +77,11 @@ El script se puede encontrar en [/scripts/](/scripts/).
 
 Para obtener el nombre de municipio asociado al codigo INE se puede hacer un merge con `ds-organizacion-administrativa/ds-oa-municipios` mediante `csvjoin`:
 
-    $ `curl https://raw.githubusercontent.com/codeforspain/ds-organizacion-administrativa/master/data/municipios.csv |
-         csvcut -c 'municipio_id,nombre' |csvjoin -c "municipio_id"  codigos_postales_municipios.csv - |
-         csvcut -C "municipio_id,nombre_entidad_singular" >codigos_postales_municipios_join.csv`
+    $ curl https://raw.githubusercontent.com/codeforspain/ds-organizacion-administrativa/master/data/municipios.csv \
+        | csvcut -c 'municipio_id,nombre' \
+        | csvjoin -I -c "municipio_id" codigos_postales_municipios.csv - \
+        | csvcut -c "codigo_postal,nombre_entidad_singular,municipio_id,nombre" \
+        > codigos_postales_municipios_join.csv
 
 Este comando devuelve [codigos_postales_municipios_join.csv](data/codigos_postales_municipios_join.csv). Ejemplo:
 
@@ -110,6 +112,4 @@ Este comando devuelve [codigos_postales_municipios_join.csv](data/codigos_postal
 | 28210         | VALDEMORILLO            | 28160        | Valdemorillo               |
 | 28211         | PERALEJO                | 28054        | "Escorial, El"             |
 | 28212         | BARRANCOS (LOS)         | 28095        | Navalagamella              |
-
-
 
