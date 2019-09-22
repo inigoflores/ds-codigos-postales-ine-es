@@ -76,18 +76,27 @@ class ProcessCommand extends ConsoleKit\Command
             $args[1] = 'last';
         }
 
-        $lastMonth = (date('m') >= 7) ? 7 : 1;
-        $year = ($args[0]=='last') ? date('Y') : $args[0];
-        $month = ($args[0]=='last') ? $lastMonth : $args[1];
-        $source = sprintf(Config::SOURCE_FILE, $month, $year);
 
-        $box = new ConsoleKit\Widgets\Box($this->getConsole(), "Generando - {$year}-{$month}");
+        if ($args[0]=='last') {
+            $files = glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "*.zip");
+            $source = end($files);
+        } else {
+            if ($args[1]=='last') {
+                $files = glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "{$args[0]}*.zip");
+                $source = end($files);
+            } else {
+                $files = glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "{$args[0]}-{$args[1]}.zip");
+                $source = end($files);
+            }
+        }
+
+        $box = new ConsoleKit\Widgets\Box($this->getConsole(), "Procesando {$source}");
         $box->write();$this->getConsole()->writeln("");
 
         $file = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv", 'w+');
 
         $this->writeHeaderToFile($file,Config::$datapackage['resources']['0']['schema']['fields']);
-        $this->parseSourceToFile(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . $source, $file, false);
+        $this->parseSourceToFile($source, $file, false);
     }
 
 
@@ -116,11 +125,7 @@ class ProcessCommand extends ConsoleKit\Command
      */
     private function parseSourceToFile($source,$file,$includeYear=true){
 
-        //$fileName = BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . sprintf(Config::SOURCE_FILE, $year);
-
-        $temp = explode("caj_esp_",basename($source))[1];
-        $month = substr($temp,0,2);
-        $year = substr($temp,2,4);
+        list($year,$month) = explode("-",basename($source))[1];
 
         $zip = new ZipArchive;
         $zip->open($source);

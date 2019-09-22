@@ -67,7 +67,7 @@ class DownloadCommand extends ConsoleKit\Command
         $url=sprintf(Config::URL,$month,$year);
         $fileName = sprintf(Config::SOURCE_FILE, $month,$year);
 
-        $destFileNameFull = BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . $fileName;
+        $destFileNameFull = BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "$year-0{$month}.zip";
 
         if (!file_exists($destFileNameFull) || isset($options['force']) || isset($options['f'])){
             if (!($remote = @fopen ($url, "rb"))){ //404 Not found
