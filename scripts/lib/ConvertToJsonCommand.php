@@ -22,7 +22,7 @@ class ConvertToJsonCommand extends ConsoleKit\Command
 
         foreach ($files as $csvFile) {
             $outputFile = BASE_PATH . DS . Config::DATA_FOLDER . DS . basename($csvFile,".csv") . ".json";
-            exec("csvjson $csvFile > $outputFile");
+            exec("csvjson $csvFile | jq . > $outputFile");
             $progress->incr();
         }
 
