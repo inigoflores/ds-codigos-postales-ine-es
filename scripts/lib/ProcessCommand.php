@@ -137,7 +137,29 @@ class ProcessCommand extends ConsoleKit\Command
             die();
         }
 
-        $zippedSource = $zip->getStream($zippedSourceFileName);
+        // double ZIP
+        if (substr($zippedSourceFileName, -4) == ".zip") {
+            $zip->extractTo('/tmp', array($zippedSourceFileName));
+            $zip2 = new ZipArchive;
+            $zip2->open('/tmp/' . $zippedSourceFileName);
+
+            for( $i = 0; $i < $zip2->numFiles; $i++ ) {
+                if (strstr($zip2->statIndex($i)['name'], 'TRAM')) {
+                    $zippedSourceFileName2 = $zip2->statIndex($i)['name'];
+                    break;
+                }
+            }
+
+            if (!isset($zippedSourceFileName2)){
+                $this->writeerr("Error: TRAM* source not found in {$zippedSourceFileName}\n");
+                die();
+            }
+
+            $zippedSource = $zip2->getStream($zippedSourceFileName2);
+        } else {
+            $zippedSource = $zip->getStream($zippedSourceFileName);
+        }
+
 
         while (($line = fgets($zippedSource)) !== false) {
             $codigo_postal = substr($line,42,5);
