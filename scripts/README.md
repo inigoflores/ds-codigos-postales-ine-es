@@ -39,8 +39,8 @@ Si se invoca sin subcomandos o argumentos, executa:
 
                                 Se puede especificar opcionalmente un subcomando:
 
-            year YEAR           Procesa únicamente el año YEAR
-            year last           Procesa únicamente el último año
+            period YEAR           Procesa únicamente el año YEAR
+            period last           Procesa únicamente el último año
             historical          Procesa todos los años y general histórico.
             all                 Procesa todo
 
