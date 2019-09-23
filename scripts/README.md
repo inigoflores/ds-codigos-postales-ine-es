@@ -39,8 +39,8 @@ Si se invoca sin subcomandos o argumentos, executa:
 
                                 Se puede especificar opcionalmente un subcomando:
 
-            period YEAR           Procesa únicamente el año YEAR
-            period last           Procesa únicamente el último año
+            period YEAR         Procesa únicamente el año YEAR
+            period last         Procesa únicamente el último año
             historical          Procesa todos los años y general histórico.
             all                 Procesa todo
 
@@ -58,7 +58,7 @@ Si se invoca sin subcomandos o argumentos, executa:
 
 * PHP 5.4+
 * PHP Zip extension
-* csvkit 1.0.0
+* csvkit 1.0.4
 
 PHP-ZIP se instala mediante:
 
