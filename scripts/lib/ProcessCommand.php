@@ -49,10 +49,13 @@ class ProcessCommand extends ConsoleKit\Command
         $box->write();$this->getConsole()->writeln("");
 
         $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE . ".csv", 'w+');
-        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['1']['schema']['fields']);
+        $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE_ENTIDADES . ".csv", 'w+');
+
+        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['2']['schema']['fields']);
+        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['3']['schema']['fields']);
 
         foreach (glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "*.zip") as $source) {
-            $this->parseSourceToFile($source,$dest);
+            $this->parseSourceToFile($source,$dest,$destEntidades);
         }
 
 
@@ -93,10 +96,13 @@ class ProcessCommand extends ConsoleKit\Command
         $box = new ConsoleKit\Widgets\Box($this->getConsole(), "Procesando {$source}");
         $box->write();$this->getConsole()->writeln("");
 
-        $file = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv", 'w+');
+        $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv", 'w+');
+        $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE_ENTIDADES . ".csv", 'w+');
 
-        $this->writeHeaderToFile($file,Config::$datapackage['resources']['0']['schema']['fields']);
-        $this->parseSourceToFile($source, $file, false);
+        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['0']['schema']['fields']);
+        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['1']['schema']['fields']);
+
+        $this->parseSourceToFile($source, $dest, $destEntidades, false);
     }
 
 
@@ -123,9 +129,12 @@ class ProcessCommand extends ConsoleKit\Command
      * @param resource $file identificador del archivo
      *
      */
-    private function parseSourceToFile($source,$file,$includeYear=true){
+    private function parseSourceToFile($source,$file,$fileEntidades,$includeYear=true){
 
-        list($year,$month) = explode("-",basename($source))[1];
+        list($year,$month) = explode("-",basename($source,'.zip'))[1];
+
+        list($year,$month) = explode("-",basename($source,'.zip'));
+
 
         $zip = new ZipArchive;
         $zip->open($source);
@@ -170,21 +179,29 @@ class ProcessCommand extends ConsoleKit\Command
             $codigo_postal = substr($line,42,5);
             $municipio_id = substr($line,0,5);
             $nombre_entidad_singular = iconv("windows-1252", "UTF-8", trim(substr($line,110,25)));
-            $output[$codigo_postal][$municipio_id] = compact('codigo_postal','municipio_id','nombre_entidad_singular');
 
             if ($includeYear) {
-                $output[$codigo_postal][$municipio_id]['year'] = $year;
-                $output[$codigo_postal][$municipio_id]['month'] = $month;
+                $items[$codigo_postal.$municipio_id.$year.$month] = compact('codigo_postal','municipio_id', 'year', 'month');
+                $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular.$year.$month] = compact('codigo_postal','municipio_id','nombre_entidad_singular','year','month');
+
+            } else {
+                $items[$codigo_postal.$municipio_id] = compact('codigo_postal','municipio_id');
+                $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular] = compact('codigo_postal','municipio_id','nombre_entidad_singular');
+
             }
+
             $i++;
         }
 
-        ksort($output);
+        ksort($items);
+        ksort($itemsEntidades);
 
-        foreach ($output as $codigos_postales){
-            foreach ($codigos_postales as $codigo_postal){
-                fputcsv($file, $codigo_postal);
-            }
+        foreach ($items as $item){
+            fputcsv($file, $item);
+        }
+
+        foreach ($itemsEntidades as $item){
+            fputcsv($fileEntidades, $item);
         }
 
     }

@@ -10,7 +10,9 @@ class Config
     const ARCHIVE_FOLDER = "archive";
     const SOURCE_FILE = "caj_esp_0%d%d.zip";
     const DEST_FILE = "codigos_postales_municipios";
+    const DEST_FILE_ENTIDADES = "codigos_postales_municipios_entidades";
     const DEST_HISTORICAL_FILE = "codigos_postales_municipios_historical";
+    const DEST_HISTORICAL_FILE_ENTIDADES = "codigos_postales_municipios_entidades_historical";
 
     //TRAMOS-NAL.F151231
 
@@ -55,6 +57,28 @@ class Config
                             "description" => "Código INE del municipio",
                             "pattern" => "[0-9]{5}"
                         ],
+                    ]
+                ]
+            ],
+            [
+                "name" => "ds_codigos_postales_municipios_entidades",
+                "title"=> "Codigos postales por municipio y entidad singular",
+                "format"=> "csv",
+                "path"=> "data/codigos_postales_municipios.csv",
+                "schema"=> [
+                    "fields"=> [
+                        [
+                            "name" => "codigo_postal",
+                            "type" => "number",
+                            "description" => "Código Postal",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "municipio_id",
+                            "type" => "number",
+                            "description" => "Código INE del municipio",
+                            "pattern" => "[0-9]{5}"
+                        ],
                         [
                             "name" => "nombre_entidad_singular",
                             "type" => "string",
@@ -67,6 +91,38 @@ class Config
             [
                 "name" => "ds_codigos_postales_municipios_historical",
                 "title"=> "Histórico de codigos postales por municipio (desde 2013)",
+                "format"=> "csv",
+                "path"=> "data/codigos_postales_municipios_historical.csv",
+                "schema"=> [
+                    "fields"=> [
+                        [
+                            "name" => "codigo_postal",
+                            "type" => "number",
+                            "description" => "Código Postal",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "municipio_id",
+                            "type" => "number",
+                            "description" => "Código INE del municipio",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "year",
+                            "type" => "number",
+                            "description" => "Año del dato",
+                        ],
+                        [
+                            "name" => "month",
+                            "type" => "number",
+                            "description" => "Mes del dato",
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "name" => "ds_codigos_postales_municipios_entidades_historical",
+                "title"=> "Histórico de codigos postales por municipio y entidades singulares(desde 2013)",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipios_historical.csv",
                 "schema"=> [
