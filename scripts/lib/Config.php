@@ -9,10 +9,10 @@ class Config
     const DATA_FOLDER ="data";
     const ARCHIVE_FOLDER = "archive";
     const SOURCE_FILE = "caj_esp_0%d%d.zip";
-    const DEST_FILE = "codigos_postales_municipios";
-    const DEST_FILE_ENTIDADES = "codigos_postales_municipios_entidades";
-    const DEST_HISTORICAL_FILE = "codigos_postales_municipios_historical";
-    const DEST_HISTORICAL_FILE_ENTIDADES = "codigos_postales_municipios_entidades_historical";
+    const DEST_FILE = "codigos_postales_municipiosid";
+    const DEST_FILE_ENTIDADES = "codigos_postales_municipiosid_entidades";
+    const DEST_HISTORICAL_FILE = "codigos_postales_municipiosid_historical";
+    const DEST_HISTORICAL_FILE_ENTIDADES = "codigos_postales_municipiosid_entidades_historical";
 
     //TRAMOS-NAL.F151231
 
@@ -40,9 +40,69 @@ class Config
         "resources" => [
             [
                 "name" => "ds_codigos_postales_municipios",
-                "title"=> "Codigos postales por municipio",
+                "title"=> "Codigos postales y municipios asociados",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipios.csv",
+                "schema"=> [
+                    "fields"=> [
+                        [
+                            "name" => "codigo_postal",
+                            "type" => "number",
+                            "description" => "Código Postal",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "municipio_id",
+                            "type" => "number",
+                            "description" => "Código INE del municipio",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "municipio_nombre",
+                            "type" => "string",
+                            "description" => "Nombre del municipio",
+                        ],
+                    ]
+                ]
+            ],
+            [
+                "name" => "ds_codigos_postales_municipios_entidades",
+                "title"=> "Códigos postales y municipios y entidades singulares asociados",
+                "format"=> "csv",
+                "path"=> "data/codigos_postales_municipios_entidades.csv",
+                "schema"=> [
+                    "fields"=> [
+                        [
+                            "name" => "codigo_postal",
+                            "type" => "number",
+                            "description" => "Código Postal",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "municipio_id",
+                            "type" => "number",
+                            "description" => "Código INE del municipio",
+                            "pattern" => "[0-9]{5}"
+                        ],
+                        [
+                            "name" => "entidad_singular_nombre",
+                            "type" => "string",
+                            "description" => "Nombre entidad singular",
+                        ],
+                        [
+                            "name" => "municipio_nombre",
+                            "type" => "string",
+                            "description" => "Nombre del municipio",
+                        ],
+
+                    ]
+                ]
+            ],
+            [
+                "name" => "ds_codigos_postales_municipiosid",
+                "title"=> "Códigos postales y códigos INE de los municipios asociados",
+                "format"=> "csv",
+                "path"=> "data/codigos_postales_municipiosid.csv",
                 "schema"=> [
                     "fields"=> [
                         [
@@ -61,10 +121,10 @@ class Config
                 ]
             ],
             [
-                "name" => "ds_codigos_postales_municipios_entidades",
-                "title"=> "Codigos postales por municipio y entidad singular",
+                "name" => "ds_codigos_postales_municipiosid_entidades",
+                "title"=> "Códigos postales y códigos INE de municipios y entidades singulares asociados",
                 "format"=> "csv",
-                "path"=> "data/codigos_postales_municipios.csv",
+                "path"=> "data/codigos_postales_municipiosid_entidades.csv",
                 "schema"=> [
                     "fields"=> [
                         [
@@ -80,7 +140,7 @@ class Config
                             "pattern" => "[0-9]{5}"
                         ],
                         [
-                            "name" => "nombre_entidad_singular",
+                            "name" => "entidad_singular_nombre",
                             "type" => "string",
                             "description" => "Nombre entidad singular",
                         ],
@@ -89,10 +149,10 @@ class Config
                 ]
             ],
             [
-                "name" => "ds_codigos_postales_municipios_historical",
-                "title"=> "Histórico de codigos postales por municipio (desde 2013)",
+                "name" => "ds_codigos_postales_municipiosid_historical",
+                "title"=> "Histórico de códigos postales y códigos INE de municipios asociados (desde 2013)",
                 "format"=> "csv",
-                "path"=> "data/codigos_postales_municipios_historical.csv",
+                "path"=> "data/codigos_postales_municipiosid_historical.csv",
                 "schema"=> [
                     "fields"=> [
                         [
@@ -121,10 +181,10 @@ class Config
                 ]
             ],
             [
-                "name" => "ds_codigos_postales_municipios_entidades_historical",
-                "title"=> "Histórico de codigos postales por municipio y entidades singulares(desde 2013)",
+                "name" => "ds_codigos_postales_municipiosid_entidades_historical",
+                "title"=> "Histórico de códigos postales y códigos INE de municipios y entidades singulares asociados (desde 2013)",
                 "format"=> "csv",
-                "path"=> "data/codigos_postales_municipios_historical.csv",
+                "path"=> "data/codigos_postales_municipiosid_historical.csv",
                 "schema"=> [
                     "fields"=> [
                         [
@@ -140,7 +200,7 @@ class Config
                             "pattern" => "[0-9]{5}"
                         ],
                         [
-                            "name" => "nombre_entidad_singular",
+                            "name" => "entidad_singular_nombre",
                             "type" => "string",
                             "description" => "Nombre entidad singular",
                         ],

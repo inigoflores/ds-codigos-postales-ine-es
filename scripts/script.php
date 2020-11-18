@@ -20,6 +20,7 @@ if (sizeof($argv)==1) {
     $console->run(['download']);
     $console->run(['process']);
     //$console->run(['convert-to-json']); // No generamos los archivos json, alguno sobrepasa los 100 Mb (limite Github)
+    $console->run(['merge']);
     $console->run(['update','--nojson']);
 } else {
     $console->run();
