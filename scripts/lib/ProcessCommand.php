@@ -38,7 +38,6 @@ class ProcessCommand extends ConsoleKit\Command
     }
 
 
-
     /*
      * Genera Histórico
      *
@@ -51,16 +50,13 @@ class ProcessCommand extends ConsoleKit\Command
         $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE . ".csv", 'w+');
         $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE_ENTIDADES . ".csv", 'w+');
 
-        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['2']['schema']['fields']);
-        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['3']['schema']['fields']);
+        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['4']['schema']['fields']);
+        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['5']['schema']['fields']);
 
         foreach (glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "*.zip") as $source) {
             $this->parseSourceToFile($source,$dest,$destEntidades);
         }
-
-
     }
-
 
 
     /**
@@ -78,7 +74,6 @@ class ProcessCommand extends ConsoleKit\Command
         if (empty($args[1])) {
             $args[1] = 'last';
         }
-
 
         if ($args[0]=='last') {
             $files = glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "*.zip");
@@ -99,8 +94,8 @@ class ProcessCommand extends ConsoleKit\Command
         $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv", 'w+');
         $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE_ENTIDADES . ".csv", 'w+');
 
-        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['0']['schema']['fields']);
-        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['1']['schema']['fields']);
+        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['2']['schema']['fields']);
+        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['3']['schema']['fields']);
 
         $this->parseSourceToFile($source, $dest, $destEntidades, false);
     }
@@ -131,10 +126,7 @@ class ProcessCommand extends ConsoleKit\Command
      */
     private function parseSourceToFile($source,$file,$fileEntidades,$includeYear=true){
 
-        list($year,$month) = explode("-",basename($source,'.zip'))[1];
-
         list($year,$month) = explode("-",basename($source,'.zip'));
-
 
         $zip = new ZipArchive;
         $zip->open($source);
@@ -174,20 +166,19 @@ class ProcessCommand extends ConsoleKit\Command
             $zippedSource = $zip->getStream($zippedSourceFileName);
         }
 
-
         while (($line = fgets($zippedSource)) !== false) {
             $codigo_postal = substr($line,42,5);
             $municipio_id = substr($line,0,5);
-            $nombre_entidad_singular = iconv("windows-1252", "UTF-8", trim(substr($line,110,25)));
+            $nombre_entidad_singular = $this->titleCase(
+                (iconv("windows-1252", "UTF-8", trim(substr($line,110,25))))
+            );
 
             if ($includeYear) {
                 $items[$codigo_postal.$municipio_id.$year.$month] = compact('codigo_postal','municipio_id', 'year', 'month');
                 $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular.$year.$month] = compact('codigo_postal','municipio_id','nombre_entidad_singular','year','month');
-
             } else {
                 $items[$codigo_postal.$municipio_id] = compact('codigo_postal','municipio_id');
                 $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular] = compact('codigo_postal','municipio_id','nombre_entidad_singular');
-
             }
 
             $i++;
@@ -204,6 +195,31 @@ class ProcessCommand extends ConsoleKit\Command
             fputcsv($fileEntidades, $item);
         }
 
+    }
+
+    private function titleCase($string, $delimiters = array(" ", "-", "/"), $exceptions = array("de", "del", "la")) {
+
+        $string = mb_convert_case($string, MB_CASE_TITLE, "UTF-8");
+
+        foreach ($delimiters as $dlnr => $delimiter){
+            $words = explode($delimiter, $string);
+            $newwords = array();
+            foreach ($words as $wordnr => $word){
+
+                $wordLowerCase = strtolower($word);
+                if (in_array($wordLowerCase, $exceptions)){
+                    // check exceptions list for any words that should be in lower case
+                    $word = $wordLowerCase;
+                }
+                elseif (!in_array($word, $exceptions) ){
+                    // convert to uppercase (non-utf8 only)
+                    $word = ucfirst($word);
+                }
+                array_push($newwords, $word);
+            }
+            $string = join($delimiter, $newwords);
+        }//foreach
+        return $string;
     }
 
 }
