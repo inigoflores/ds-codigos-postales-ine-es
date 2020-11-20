@@ -33,7 +33,7 @@ class Config
 
         "sources" => [
              [
-                "name" => "Callejero del Censo Electoral (INE)",
+                "title" => "Callejero del Censo Electoral (INE)",
                 "web" => "http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout"
              ]
         ],
