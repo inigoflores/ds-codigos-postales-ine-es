@@ -23,7 +23,7 @@
     "resources": [
         {
             "name": "ds_codigos_postales_municipios",
-            "title": "Codigos postales por municipio",
+            "title": "Codigos postales y municipios asociados",
             "format": "csv",
             "path": "data\/codigos_postales_municipios.csv",
             "schema": {
@@ -41,18 +41,18 @@
                         "pattern": "[0-9]{5}"
                     },
                     {
-                        "name": "nombre_entidad_singular",
+                        "name": "municipio_nombre",
                         "type": "string",
-                        "description": "Nombre entidad singular"
+                        "description": "Nombre del municipio"
                     }
                 ]
             }
         },
         {
-            "name": "ds_codigos_postales_municipios_historical",
-            "title": "Histórico de codigos postales por municipio (desde 2013)",
+            "name": "ds_codigos_postales_municipios_entidades",
+            "title": "Códigos postales y municipios y entidades singulares asociados",
             "format": "csv",
-            "path": "data\/codigos_postales_municipios_historical.csv",
+            "path": "data\/codigos_postales_municipios_entidades.csv",
             "schema": {
                 "fields": [
                     {
@@ -68,9 +68,107 @@
                         "pattern": "[0-9]{5}"
                     },
                     {
-                        "name": "nombre_entidad_singular",
+                        "name": "municipio_nombre",
+                        "type": "string",
+                        "description": "Nombre del municipio"
+                    },
+                    {
+                        "name": "codigo_unidad_poblacional",
+                        "type": "number",
+                        "description": "Codigo unidad poblacional",
+                        "pattern": "[0-9]{7}"
+                    },
+                    {
+                        "name": "entidad_singular_nombre",
                         "type": "string",
                         "description": "Nombre entidad singular"
+                    },
+                    {
+                        "name": "nucleo_nombre",
+                        "type": "string",
+                        "description": "Nombre nucleo\/diseminado"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "ds_codigos_postales_municipiosid",
+            "title": "Códigos postales y códigos INE de los municipios asociados",
+            "format": "csv",
+            "path": "data\/codigos_postales_municipiosid.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "codigo_postal",
+                        "type": "number",
+                        "description": "Código Postal",
+                        "pattern": "[0-9]{5}"
+                    },
+                    {
+                        "name": "municipio_id",
+                        "type": "number",
+                        "description": "Código INE del municipio",
+                        "pattern": "[0-9]{5}"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "ds_codigos_postales_municipiosid_entidades",
+            "title": "Códigos postales y códigos INE de municipios y entidades singulares asociados",
+            "format": "csv",
+            "path": "data\/codigos_postales_municipiosid_entidades.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "codigo_postal",
+                        "type": "number",
+                        "description": "Código Postal",
+                        "pattern": "[0-9]{5}"
+                    },
+                    {
+                        "name": "municipio_id",
+                        "type": "number",
+                        "description": "Código INE del municipio",
+                        "pattern": "[0-9]{5}"
+                    },
+                    {
+                        "name": "codigo_unidad_poblacional",
+                        "type": "number",
+                        "description": "Codigo unidad poblacional",
+                        "pattern": "[0-9]{7}"
+                    },
+                    {
+                        "name": "entidad_singular_nombre",
+                        "type": "string",
+                        "description": "Nombre entidad singular"
+                    },
+                    {
+                        "name": "nucleo_nombre",
+                        "type": "string",
+                        "description": "Nombre nucleo\/diseminado"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "ds_codigos_postales_municipiosid_historical",
+            "title": "Histórico de códigos postales y códigos INE de municipios asociados (desde 2013)",
+            "format": "csv",
+            "path": "data\/codigos_postales_municipiosid_historical.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "codigo_postal",
+                        "type": "number",
+                        "description": "Código Postal",
+                        "pattern": "[0-9]{5}"
+                    },
+                    {
+                        "name": "municipio_id",
+                        "type": "number",
+                        "description": "Código INE del municipio",
+                        "pattern": "[0-9]{5}"
                     },
                     {
                         "name": "year",
@@ -86,10 +184,10 @@
             }
         },
         {
-            "name": "ds_codigos_postales_municipios",
-            "title": "Codigos postales por municipio",
-            "format": "json",
-            "path": "data\/codigos_postales_municipios.json",
+            "name": "ds_codigos_postales_municipiosid_entidades_historical",
+            "title": "Histórico de códigos postales y códigos INE de municipios y entidades singulares asociados (desde 2013)",
+            "format": "csv",
+            "path": "data\/codigos_postales_municipiosid_historical.csv",
             "schema": {
                 "fields": [
                     {
@@ -105,36 +203,20 @@
                         "pattern": "[0-9]{5}"
                     },
                     {
-                        "name": "nombre_entidad_singular",
-                        "type": "string",
-                        "description": "Nombre entidad singular"
-                    }
-                ]
-            }
-        },
-        {
-            "name": "ds_codigos_postales_municipios_historical",
-            "title": "Histórico de codigos postales por municipio (desde 2013)",
-            "format": "json",
-            "path": "data\/codigos_postales_municipios_historical.json",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "codigo_postal",
+                        "name": "codigo_unidad_poblacional",
                         "type": "number",
-                        "description": "Código Postal",
-                        "pattern": "[0-9]{5}"
+                        "description": "Codigo unidad poblacional",
+                        "pattern": "[0-9]{7}"
                     },
                     {
-                        "name": "municipio_id",
-                        "type": "number",
-                        "description": "Código INE del municipio",
-                        "pattern": "[0-9]{5}"
-                    },
-                    {
-                        "name": "nombre_entidad_singular",
+                        "name": "entidad_singular_nombre",
                         "type": "string",
                         "description": "Nombre entidad singular"
+                    },
+                    {
+                        "name": "nucleo_nombre",
+                        "type": "string",
+                        "description": "Nombre nucleo\/diseminado"
                     },
                     {
                         "name": "year",
@@ -150,6 +232,6 @@
             }
         }
     ],
-    "last_updated": "2019-09-22 ",
-    "version": "0.0.12"
+    "last_updated": "2020-11-20 ",
+    "version": "1.0.1"
 }
