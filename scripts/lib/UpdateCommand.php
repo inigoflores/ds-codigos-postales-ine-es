@@ -21,7 +21,7 @@ class UpdateCommand extends ConsoleKit\Command
         $box->write();$this->getConsole()->writeln("");
 
         // Comprobamos si hay que omitir JSON
-        if (!isset($options['nojson']) && !isset($options['n'])){
+        if (isset($options['json']) || isset($options['j'])){
             foreach ( Config::$datapackage['resources'] as $resource){
                 $resource['format'] = 'json';
                 $parts = explode('.',$resource['path']);

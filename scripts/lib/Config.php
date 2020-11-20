@@ -85,16 +85,26 @@ class Config
                             "pattern" => "[0-9]{5}"
                         ],
                         [
+                            "name" => "municipio_nombre",
+                            "type" => "string",
+                            "description" => "Nombre del municipio",
+                        ],
+                        [
+                            "name" => "codigo_unidad_poblacional",
+                            "type" => "number",
+                            "description" => "Codigo unidad poblacional",
+                            "pattern" => "[0-9]{7}"
+                        ],
+                        [
                             "name" => "entidad_singular_nombre",
                             "type" => "string",
                             "description" => "Nombre entidad singular",
                         ],
                         [
-                            "name" => "municipio_nombre",
+                            "name" => "nucleo_nombre",
                             "type" => "string",
-                            "description" => "Nombre del municipio",
+                            "description" => "Nombre nucleo/diseminado",
                         ],
-
                     ]
                 ]
             ],
@@ -140,9 +150,20 @@ class Config
                             "pattern" => "[0-9]{5}"
                         ],
                         [
+                            "name" => "codigo_unidad_poblacional",
+                            "type" => "number",
+                            "description" => "Codigo unidad poblacional",
+                            "pattern" => "[0-9]{7}"
+                        ],
+                        [
                             "name" => "entidad_singular_nombre",
                             "type" => "string",
                             "description" => "Nombre entidad singular",
+                        ],
+                        [
+                            "name" => "nucleo_nombre",
+                            "type" => "string",
+                            "description" => "Nombre nucleo/diseminado",
                         ],
 
                     ]
@@ -200,9 +221,20 @@ class Config
                             "pattern" => "[0-9]{5}"
                         ],
                         [
+                            "name" => "codigo_unidad_poblacional",
+                            "type" => "number",
+                            "description" => "Codigo unidad poblacional",
+                            "pattern" => "[0-9]{7}"
+                        ],
+                        [
                             "name" => "entidad_singular_nombre",
                             "type" => "string",
                             "description" => "Nombre entidad singular",
+                        ],
+                        [
+                            "name" => "nucleo_nombre",
+                            "type" => "string",
+                            "description" => "Nombre nucleo/diseminado",
                         ],
                         [
                             "name" => "year",

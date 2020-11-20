@@ -167,18 +167,27 @@ class ProcessCommand extends ConsoleKit\Command
         }
 
         while (($line = fgets($zippedSource)) !== false) {
+            $line = iconv("windows-1252", "UTF-8", $line);
+
             $codigo_postal = substr($line,42,5);
             $municipio_id = substr($line,0,5);
-            $nombre_entidad_singular = $this->titleCase(
-                (iconv("windows-1252", "UTF-8", trim(substr($line,110,25))))
-            );
+
+            $codigo_unidad_poblacional = substr($line,13,7);
+            //$nombre_entidad_colectiva = $this->titleCase(trim(substr($line,85,25)));
+            $nombre_entidad_singular = $this->titleCase(trim(substr($line,110,25)));
+            $nombre_nucleo = $this->titleCase(trim(substr($line,135,25)));
 
             if ($includeYear) {
-                $items[$codigo_postal.$municipio_id.$year.$month] = compact('codigo_postal','municipio_id', 'year', 'month');
-                $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular.$year.$month] = compact('codigo_postal','municipio_id','nombre_entidad_singular','year','month');
+                $items[$codigo_postal.$municipio_id.$year.$month] =
+                    compact('codigo_postal','municipio_id', 'year', 'month');
+                $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional.$year.$month] =
+                    compact('codigo_postal','municipio_id','codigo_unidad_poblacional',
+                        'nombre_entidad_singular','nombre_nucleo','year','month');
             } else {
                 $items[$codigo_postal.$municipio_id] = compact('codigo_postal','municipio_id');
-                $itemsEntidades[$codigo_postal.$municipio_id.$nombre_entidad_singular] = compact('codigo_postal','municipio_id','nombre_entidad_singular');
+                $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional] =
+                    compact('codigo_postal','municipio_id','codigo_unidad_poblacional',
+                        'nombre_entidad_singular','nombre_nucleo');
             }
 
             $i++;
@@ -197,7 +206,21 @@ class ProcessCommand extends ConsoleKit\Command
 
     }
 
-    private function titleCase($string, $delimiters = array(" ", "-", "/"), $exceptions = array("de", "del", "la")) {
+    /**
+     * @param $string Cadena de texto a convertir
+     * @param array $delimiters Carácteres delimitadores
+     * @param array $exceptions Palabras a las que no se les cambia la capitalización
+     * @return string
+     */
+    private function titleCase($string, $delimiters = array(), $exceptions = array()) {
+
+        if (empty($delimiters)) {
+            $delimiters = array(" ", "-", "/",",","'");
+        }
+
+        if (empty($exceptions)) {
+            $exceptions = array("de", "del", "la","II",'III','IV','XIII','XXIII');
+        }
 
         $string = mb_convert_case($string, MB_CASE_TITLE, "UTF-8");
 
@@ -207,9 +230,11 @@ class ProcessCommand extends ConsoleKit\Command
             foreach ($words as $wordnr => $word){
 
                 $wordLowerCase = strtolower($word);
-                if (in_array($wordLowerCase, $exceptions)){
-                    // check exceptions list for any words that should be in lower case
+                $wordUpperCase = strtoupper($word);
+                if (in_array($wordLowerCase, $exceptions)){  // check exceptions list for any words that should be in lower case
                     $word = $wordLowerCase;
+                } else if (in_array($wordUpperCase, $exceptions)){  // check exceptions list for any words that should be in upper case
+                    $word = $wordUpperCase;
                 }
                 elseif (!in_array($word, $exceptions) ){
                     // convert to uppercase (non-utf8 only)

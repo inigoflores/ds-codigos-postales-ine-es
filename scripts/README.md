@@ -9,12 +9,13 @@ Si no los encuentra, los descarga.
 
     $ php script.php [COMMAND SUBCOMMAND]] [OPTIONS]
 
-Si se invoca sin subcomandos o argumentos, executa:
+Si se invoca sin subcomandos o argumentos, ejecuta:
 
   1. download all
   2. process all
-  3. update
-  4. convert-to-json
+  3. merge
+  4. update
+  
 
 
 ### Opciones
@@ -27,7 +28,6 @@ Si se invoca sin subcomandos o argumentos, executa:
 
             year YEAR MONTH     Descarga únicamente el periodo YEAR MONTH (Month es 1 ó 7)
             all                 Descarga todos los años
-
 
             OPTIONS
 
@@ -45,11 +45,18 @@ Si se invoca sin subcomandos o argumentos, executa:
             all                 Procesa todo
 
 
+        merge                   Hace el merge con ds-organizacion-administrativa para obtener el
+                                nombre del municipio, que no viene en los archivos fuente.
+
+
         convert-to-json         Convierte todos los archivos .csv almacenados en /data a .json.
 
+            
         update                  Actualiza el archivo datapackage.json
 
+            OPTIONS
 
+                --json, -j      Habilita la creación de recursos para los archivos JSON en datapackage.json
 
 
 
