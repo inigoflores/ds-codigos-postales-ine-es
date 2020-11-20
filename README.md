@@ -1,8 +1,10 @@
 # ds-codigos-postales-ine-es
 
-Dataset que proporciona un listado de todos los códigos postales de España asociados al código INE del municipio al que pertenecen.
+Dataset que proporciona un listado de todos los códigos postales de España asociados a los municipios y unidades poblacionales.
 
 Usa como fuente el Callejero del Censo Electoral (INE).
+
+
 
 ## Codigos Postales y Municipios Asociados
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
@@ -35,7 +37,7 @@ Ejemplo en CSV:
 
 
 
-## Codigos Postales y Entidades Singulares Asociadas
+## Codigos Postales y Unidades Poblacionales Asociadas
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
@@ -122,7 +124,7 @@ Ejemplo en CSV:
 En el ejemplo se aprecia como en julio de 2013 desaparece el código postal 29620 y aparece el código postal 29612 para el municipio 29076.
 
 
-## Codigos Postales y Entidades Singulares Asociadas
+## Codigos Postales y Unidades Poblacionales Asociadas
 - Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
 - Tipo: Texto de ancho fijo comprimido (.zip)

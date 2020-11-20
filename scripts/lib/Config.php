@@ -19,7 +19,7 @@ class Config
     static $datapackage = [
         "name" => "ds-codigos-postales-ine-es",
         "title" => "Dataset de Códigos Postales (Callejero INE)",
-        "descriptions" => "Codigos postales de los municipios españoles obtenidos del Callejero INE",
+        "descriptions" => "Códigos postales de los municipios y unidades poblacionales de España obtenidos del Callejero INE",
         "licenses" => [
             [
                 "type" => "odc-pddl",
@@ -40,7 +40,7 @@ class Config
         "resources" => [
             [
                 "name" => "ds_codigos_postales_municipios",
-                "title"=> "Codigos postales y municipios asociados",
+                "title"=> "Códigos postales y municipios asociados",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipios.csv",
                 "schema"=> [
@@ -67,7 +67,7 @@ class Config
             ],
             [
                 "name" => "ds_codigos_postales_municipios_entidades",
-                "title"=> "Códigos postales y municipios y entidades singulares asociados",
+                "title"=> "Códigos postales asociados a municipios y unidades poblacionales",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipios_entidades.csv",
                 "schema"=> [
@@ -132,7 +132,7 @@ class Config
             ],
             [
                 "name" => "ds_codigos_postales_municipiosid_entidades",
-                "title"=> "Códigos postales y códigos INE de municipios y entidades singulares asociados",
+                "title"=> "Códigos postales asociados a códigos INE de municipios y unidades poblacionales",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipiosid_entidades.csv",
                 "schema"=> [
@@ -203,7 +203,7 @@ class Config
             ],
             [
                 "name" => "ds_codigos_postales_municipiosid_entidades_historical",
-                "title"=> "Histórico de códigos postales y códigos INE de municipios y entidades singulares asociados (desde 2013)",
+                "title"=> "Histórico de códigos postales asociados a códigos INE de municipios y unidades poblacionales (desde 2013)",
                 "format"=> "csv",
                 "path"=> "data/codigos_postales_municipiosid_historical.csv",
                 "schema"=> [
