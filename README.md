@@ -4,7 +4,7 @@ Dataset que proporciona un listado de todos los códigos postales de España aso
 
 Usa como fuente el Callejero del Censo Electoral (INE).
 
-## Codigos Postales por Municipio
+## Codigos Postales y Municipios Asociados
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
@@ -16,40 +16,30 @@ Usa como fuente el Callejero del Censo Electoral (INE).
 
 Ejemplo en CSV:
 
-| codigo_postal | municipio_id | nombre_entidad_singular   |
-|---------------|--------------|---------------------------|
-| 28100         | 28006        | ALCOBENDAS                |
-| 28108         | 28006        | ALCOBENDAS                |
-| 28109         | 28006        | ALCOBENDAS                |
-| 28110         | 28009        | "DEHESA NUEVA"            |
-| 28120         | 28045        | "PUEBLAS (LAS)"           |
-| 28124         | 28124        | "ROBLEDILLO DE LA JARA"   |
-| 28130         | 28162        | MIRAVAL                   |
-| 28140         | 28059        | ADOBERAS                  |
-| 28150         | 28164        | "MIRADOR (EL)"            |
-| 28160         | 28145        | "MORALEJA (LA)"           |
-| 28170         | 28163        | "COTO DE SAN BENITO"      |
-| 28180         | 28151        | "TOMILLARES (LOS)"        |
-| 28189         | 28153        | "SOTO (EL)"               |
-| 28190         | 28118        | "PUEBLA DE LA SIERRA"     |
-| 28191         | 28117        | "PRADENA DEL RINCON"      |
-| 28192         | 28021        | "DEHESA BOYAL"            |
-| 28193         | 28039        | "CERCADOS (LOS)"          |
-| 28194         | 28124        | "VILLAR (EL)"             |
-| 28195         | 28902        | "SERRADA DE LA FUENTE"    |
-| 28196         | 28902        | "PRESA DE PUENTES VIEJAS" |
-| 28200         | 28131        | "JURISDICCION (LA)"       |
-| 28210         | 28160        | VALDEMORILLO              |
-| 28211         | 28054        | PERALEJO                  |
-| 28212         | 28095        | "BARRANCOS (LOS)"         |
+|codigo_postal|municipio_id|municipio_nombre|
+|-------------|------------|----------------|
+|29601        |29069       |Marbella        |
+|29602        |29069       |Marbella        |
+|29603        |29069       |Marbella        |
+|29604        |29069       |Marbella        |
+|29610        |29076       |Ojén            |
+|29611        |29061       |Istán           |
+|29612        |29076       |Ojén            |
+|29620        |29067       |Málaga          |
+|29620        |29901       |Torremolinos    |
+|29630        |29025       |Benalmádena     |
+|29631        |29025       |Benalmádena     |
+|29639        |29025       |Benalmádena     |
+|29640        |29054       |Fuengirola      |
+|29649        |29070       |Mijas           |
 
 
-## Codigos Postales por Municipio (Histórico)
+
+## Codigos Postales y Entidades Singulares Asociadas
 - Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
-- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
+- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
-- Datos procesados: [/data/codigos_postales_municipios_historical.csv](data/codigos_postales_municipios_historical.csv)
-
+- Datos procesados: [/data/codigos_postales_municipios_entidades.csv](data/codigos_postales_municipios_entidades.csv)
 
 
 ### Formato de los datos
@@ -57,15 +47,105 @@ Ejemplo en CSV:
 
 Ejemplo en CSV:
 
-| codigo_postal | municipio_id | nombre_entidad_singular | year | month |
-|---------------|--------------|-------------------------|------|-------|
-| 29610         | 29076        | OJEN                    | 2013 |    07 |
-| 29610         | 29076        | OJEN                    | 2014 |    01 |
-| 29612         | 29076        | OJEN                    | 2014 |    01 |
+|codigo_postal|municipio_id|municipio_nombre|codigo_unidad_poblacional|entidad_singular_nombre  |nucleo_nombre            |
+|-------------|------------|----------------|-------------------------|-------------------------|-------------------------|
+|29601        |29069       |Marbella        |0009401                  |Marbella                 |Marbella                 |
+|29602        |29069       |Marbella        |0009401                  |Marbella                 |Marbella                 |
+|29602        |29069       |Marbella        |0009404                  |Marbella                 |Monteros (Los)           |
+|29603        |29069       |Marbella        |0009401                  |Marbella                 |Marbella                 |
+|29603        |29069       |Marbella        |0009404                  |Marbella                 |Monteros (Los)           |
+|29603        |29069       |Marbella        |0009405                  |Marbella                 |Ricmar                   |
+|29603        |29069       |Marbella        |0009406                  |Marbella                 |Rio Real                 |
+|29603        |29069       |Marbella        |0010801                  |Nueva Andalucia          |Nueva Andalucia          |
+|29604        |29069       |Marbella        |0009402                  |Marbella                 |Artola                   |
+|29604        |29069       |Marbella        |0009403                  |Marbella                 |Elviria                  |
+|29604        |29069       |Marbella        |0009405                  |Marbella                 |Ricmar                   |
+|29604        |29069       |Marbella        |0009407                  |Marbella                 |Rosario (El)             |
+|29604        |29069       |Marbella        |0009499                  |Marbella                 |*diseminado*             |
+|29610        |29076       |Ojén            |0001701                  |Ojen                     |Ojen                     |
+|29610        |29076       |Ojén            |0001702                  |Ojen                     |Mairena (La)             |
+|29610        |29076       |Ojén            |0001799                  |Ojen                     |*diseminado*             |
+|29611        |29061       |Istán           |0001701                  |Istan                    |Istan                    |
+|29611        |29061       |Istán           |0001702                  |Istan                    |Balcones del Lago        |
+|29611        |29061       |Istán           |0001703                  |Istan                    |Cerros del Lago          |
+|29611        |29061       |Istán           |0001799                  |Istan                    |*diseminado*             |
+|29612        |29076       |Ojén            |0001702                  |Ojen                     |Mairena (La)             |
+|29620        |29067       |Málaga          |0002203                  |Churriana                |Cortijo de Maza-El Olivar|
+|29620        |29067       |Málaga          |0002299                  |Churriana                |*diseminado*             |
+|29620        |29901       |Torremolinos    |0001706                  |Torremolinos             |Torremolinos             |
+|29620        |29901       |Torremolinos    |0001799                  |Torremolinos             |*diseminado*             |
+|29630        |29025       |Benalmádena     |0001701                  |Arroyo de la Miel-Benalma|Arroyo de la Miel-Benalma|
+|29630        |29025       |Benalmádena     |0001702                  |Arroyo de la Miel-Benalma|Torrequebrada            |
+|29630        |29025       |Benalmádena     |0002202                  |Benalmadena              |Capellania (La)          |
+|29630        |29025       |Benalmádena     |0002204                  |Benalmadena              |Perla-Torremuelle (La)   |
+|29631        |29025       |Benalmádena     |0001701                  |Arroyo de la Miel-Benalma|Arroyo de la Miel-Benalma|
+|29639        |29025       |Benalmádena     |0002201                  |Benalmadena              |Benalmadena              |
+|29639        |29025       |Benalmádena     |0002202                  |Benalmadena              |Capellania (La)          |
+|29639        |29025       |Benalmádena     |0002203                  |Benalmadena              |Carvajal                 |
+|29639        |29025       |Benalmádena     |0002204                  |Benalmadena              |Perla-Torremuelle (La)   |
+|29639        |29025       |Benalmádena     |0002205                  |Benalmadena              |Santana                  |
+|29639        |29025       |Benalmádena     |0002206                  |Benalmadena              |Sierrezuela (La)         |
+|29639        |29025       |Benalmádena     |0002299                  |Benalmadena              |*diseminado*             |
+|29640        |29054       |Fuengirola      |0001701                  |Fuengirola               |Fuengirola               |
+|29649        |29070       |Mijas           |0006999                  |Entrerrios               |*diseminado*             |
+|29649        |29070       |Mijas           |0007504                  |Lagunas (Las)            |Mijas Golf               |
+|29649        |29070       |Mijas           |0016701                  |Calahonda-Chaparral      |Cala (La)                |
+|29649        |29070       |Mijas           |0016702                  |Calahonda-Chaparral      |Cerros del Aguila        |
+|29649        |29070       |Mijas           |0016703                  |Calahonda-Chaparral      |Chaparral                |
+|29649        |29070       |Mijas           |0016704                  |Calahonda-Chaparral      |Sitio de Calahonda       |
+|29649        |29070       |Mijas           |0016799                  |Calahonda-Chaparral      |*diseminado*             |
 
 
-En el ejemplo se aprecia como en 2014 aparece un nuevo código postal para el municipio de Ojén.
 
+
+## Codigos Postales y Municipios Asociados (Histórico)
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
+- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
+- Tipo: Texto de ancho fijo comprimido (.zip)
+- Datos procesados: [/data/codigos_postales_municipiosid_historical.csv](data/codigos_postales_municipiosid_historical.csv)
+
+En este caso no se incluye el nombre del municipio. 
+
+### Formato de los datos
+
+
+Ejemplo en CSV:
+
+|codigo_postal|municipio_id|year        |month|
+|-------------|------------|------------|-----|
+|29610        |29076       |2013        |01   |
+|29620        |29076       |2013        |01   |
+|29610        |29076       |2013        |07   |
+|29612        |29076       |2013        |07   |
+
+
+En el ejemplo se aprecia como en julio de 2013 desaparece el código postal 29620 y aparece el código postal 29612 para el municipio 29076.
+
+
+## Codigos Postales y Entidades Singulares Asociadas
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
+- URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
+- Tipo: Texto de ancho fijo comprimido (.zip)
+- Datos procesados: [/data/codigos_postales_municipiosid_entidades_historical.csv](data/codigos_postales_municipiosid_entidades_historical.csv)
+
+En este caso no se incluye el nombre del municipio. 
+
+### Formato de los datos
+
+
+Ejemplo en CSV:
+
+|codigo_postal|municipio_id|codigo_unidad_poblacional|entidad_singular_nombre|nucleo_nombre|year|month|
+|-------------|------------|-------------------------|-----------------------|-------------|----|-----|
+|29610        |29076       |0001701                  |Ojen                   |Ojen         |2013|01   |
+|29610        |29076       |0001799                  |Ojen                   |*diseminado* |2013|01   |
+|29620        |29076       |0001799                  |Ojen                   |*diseminado* |2013|01   |
+|29610        |29076       |0001701                  |Ojen                   |Ojen         |2013|07   |
+|29610        |29076       |0001702                  |Ojen                   |Mairena (La) |2013|07   |
+|29610        |29076       |0001799                  |Ojen                   |*diseminado* |2013|07   |
+|29612        |29076       |0001702                  |Ojen                   |Mairena (La) |2013|07   |
+
+Siguiendo el ejemplo anterior, se aprecia como en Julio de 2013 aparece una nueva unidad poblacional (La Mairena), a la que se le asigna los códigos postales 29610 y 29612.
 
 
 ## Script
@@ -75,41 +155,13 @@ El script se puede encontrar en [/scripts/](/scripts/).
 
 ## Merge con ds-organizacion-administrativa
 
-Para obtener el nombre de municipio asociado al codigo INE se puede hacer un merge con `ds-organizacion-administrativa/ds-oa-municipios` mediante `csvjoin`:
+Para aquellos conjuntos de datos que no incluan el nombre del municipio asociado al codigo INE, este se puede obtener 
+haciendo un merge con `ds-organizacion-administrativa/ds-oa-municipios` mediante `csvjoin`. 
+
+Un ejemplo:
 
     $ curl https://raw.githubusercontent.com/codeforspain/ds-organizacion-administrativa/master/data/municipios.csv \
         | csvcut -c 'municipio_id,nombre' \
-        | csvjoin -I -c "municipio_id" codigos_postales_municipios.csv - \
-        | csvcut -c "codigo_postal,nombre_entidad_singular,municipio_id,nombre" \
-        > codigos_postales_municipios_join.csv
-
-Este comando devuelve [codigos_postales_municipios_join.csv](data/codigos_postales_municipios_join.csv). Ejemplo:
-
-
-| codigo_postal | nombre_entidad_singular | municipio_id | nombre                     |
-|---------------|-------------------------|--------------|----------------------------|
-| 28100         | ALCOBENDAS              | 28006        | Alcobendas                 |
-| 28108         | ALCOBENDAS              | 28006        | Alcobendas                 |
-| 28109         | ALCOBENDAS              | 28006        | Alcobendas                 |
-| 28110         | DEHESA NUEVA            | 28009        | Algete                     |
-| 28120         | PUEBLAS (LAS)           | 28045        | Colmenar Viejo             |
-| 28124         | ROBLEDILLO DE LA JARA   | 28124        | Robledillo de la Jara      |
-| 28130         | MIRAVAL                 | 28162        | Valdeolmos-Alalpardo       |
-| 28140         | ADOBERAS                | 28059        | Fuente el Saz de Jarama    |
-| 28150         | MIRADOR (EL)            | 28164        | Valdetorres de Jarama      |
-| 28160         | MORALEJA (LA)           | 28145        | Talamanca de Jarama        |
-| 28170         | COTO DE SAN BENITO      | 28163        | Valdepiélagos              |
-| 28180         | TOMILLARES (LOS)        | 28151        | Torrelaguna                |
-| 28189         | SOTO (EL)               | 28153        | Torremocha de Jarama       |
-| 28190         | PUEBLA DE LA SIERRA     | 28118        | Puebla de la Sierra        |
-| 28191         | PRADENA DEL RINCON      | 28117        | Prádena del Rincón         |
-| 28192         | DEHESA BOYAL            | 28021        | "Berrueco, El"             |
-| 28193         | CERCADOS (LOS)          | 28039        | Cervera de Buitrago        |
-| 28194         | VILLAR (EL)             | 28124        | Robledillo de la Jara      |
-| 28195         | SERRADA DE LA FUENTE    | 28902        | Puentes Viejas             |
-| 28196         | PRESA DE PUENTES VIEJAS | 28902        | Puentes Viejas             |
-| 28200         | JURISDICCION (LA)       | 28131        | San Lorenzo de El Escorial |
-| 28210         | VALDEMORILLO            | 28160        | Valdemorillo               |
-| 28211         | PERALEJO                | 28054        | "Escorial, El"             |
-| 28212         | BARRANCOS (LOS)         | 28095        | Navalagamella              |
-
+        | csvjoin --snifflimit 0 -I -c "municipio_id" ../data/codigos_postales_municipiosid_entidades.csv - \
+        | csvcut -c "codigo_postal,municipio_id,nombre,codigo_unidad_poblacional,entidad_singular_nombre,nucleo_nombre" \
+        > ../data/codigos_postales_municipios_entidades.csv
