@@ -166,31 +166,30 @@ class ProcessCommand extends ConsoleKit\Command
             $zippedSource = $zip->getStream($zippedSourceFileName);
         }
 
+
         while (($line = fgets($zippedSource)) !== false) {
             $line = iconv("windows-1252", "UTF-8", $line);
 
-            $codigo_postal = substr($line,42,5);
-            $municipio_id = substr($line,0,5);
+            $codigo_postal = mb_substr($line,42,5);
+            $municipio_id = mb_substr($line,0,5);
 
-            $codigo_unidad_poblacional = substr($line,13,7);
+            $codigo_unidad_poblacional = mb_substr($line,0,5) . mb_substr($line,13,7);
             //$nombre_entidad_colectiva = $this->titleCase(trim(substr($line,85,25)));
-            $nombre_entidad_singular = $this->titleCase(trim(substr($line,110,25)));
-            $nombre_nucleo = $this->titleCase(trim(substr($line,135,25)));
+            $nombre_entidad_singular = $this->titleCase(trim(mb_substr($line,110,25)));
+            $nombre_nucleo = $this->titleCase(trim(mb_substr($line,135,25)));
 
             if ($includeYear) {
-                $items[$codigo_postal.$municipio_id.$year.$month] =
-                    compact('codigo_postal','municipio_id', 'year', 'month');
+                $items[$codigo_postal.$municipio_id.$year.$month] = [$codigo_postal, $municipio_id, $year,$month];
                 $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional.$year.$month] =
-                    compact('codigo_postal','municipio_id','codigo_unidad_poblacional',
-                        'nombre_entidad_singular','nombre_nucleo','year','month');
+                    [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo ,$year,$month];
             } else {
-                $items[$codigo_postal.$municipio_id] = compact('codigo_postal','municipio_id');
+                $items[$codigo_postal.$municipio_id] = [$codigo_postal, $municipio_id];
                 $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional] =
-                    compact('codigo_postal','municipio_id','codigo_unidad_poblacional',
-                        'nombre_entidad_singular','nombre_nucleo');
+                    [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo];
+
+                //echo $codigo_postal . "\r\n";
             }
 
-            $i++;
         }
 
         ksort($items);
