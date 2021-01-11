@@ -173,7 +173,7 @@ class ProcessCommand extends ConsoleKit\Command
             $codigo_postal = mb_substr($line,42,5);
             $municipio_id = mb_substr($line,0,5);
 
-            $codigo_unidad_poblacional = mb_substr($line,0,5) . mb_substr($line,13,7);
+            $codigo_unidad_poblacional = mb_substr($line,13,7);
             //$nombre_entidad_colectiva = $this->titleCase(trim(substr($line,85,25)));
             $nombre_entidad_singular = $this->titleCase(trim(mb_substr($line,110,25)));
             $nombre_nucleo = $this->titleCase(trim(mb_substr($line,135,25)));
