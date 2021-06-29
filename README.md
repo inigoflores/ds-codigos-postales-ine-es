@@ -167,3 +167,16 @@ Un ejemplo:
         | csvjoin --snifflimit 0 -I -c "municipio_id" ../data/codigos_postales_municipiosid_entidades.csv - \
         | csvcut -c "codigo_postal,municipio_id,nombre,codigo_unidad_poblacional,entidad_singular_nombre,nucleo_nombre" \
         > ../data/codigos_postales_municipios_entidades.csv
+
+
+## Compatibilidad del Código de Unidad Poblacional con otros datasets del INE
+
+Este dataset incorpora un Código de Unidad Poblacional (CUN) que consta de 7 digitos, mientras que otros conjuntos de datos del INE, como el de [Población del Padrón Continuo por Unidad Poblacional](https://www.ine.es/nomen2/index.do) están referenciados a un CUN de tan solo 6 digitos. 
+
+El problema viene de que el INE añade un dígito de control. Esto está explicado en el [diseño de registro](https://www.ine.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fmsword&blobheadername1=Content-Disposition&blobheadervalue1=attachment%3B+filename%3Ddisenocallejero.doc&blobkey=urldata&blobtable=MungoBlobs&blobwhere=817%2F26%2Fdisenocallejero%2C1.doc&ssbinary=true):
+
+> _1. El campo CUN será cumplimentado por el INE, que remitirá periódicamente a los Ayuntamientos la codificación asignada.
+> Este campo presenta la estructura CCSSDNN, donde CC= Código de entidad colectiva, SS= Código de entidad singular, D= Dígito de control obtenido por el método ABC a partir del conjunto formado por CC y SS y NN= Código de núcleo (Si = 99, es DISEMINADO)._
+
+Por lo tanto, si se elimina el 5º dígito, quedará un CUN de 6 dígitos con el que se deberían poder establecer asociaciones.
+
