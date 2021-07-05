@@ -7,7 +7,7 @@ Usa como fuente el Callejero del Censo Electoral (INE).
 
 
 ## Codigos Postales y Municipios Asociados
-- Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/prodyser/callejero/)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipios.csv](data/codigos_postales_municipios.csv)
@@ -38,7 +38,7 @@ Ejemplo en CSV:
 
 
 ## Codigos Postales y Unidades Poblacionales Asociadas
-- Fuente: [Callejero del Censo Electoral (INE)](http://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1254735624326&p=1254735624326&pagename=ProductosYServicios%2FPYSLayout)
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/prodyser/callejero/)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el último año
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipios_entidades.csv](data/codigos_postales_municipios_entidades.csv)
@@ -101,7 +101,7 @@ Ejemplo en CSV:
 
 
 ## Codigos Postales y Municipios Asociados (Histórico)
-- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/prodyser/callejero/)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipiosid_historical.csv](data/codigos_postales_municipiosid_historical.csv)
@@ -125,7 +125,7 @@ En el ejemplo se aprecia como en julio de 2013 desaparece el código postal 2962
 
 
 ## Codigos Postales y Unidades Poblacionales Asociadas
-- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout)
+- Fuente: [Callejero del Censo Electoral (INE)](https://www.ine.es/prodyser/callejero/)
 - URL: `http://www.ine.es/prodyser/callejero/caj_esp/caj_esp_[MM][YYYY].zip` donde `MM` es el mes (01 ó 07) y la cadena `YYYY` es el año, (desde 2013 hasta la actualidad))
 - Tipo: Texto de ancho fijo comprimido (.zip)
 - Datos procesados: [/data/codigos_postales_municipiosid_entidades_historical.csv](data/codigos_postales_municipiosid_entidades_historical.csv)
