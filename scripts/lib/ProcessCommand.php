@@ -132,7 +132,8 @@ class ProcessCommand extends ConsoleKit\Command
         $zip->open($source);
 
         for( $i = 0; $i < $zip->numFiles; $i++ ) {
-            if (strstr($zip->statIndex($i)['name'], 'TRAM')) {
+            if (strstr($zip->statIndex($i)['name'], 'TRAM') || 
+                strstr($zip->statIndex($i)['name'], 'Tramero')) {
                 $zippedSourceFileName = $zip->statIndex($i)['name'];
                 break;
             }
@@ -150,7 +151,8 @@ class ProcessCommand extends ConsoleKit\Command
             $zip2->open('/tmp/' . $zippedSourceFileName);
 
             for( $i = 0; $i < $zip2->numFiles; $i++ ) {
-                if (strstr($zip2->statIndex($i)['name'], 'TRAM')) {
+                if (strstr($zip2->statIndex($i)['name'], 'TRAM') || 
+                    strstr($zip->statIndex($i)['name'], 'Tramero')) {
                     $zippedSourceFileName2 = $zip2->statIndex($i)['name'];
                     break;
                 }
