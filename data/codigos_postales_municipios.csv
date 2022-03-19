@@ -1,13 +1,6 @@
 codigo_postal,municipio_id,municipio_nombre
-00040,40223,Vegas de Matute
-00042,42173,Soria
 00043,43110,"Pobla de Massaluca, La"
-00045,45165,Talavera de la Reina
-00115,08113,Manresa
-00140,18193,"Zubia, La"
-00298,50209,Pinseque
-00342,42162,San Esteban de Gormaz
-00548,05047,Candeleda
+00085,49064,Fariza
 00633,26005,Albelda de Iregua
 01001,01059,Vitoria-Gasteiz
 01002,01059,Vitoria-Gasteiz
@@ -101,7 +94,6 @@ codigo_postal,municipio_id,municipio_nombre
 01309,01031,Laguardia
 01309,01034,Leza
 01309,01041,Navaridas
-01310,01022,Elciego
 01320,01043,Oyón-Oion
 01321,01031,Laguardia
 01322,01039,Moreda de Álava/Moreda Araba
@@ -163,7 +155,6 @@ codigo_postal,municipio_id,municipio_nombre
 02099,02901,Pozo Cañada
 02100,02073,Tarazona de la Mancha
 02110,02035,"Gineta, La"
-02110,02073,Tarazona de la Mancha
 02120,02060,Peñas de San Pedro
 02124,02006,Alcadozo
 02124,02011,Ayna
@@ -211,7 +202,6 @@ codigo_postal,municipio_id,municipio_nombre
 02230,02045,Madrigueras
 02236,02078,Villalgordo del Júcar
 02240,02046,Mahora
-02241,22110,Fonz
 02246,02054,Navas de Jorquera
 02247,02026,Cenizate
 02248,02041,Jorquera
@@ -220,7 +210,6 @@ codigo_postal,municipio_id,municipio_nombre
 02249,02066,"Recueja, La"
 02250,02001,Abengibre
 02251,02034,Fuentealbilla
-02252,02007,Alcalá del Júcar
 02253,02036,Golosalvo
 02260,02034,Fuentealbilla
 02270,02079,Villamalea
@@ -249,6 +238,7 @@ codigo_postal,municipio_id,municipio_nombre
 02400,02037,Hellín
 02409,02037,Hellín
 02410,02044,Liétor
+02410,09018,Aranda de Duero
 02420,02037,Hellín
 02430,02030,Elche de la Sierra
 02434,02042,Letur
@@ -295,13 +285,11 @@ codigo_postal,municipio_id,municipio_nombre
 02537,02055,Nerpio
 02538,02055,Nerpio
 02539,02055,Nerpio
-02600,02025,Caudete
 02600,02081,Villarrobledo
 02610,02019,"Bonillo, El"
 02611,02057,Ossa de Montiel
 02612,02053,Munera
 02612,02081,Villarrobledo
-02613,02019,"Bonillo, El"
 02614,02014,"Ballestero, El"
 02620,02048,Minaya
 02630,02069,"Roda, La"
@@ -326,11 +314,8 @@ codigo_postal,municipio_id,municipio_nombre
 02693,02027,Corral-Rubio
 02693,02061,Pétrola
 02694,02039,Higueruela
-02694,28007,Alcorcón
 02695,02029,Chinchilla de Monte-Aragón
-02695,28007,Alcorcón
 02696,02040,Hoya-Gonzalo
-02702,28007,Alcorcón
 02999,02011,Ayna
 03001,03014,Alicante/Alacant
 03002,03014,Alicante/Alacant
@@ -377,7 +362,6 @@ codigo_postal,municipio_id,municipio_nombre
 03178,03034,Benijófar
 03179,03015,Almoradí
 03179,03070,Formentera del Segura
-03180,03133,Torrevieja
 03181,03133,Torrevieja
 03182,03133,Torrevieja
 03183,03133,Torrevieja
@@ -438,7 +422,6 @@ codigo_postal,municipio_id,municipio_nombre
 03380,03044,Bigastro
 03380,03099,Orihuela
 03390,03024,Benejúzar
-03392,33024,Gijón
 03400,03140,Villena
 03408,03140,Villena
 03409,03014,Alicante/Alacant
@@ -479,7 +462,6 @@ codigo_postal,municipio_id,municipio_nombre
 03579,03124,Sella
 03580,03011,"Alfàs del Pi, l'"
 03581,03011,"Alfàs del Pi, l'"
-03583,33049,Piloña
 03590,03018,Altea
 03599,03018,Altea
 03600,03066,Elda
@@ -502,7 +484,6 @@ codigo_postal,municipio_id,municipio_nombre
 03670,03088,Monforte del Cid
 03679,03088,Monforte del Cid
 03680,03019,Aspe
-03680,03104,Petrer
 03688,03077,"Fondó de les Neus, el/Hondón de las Nieves"
 03689,03077,"Fondó de les Neus, el/Hondón de las Nieves"
 03689,03078,Hondón de los Frailes
@@ -514,7 +495,6 @@ codigo_postal,municipio_id,municipio_nombre
 03709,03063,Dénia
 03710,03047,Calp
 03720,03041,Benissa
-03720,33007,Boal
 03723,03006,Alcalalí
 03724,03128,Teulada
 03725,03128,Teulada
@@ -606,7 +586,6 @@ codigo_postal,municipio_id,municipio_nombre
 04007,04013,Almería
 04008,04013,Almería
 04009,04013,Almería
-04010,40186,Santa Marta del Cerro
 04100,04066,Níjar
 04110,04066,Níjar
 04113,04066,Níjar
@@ -625,7 +604,6 @@ codigo_postal,municipio_id,municipio_nombre
 04149,04066,Níjar
 04149,04086,Sorbas
 04150,04013,Almería
-04151,04013,Almería
 04151,04066,Níjar
 04160,04013,Almería
 04200,04088,Tabernas
@@ -681,7 +659,6 @@ codigo_postal,municipio_id,municipio_nombre
 04458,04071,Padules
 04459,04067,Ohanes
 04460,04046,Fondón
-04460,04055,Instinción
 04470,04057,Láujar de Andarax
 04479,04020,Bayárcal
 04479,04046,Fondón
@@ -728,7 +705,6 @@ codigo_postal,municipio_id,municipio_nombre
 04648,04075,Pulpí
 04649,04075,Pulpí
 04650,04103,Zurgena
-04659,04091,Terque
 04660,04017,Arboleas
 04661,04089,Taberno
 04661,04103,Zurgena
@@ -767,8 +743,6 @@ codigo_postal,municipio_id,municipio_nombre
 04770,04003,Adra
 04778,04003,Adra
 04779,04003,Adra
-04779,04020,Bayárcal
-04779,04073,Paterna del Río
 04800,04006,Albox
 04810,04070,Oria
 04810,04072,Partaloa
@@ -857,7 +831,6 @@ codigo_postal,municipio_id,municipio_nombre
 05140,05053,Casasola
 05140,05120,Marlín
 05140,05121,Martiherrero
-05141,05053,Casasola
 05141,05067,Chamartín
 05141,05079,Gallegos de Altamiros
 05141,05145,Narrillos del Rebollar
@@ -866,7 +839,6 @@ codigo_postal,municipio_id,municipio_nombre
 05145,05119,Manjabálago y Ortigosa de Rioalmar
 05145,05136,Muñico
 05145,05213,San Juan del Olmo
-05146,05013,"Arenal, El"
 05146,05033,Blascomillán
 05146,05094,Herreros de Suso
 05146,05118,Mancera de Arriba
@@ -908,7 +880,6 @@ codigo_postal,municipio_id,municipio_nombre
 05165,05045,Cabizuela
 05165,05183,Pedro-Rodríguez
 05165,05242,Tiñosillos
-05170,05241,"Tiemblo, El"
 05190,05195,Riofrío
 05191,05130,Mironcillo
 05191,05172,Niharra
@@ -926,6 +897,7 @@ codigo_postal,municipio_id,municipio_nombre
 05197,05019,Ávila
 05197,05076,"Fresno, El"
 05197,05083,Gemuño
+05198,05189,Poyales del Hoyo
 05198,05239,Sotalbo
 05200,05016,Arévalo
 05210,05099,Horcajo de las Torres
@@ -1008,9 +980,7 @@ codigo_postal,municipio_id,municipio_nombre
 05358,05140,Muñomer del Peco
 05358,05149,Narros de Saldueña
 05358,05179,Papatrigo
-05358,05194,Riocabado
 05358,05210,San Juan de la Encinilla
-05359,05179,Papatrigo
 05364,05105,Hoyos del Espino
 05370,05073,Flores de Ávila
 05370,05147,Narros del Castillo
@@ -1020,6 +990,7 @@ codigo_postal,municipio_id,municipio_nombre
 05400,05014,Arenas de San Pedro
 05410,05132,Mombeltrán
 05412,05207,San Esteban del Valle
+05413,05132,Mombeltrán
 05413,05221,Santa Cruz del Valle
 05413,05262,Villarejo del Valle
 05414,05066,Cuevas del Valle
@@ -1027,7 +998,6 @@ codigo_postal,municipio_id,municipio_nombre
 05416,05013,"Arenal, El"
 05417,05089,Guisando
 05418,05014,Arenas de San Pedro
-05420,05019,Ávila
 05420,05240,Sotillo de la Adrada
 05427,05075,Fresnedilla
 05427,05095,Higuera de las Dueñas
@@ -1098,6 +1068,7 @@ codigo_postal,municipio_id,municipio_nombre
 05630,05904,Santiago del Tormes
 05631,05162,Navalperal de Tormes
 05631,05267,Zapardiel de la Ribera
+05631,05901,San Juan de Gredos
 05632,05162,Navalperal de Tormes
 05632,05901,San Juan de Gredos
 05633,05901,San Juan de Gredos
@@ -1156,6 +1127,7 @@ codigo_postal,municipio_id,municipio_nombre
 06173,06092,Nogales
 06174,06061,"Haba, La"
 06174,06116,Salvaleón
+06175,06099,"Parra, La"
 06175,06117,Salvatierra de los Barros
 06176,06089,"Morera, La"
 06176,06099,"Parra, La"
@@ -1193,7 +1165,6 @@ codigo_postal,municipio_id,municipio_nombre
 06230,06122,"Santos de Maimona, Los"
 06240,06052,Fuente de Cantos
 06249,06027,Calzadilla de los Barros
-06249,06031,Carmonita
 06250,06020,Bienvenida
 06260,06085,Monesterio
 06270,06124,Segura de León
@@ -1279,7 +1250,6 @@ codigo_postal,municipio_id,municipio_nombre
 06615,06018,Benquerencia de la Serena
 06620,06048,Esparragosa de Lares
 06630,06102,Puebla de Alcocer
-06630,06106,Puebla del Prior
 06640,06127,Talarrubias
 06650,06125,Siruela
 06650,06127,Talarrubias
@@ -1558,7 +1528,6 @@ codigo_postal,municipio_id,municipio_nombre
 08024,08019,Barcelona
 08025,08019,Barcelona
 08026,08019,Barcelona
-08026,08187,Sabadell
 08027,08019,Barcelona
 08028,08019,Barcelona
 08029,08019,Barcelona
@@ -1583,7 +1552,6 @@ codigo_postal,municipio_id,municipio_nombre
 08106,08256,Santa Maria de Martorelles
 08107,08115,Martorelles
 08110,08125,Montcada i Reixac
-08110,08231,Sant Pere de Ribes
 08120,08105,"Llagosta, La"
 08130,08260,Santa Perpètua de Mogoda
 08140,08033,Caldes de Montbui
@@ -1591,7 +1559,6 @@ codigo_postal,municipio_id,municipio_nombre
 08148,08079,"Estany, L'"
 08150,08159,Parets del Vallès
 08160,08135,Montmeló
-08161,08184,Rubí
 08170,08136,Montornès del Vallès
 08172,08205,Sant Cugat del Vallès
 08173,08205,Sant Cugat del Vallès
@@ -1599,13 +1566,13 @@ codigo_postal,municipio_id,municipio_nombre
 08175,08205,Sant Cugat del Vallès
 08178,08070,Collsuspina
 08180,08138,Moià
-08180,08205,Sant Cugat del Vallès
 08181,08267,Sentmenat
 08182,08210,Sant Feliu de Codines
 08183,08055,Castellcir
 08183,08064,Castellterçol
 08183,08095,Granera
 08184,08156,Palau-solità i Plegamans
+08184,08187,Sabadell
 08185,08108,Lliçà de Vall
 08186,08107,Lliçà d'Amunt
 08187,08248,Santa Eulàlia de Ronçana
@@ -1623,6 +1590,7 @@ codigo_postal,municipio_id,municipio_nombre
 08201,08187,Sabadell
 08202,08187,Sabadell
 08203,08187,Sabadell
+08204,08121,Mataró
 08204,08187,Sabadell
 08205,08187,Sabadell
 08206,08187,Sabadell
@@ -1647,6 +1615,7 @@ codigo_postal,municipio_id,municipio_nombre
 08232,08300,Viladecavalls
 08233,08291,Vacarisses
 08240,08113,Manresa
+08241,08053,Castellbell i el Vilar
 08241,08113,Manresa
 08242,08113,Manresa
 08243,08113,Manresa
@@ -1658,6 +1627,7 @@ codigo_postal,municipio_id,municipio_nombre
 08255,08059,Castellfollit del Boix
 08256,08002,Aguilar de Segarra
 08256,08178,Rajadell
+08257,08246,Santa Eugènia de Berga
 08259,08084,Fonollosa
 08260,08274,Súria
 08261,08047,Cardona
@@ -1730,7 +1700,6 @@ codigo_postal,municipio_id,municipio_nombre
 08397,08163,Pineda de Mar
 08398,08261,Santa Susanna
 08401,08096,Granollers
-08401,08101,"Hospitalet de Llobregat, L'"
 08402,08096,Granollers
 08403,08096,Granollers
 08410,08902,Vilanova del Vallès
@@ -1835,6 +1804,7 @@ codigo_postal,municipio_id,municipio_nombre
 08640,08147,Olesa de Montserrat
 08650,08191,Sallent
 08660,08018,Balsareny
+08660,08270,Sitges
 08670,08141,Navàs
 08672,08090,Gaià
 08673,08308,Viver i Serrateix
@@ -1853,13 +1823,13 @@ codigo_postal,municipio_id,municipio_nombre
 08697,25910,Josa i Tuixén
 08698,08080,Fígols
 08698,08142,"Nou de Berguedà, La"
+08698,08242,Marganell
 08698,08268,Cercs
 08699,08293,Vallcebre
 08700,08102,Igualada
 08710,08250,Santa Margarida de Montbui
 08711,08143,Òdena
 08712,08226,Sant Martí de Tous
-08714,07054,Santa Eulària des Riu
 08717,08008,Argençola
 08717,08133,Montmaneu
 08717,25216,Talavera
@@ -1936,8 +1906,10 @@ codigo_postal,municipio_id,municipio_nombre
 08850,08089,Gavà
 08859,08020,Begues
 08860,08056,Castelldefels
+08860,08270,Sitges
 08870,08270,Sitges
 08871,08270,Sitges
+08872,08270,Sitges
 08880,08074,Cubelles
 08901,08101,"Hospitalet de Llobregat, L'"
 08902,08101,"Hospitalet de Llobregat, L'"
@@ -2069,7 +2041,6 @@ codigo_postal,municipio_id,municipio_nombre
 09195,09439,Villalbilla de Burgos
 09195,09458,Villariezo
 09197,09372,Sotragero
-09197,09429,Villaescusa la Sombría
 09197,09439,Villalbilla de Burgos
 09197,09906,Merindad de Río Ubierna
 09197,09907,Alfoz de Quintanadueñas
@@ -2213,7 +2184,6 @@ codigo_postal,municipio_id,municipio_nombre
 09280,09077,Cascajares de Bureba
 09280,09120,Encío
 09280,09251,Pancorbo
-09285,09410,Valle de Mena
 09290,09133,Fresno de Rodilla
 09290,09288,Quintanapalla
 09292,09027,Arraya de Oca
@@ -2315,7 +2285,6 @@ codigo_postal,municipio_id,municipio_nombre
 09410,09261,Peñaranda de Duero
 09427,09427,Villadiego
 09430,09174,Huerta de Rey
-09436,09155,Haza
 09440,09369,Sotillo de la Ribera
 09441,09369,Sotillo de la Ribera
 09442,09380,Terradillos de Esgueva
@@ -2381,7 +2350,6 @@ codigo_postal,municipio_id,municipio_nombre
 09551,09014,"Altos, Los"
 09551,09905,Valle de Sedano
 09553,09903,Villarcayo de Merindad de Castilla la Vieja
-09554,09238,Oña
 09554,09903,Villarcayo de Merindad de Castilla la Vieja
 09555,09903,Villarcayo de Merindad de Castilla la Vieja
 09556,09903,Villarcayo de Merindad de Castilla la Vieja
@@ -2401,7 +2369,6 @@ codigo_postal,municipio_id,municipio_nombre
 09569,09124,Espinosa de los Monteros
 09569,09214,Merindad de Montija
 09569,09410,Valle de Mena
-09570,09012,Alfoz de Santa Gadea
 09570,09025,Arija
 09571,09011,Alfoz de Bricia
 09571,09012,Alfoz de Santa Gadea
@@ -2420,7 +2387,6 @@ codigo_postal,municipio_id,municipio_nombre
 09589,09410,Valle de Mena
 09591,09904,Valle de las Navas
 09591,09906,Merindad de Río Ubierna
-09592,09001,Abajas
 09592,09071,Carcedo de Bureba
 09592,09272,Poza de la Sal
 09592,09327,Rublacedo de Abajo
@@ -2493,7 +2459,6 @@ codigo_postal,municipio_id,municipio_nombre
 09660,09163,Hontoria del Pinar
 09660,09302,Rabanera del Pinar
 09670,09289,Quintanar de la Sierra
-09678,09179,Iglesiarrubia
 09679,09232,Neila
 09680,09246,Palacios de la Sierra
 09690,09425,Vilviestre del Pinar
@@ -2530,24 +2495,20 @@ codigo_postal,municipio_id,municipio_nombre
 10164,10037,Cáceres
 10169,10217,Zarza de Montánchez
 10170,10126,Montánchez
-10170,10216,Zarza de Granadilla
 10180,10198,Valdefuentes
 10181,10177,Sierra de Fuentes
 10182,10193,Torreorgaz
-10182,10211,Villanueva de la Sierra
 10183,10194,Torrequemada
 10184,10192,Torremocha
 10185,10027,Benquerencia
 10185,10031,Botija
 10186,10188,Torre de Santa María
 10187,10007,Albalá
-10188,10031,Botija
 10189,10161,Ruanes
 10189,10163,Salvatierra de Santiago
 10189,10165,Santa Ana
 10189,10217,Zarza de Montánchez
 10190,10049,Casar de Cáceres
-10190,10115,Malpartida de Cáceres
 10191,10170,Santiago del Campo
 10192,10098,Hinojal
 10193,10178,Talaván
@@ -2555,7 +2516,6 @@ codigo_postal,municipio_id,municipio_nombre
 10195,10037,Cáceres
 10197,10007,Albalá
 10198,10168,Santa Marta de Magasca
-10198,10169,Santiago de Alcántara
 10199,10037,Cáceres
 10200,10195,Trujillo
 10210,10113,Madroñera
@@ -2586,7 +2546,6 @@ codigo_postal,municipio_id,municipio_nombre
 10318,10180,Talayuela
 10318,10905,Pueblonuevo de Miramontes
 10319,10180,Talayuela
-10319,10181,Tejeda de Tiétar
 10319,10904,Tiétar
 10320,10030,Bohonal de Ibor
 10328,10075,Fresnedoso de Ibor
@@ -2630,6 +2589,7 @@ codigo_postal,municipio_id,municipio_nombre
 10420,10181,Tejeda de Tiétar
 10430,10068,Cuacos de Yuste
 10440,10014,Aldeanueva de la Vera
+10450,10104,Jaraíz de la Vera
 10450,10105,Jarandilla de la Vera
 10459,10091,Guijo de Santa Bárbara
 10460,10110,Losar de la Vera
@@ -2658,7 +2618,6 @@ codigo_postal,municipio_id,municipio_nombre
 10529,10114,Majadas
 10530,10175,Serradilla
 10540,10123,Mirabel
-10546,10123,Mirabel
 10550,10018,Aliseda
 10560,10092,Herguijuela
 10560,10095,Herreruela
@@ -2704,7 +2663,6 @@ codigo_postal,municipio_id,municipio_nombre
 10649,10050,Casar de Palomero
 10649,10144,"Pesga, La"
 10650,10006,Ahigal
-10660,10136,Oliva de Plasencia
 10660,10137,Palomero
 10660,10167,Santa Cruz de Paniagua
 10661,10167,Santa Cruz de Paniagua
@@ -2722,13 +2680,11 @@ codigo_postal,municipio_id,municipio_nombre
 10671,10148,Plasencia
 10672,10202,Valdeobispo
 10680,10116,Malpartida de Plasencia
-10690,10076,Galisteo
 10690,10148,Plasencia
 10690,10903,Alagón del Río
 10691,10076,Galisteo
 10692,10089,Guijo de Galisteo
 10693,10155,Riolobos
-10694,10182,Toril
 10694,10190,Torrejón el Rubio
 10695,10175,Serradilla
 10696,10025,Barrado
@@ -2737,10 +2693,8 @@ codigo_postal,municipio_id,municipio_nombre
 10697,10181,Tejeda de Tiétar
 10697,10182,Toril
 10700,10096,Hervás
-10701,41038,Dos Hermanas
 10710,10216,Zarza de Granadilla
 10711,10086,"Granja, La"
-10712,10090,Guijo de Granadilla
 10720,10214,Villar de Plasencia
 10728,10106,Jarilla
 10729,10034,Cabezabellosa
@@ -2791,7 +2745,6 @@ codigo_postal,municipio_id,municipio_nombre
 10868,10093,Hernán-Pérez
 10869,10185,Torrecilla de los Ángeles
 10870,10061,Ceclavín
-10872,10202,Valdeobispo
 10879,10004,Acehúche
 10880,10084,Gata
 10880,10218,Zarza la Mayor
@@ -2803,7 +2756,6 @@ codigo_postal,municipio_id,municipio_nombre
 10891,10072,Eljas
 10892,10164,San Martín de Trevejo
 10893,10210,Villamiel
-10894,10210,Villamiel
 10895,10064,Cilleros
 10896,10142,Perales del Puerto
 10897,10045,Cañaveral
@@ -2903,7 +2855,6 @@ codigo_postal,municipio_id,municipio_nombre
 11570,11020,Jerez de la Frontera
 11579,11020,Jerez de la Frontera
 11580,11902,San José del Valle
-11589,11902,San José del Valle
 11590,11020,Jerez de la Frontera
 11591,11020,Jerez de la Frontera
 11592,11020,Jerez de la Frontera
@@ -3051,6 +3002,7 @@ codigo_postal,municipio_id,municipio_nombre
 12428,12063,Fuente la Reina
 12428,12092,Puebla de Arenoso
 12428,12133,Villanueva de Viver
+12429,12063,Fuente la Reina
 12429,12090,Pina de Montalgrao
 12429,12115,"Toro, El"
 12430,12022,Bejís
@@ -3131,7 +3083,6 @@ codigo_postal,municipio_id,municipio_nombre
 13140,13040,Fernán Caballero
 13150,13031,Carrión de Calatrava
 13160,13083,Torralba de Calatrava
-13170,13019,Argamasilla de Alba
 13170,13056,Miguelturra
 13179,13015,Almodóvar del Campo
 13179,13066,Pozuelo de Calatrava
@@ -3169,7 +3120,6 @@ codigo_postal,municipio_id,municipio_nombre
 13260,13023,Bolaños de Calatrava
 13270,13013,Almagro
 13279,13088,Valenzuela de Calatrava
-13300,13005,Alcázar de San Juan
 13300,13087,Valdepeñas
 13310,13087,Valdepeñas
 13320,13093,Villanueva de los Infantes
@@ -3238,7 +3188,6 @@ codigo_postal,municipio_id,municipio_nombre
 13620,13061,Pedro Muñoz
 13629,13082,Tomelloso
 13630,13078,Socuéllamos
-13640,13015,Almodóvar del Campo
 13640,13047,Herencia
 13650,13070,Puerto Lápice
 13660,13050,"Labores, Las"
@@ -3250,7 +3199,6 @@ codigo_postal,municipio_id,municipio_nombre
 13710,13019,Argamasilla de Alba
 13720,13005,Alcázar de San Juan
 13730,13077,Santa Cruz de Mudela
-13738,13098,Viso del Marqués
 13739,13027,Calzada de Calatrava
 13739,13098,Viso del Marqués
 13740,13085,Torrenueva
@@ -3359,7 +3307,6 @@ codigo_postal,municipio_id,municipio_nombre
 14547,14060,Santaella
 14548,14040,Montalbán de Córdoba
 14549,14060,Santaella
-14550,14006,Añora
 14550,14042,Montilla
 14600,14043,Montoro
 14610,14001,Adamuz
@@ -3381,7 +3328,6 @@ codigo_postal,municipio_id,municipio_nombre
 14730,14053,Posadas
 14739,14053,Posadas
 14740,14036,Hornachuelos
-14800,14038,Lucena
 14800,14055,Priego de Córdoba
 14810,14015,Carcabuey
 14811,14013,Cabra
@@ -3498,7 +3444,6 @@ codigo_postal,municipio_id,municipio_nombre
 15175,15021,Carral
 15176,15058,Oleiros
 15177,15058,Oleiros
-15178,15054,Narón
 15178,15058,Oleiros
 15179,15058,Oleiros
 15180,15031,Culleredo
@@ -3638,14 +3583,12 @@ codigo_postal,municipio_id,municipio_nombre
 15572,15054,Narón
 15573,15054,Narón
 15576,15076,San Sadurniño
-15577,15054,Narón
 15577,15055,Neda
 15578,15054,Narón
 15579,15055,Neda
 15580,15076,San Sadurniño
 15582,15012,Boqueixón
 15582,15070,"Pontes de García Rodríguez, As"
-15587,15054,Narón
 15590,15036,Ferrol
 15591,15036,Ferrol
 15592,15036,Ferrol
@@ -3653,6 +3596,7 @@ codigo_postal,municipio_id,municipio_nombre
 15594,15036,Ferrol
 15595,15036,Ferrol
 15596,15054,Narón
+15597,15054,Narón
 15598,15076,San Sadurniño
 15600,15069,Pontedeume
 15607,15069,Pontedeume
@@ -3878,7 +3822,6 @@ codigo_postal,municipio_id,municipio_nombre
 16152,16219,Uña
 16152,16224,Valdemeca
 16160,16148,Palomares del Campo
-16160,19105,Chiloeches
 16161,16211,Torrejoncillo del Rey
 16162,16211,Torrejoncillo del Rey
 16190,16023,Chillarón de Cuenca
@@ -4025,7 +3968,6 @@ codigo_postal,municipio_id,municipio_nombre
 16510,16240,Vellisca
 16512,16041,Buendía
 16512,16173,"Valle de Altomira, El"
-16514,16173,"Valle de Altomira, El"
 16520,16112,Huete
 16521,16112,Huete
 16522,16162,Portalrubio de Guadamejud
@@ -4068,7 +4010,6 @@ codigo_postal,municipio_id,municipio_nombre
 16650,16124,"Mesas, Las"
 16660,16154,"Pedroñeras, Las"
 16670,16171,"Provencio, El"
-16673,16150,Paracuellos
 16700,16198,Sisante
 16707,16060,Casas de Benítez
 16708,16063,Casas de Guijarro
@@ -4094,7 +4035,6 @@ codigo_postal,municipio_id,municipio_nombre
 16812,16006,Albendea
 16812,16009,Alcantud
 16812,16020,Arandilla del Arroyo
-16812,16166,Pozoamargo
 16812,16169,"Pozuelo, El"
 16812,16275,Vindel
 16813,16188,Salmeroncillos
@@ -4202,7 +4142,6 @@ codigo_postal,municipio_id,municipio_nombre
 17184,17233,Vilobí d'Onyar
 17185,17233,Vilobí d'Onyar
 17190,17155,Salt
-17198,07040,Palma de Mallorca
 17199,17040,Canet d'Adri
 17199,17163,Sant Gregori
 17200,17117,Palafrugell
@@ -4210,7 +4149,6 @@ codigo_postal,municipio_id,municipio_nombre
 17211,17117,Palafrugell
 17212,17117,Palafrugell
 17213,17013,Begur
-17213,17117,Palafrugell
 17214,17144,Regencós
 17220,17160,Sant Feliu de Guíxols
 17227,17227,Vilamaniscle
@@ -4459,11 +4397,10 @@ codigo_postal,municipio_id,municipio_nombre
 18102,18911,Vegas del Genil
 18110,18905,"Gabias, Las"
 18120,18013,Alhama de Granada
+18125,18013,Alhama de Granada
 18126,18020,Arenas del Rey
-18127,18020,Arenas del Rey
 18127,18106,Játar
 18127,18107,Jayena
-18128,18013,Alhama de Granada
 18128,18192,Zafarraya
 18129,18020,Arenas del Rey
 18129,18034,Cacín
@@ -4475,7 +4412,6 @@ codigo_postal,municipio_id,municipio_nombre
 18132,18001,Agrón
 18140,18140,Motril
 18140,18193,"Zubia, La"
-18140,19143,Horche
 18150,18084,Gójar
 18150,18150,Padul
 18151,18145,Ogíjares
@@ -4526,6 +4462,7 @@ codigo_postal,municipio_id,municipio_nombre
 18290,18022,Atarfe
 18290,18037,Calicasas
 18291,18158,Pinos Puente
+18292,18022,Atarfe
 18293,18102,Íllora
 18294,18102,Íllora
 18295,18012,Algarinejo
@@ -4549,7 +4486,7 @@ codigo_postal,municipio_id,municipio_nombre
 18339,18048,Cijuela
 18339,18059,Chauchina
 18340,18079,Fuente Vaqueros
-18341,18122,Loja
+18349,18044,Cástaras
 18350,18102,Íllora
 18360,18100,Huétor Tájar
 18360,18122,Loja
@@ -4590,7 +4527,6 @@ codigo_postal,municipio_id,municipio_nombre
 18491,18181,Turón
 18492,18141,Murtas
 18492,18182,Ugíjar
-18493,18903,Nevada
 18494,18182,Ugíjar
 18494,18903,Nevada
 18500,18089,Guadix
@@ -4613,7 +4549,6 @@ codigo_postal,municipio_id,municipio_nombre
 18517,18154,"Peza, La"
 18517,18168,Quéntar
 18518,18005,Albuñán
-18518,18006,Albuñol
 18518,18018,Alquife
 18518,18049,Cogollos de Guadix
 18518,18108,Jerez del Marquesado
@@ -4657,10 +4592,8 @@ codigo_postal,municipio_id,municipio_nombre
 18614,18140,Motril
 18615,18184,Vélez de Benaudalla
 18615,18906,"Guájares, Los"
-18616,18046,Castril
 18616,18184,Vélez de Benaudalla
 18620,18014,Alhendín
-18620,18140,Motril
 18630,18149,Villa de Otura
 18640,18150,Padul
 18650,18071,Dúrcal
@@ -4676,7 +4609,6 @@ codigo_postal,municipio_id,municipio_nombre
 18680,18071,Dúrcal
 18680,18173,Salobreña
 18690,18017,Almuñécar
-18690,18173,Salobreña
 18697,18017,Almuñécar
 18698,18148,Otívar
 18699,18109,Jete
@@ -4713,6 +4645,7 @@ codigo_postal,municipio_id,municipio_nombre
 18830,18102,Íllora
 18840,18035,Cádiar
 18840,18082,Galera
+18840,18182,Ugíjar
 18849,18082,Galera
 18850,18056,Cúllar
 18850,18098,Huéscar
@@ -4788,7 +4721,6 @@ codigo_postal,municipio_id,municipio_nombre
 19142,19161,Lupiana
 19142,19299,Valdeavellano
 19143,19108,Durón
-19143,19143,Horche
 19143,19155,Irueste
 19143,19242,Romanones
 19143,19249,San Andrés del Rey
@@ -4813,7 +4745,6 @@ codigo_postal,municipio_id,municipio_nombre
 19180,19171,Marchamalo
 19181,19130,Guadalajara
 19182,19120,Fuentelahiguera de Albatages
-19182,19130,Guadalajara
 19184,19070,Casa de Uceda
 19184,19288,Tortuero
 19184,19305,Valdepeñas de la Sierra
@@ -4825,7 +4756,6 @@ codigo_postal,municipio_id,municipio_nombre
 19186,19102,"Cubillo de Uceda, El"
 19187,19293,Uceda
 19188,19293,Uceda
-19190,19105,Chiloeches
 19190,19274,Torija
 19191,19225,Pozo de Guadalajara
 19191,19274,Torija
@@ -4858,7 +4788,6 @@ codigo_postal,municipio_id,municipio_nombre
 19222,19262,Tamajón
 19223,19060,Campillo de Ranas
 19223,19165,Majaelrayo
-19223,19234,Retiendas
 19224,19060,Campillo de Ranas
 19224,19262,Tamajón
 19224,19311,Valverde de los Arroyos
@@ -4966,9 +4895,9 @@ codigo_postal,municipio_id,municipio_nombre
 19278,19185,"Miñosa, La"
 19280,19170,Maranchón
 19281,19170,Maranchón
+19283,19011,Alcolea del Pinar
 19283,19032,Anguita
 19283,19153,Iniéstola
-19284,19011,Alcolea del Pinar
 19285,19089,Ciruelos del Pinar
 19285,19163,Luzón
 19286,19033,Anquela del Ducado
@@ -4988,7 +4917,6 @@ codigo_postal,municipio_id,municipio_nombre
 19294,19322,Villaseca de Henares
 19295,19047,Baides
 19295,19147,Huérmeces del Cerro
-19295,19257,Sigüenza
 19295,19314,Viana de Jadraque
 19300,19190,Molina de Aragón
 19310,19013,Alcoroches
@@ -5141,7 +5069,6 @@ codigo_postal,municipio_id,municipio_nombre
 20120,20040,Hernani
 20128,20040,Hernani
 20130,20072,Urnieta
-20130,20073,Usurbil
 20140,20009,Andoain
 20150,20002,Aduna
 20150,20075,Villabona
@@ -5253,13 +5180,13 @@ codigo_postal,municipio_id,municipio_nombre
 21006,21041,Huelva
 21007,21007,Aracena
 21007,21041,Huelva
+21100,21002,Aljaraque
 21100,21060,Punta Umbría
 21110,21002,Aljaraque
 21110,21060,Punta Umbría
 21120,21002,Aljaraque
 21130,21050,Moguer
 21130,21055,Palos de la Frontera
-21193,24222,Villaquilambre
 21200,21007,Aracena
 21207,21007,Aracena
 21207,21045,Linares de la Sierra
@@ -5281,7 +5208,6 @@ codigo_postal,municipio_id,municipio_nombre
 21260,21069,Santa Olalla del Cala
 21270,21016,Cala
 21280,21009,Arroyomolinos de León
-21280,21046,Lucena del Puerto
 21290,21004,Almonaster la Real
 21290,21033,Fuenteheridos
 21290,21043,Jabugo
@@ -5291,7 +5217,6 @@ codigo_postal,municipio_id,municipio_nombre
 21292,21022,Castaño del Robledo
 21292,21033,Fuenteheridos
 21300,21017,Calañas
-21307,21005,Almonte
 21309,21017,Calañas
 21320,21023,"Cerro de Andévalo, El"
 21330,21004,Almonaster la Real
@@ -5324,7 +5249,6 @@ codigo_postal,municipio_id,municipio_nombre
 21450,21044,Lepe
 21459,21021,Cartaya
 21459,21060,Punta Umbría
-21459,21063,San Bartolomé de la Torre
 21500,21035,Gibraleón
 21510,21063,San Bartolomé de la Torre
 21520,21006,Alosno
@@ -5354,7 +5278,6 @@ codigo_postal,municipio_id,municipio_nombre
 21639,21011,Beas
 21639,21064,San Juan del Puerto
 21640,21078,Zalamea la Real
-21646,21004,Almonaster la Real
 21647,21012,Berrocal
 21647,21078,Zalamea la Real
 21649,21004,Almonaster la Real
@@ -5368,7 +5291,6 @@ codigo_postal,municipio_id,municipio_nombre
 21668,21078,Zalamea la Real
 21669,21004,Almonaster la Real
 21670,21052,Nerva
-21700,21013,Bollullos Par del Condado
 21700,21054,"Palma del Condado, La"
 21710,21013,Bollullos Par del Condado
 21720,21061,Rociana del Condado
@@ -5378,7 +5300,6 @@ codigo_postal,municipio_id,municipio_nombre
 21750,21005,Almonte
 21760,21005,Almonte
 21800,21050,Moguer
-21800,21055,Palos de la Frontera
 21810,21055,Palos de la Frontera
 21819,21055,Palos de la Frontera
 21820,21046,Lucena del Puerto
@@ -5388,7 +5309,6 @@ codigo_postal,municipio_id,municipio_nombre
 21860,21074,Villalba del Alcor
 21870,21032,Escacena del Campo
 21880,21056,Paterna del Campo
-21888,21056,Paterna del Campo
 21890,21047,Manzanilla
 21891,21030,Chucena
 22000,22125,Huesca
@@ -5399,8 +5319,6 @@ codigo_postal,municipio_id,municipio_nombre
 22005,22125,Huesca
 22006,22125,Huesca
 22080,22125,Huesca
-22090,22125,Huesca
-22092,22125,Huesca
 22094,22125,Huesca
 22097,22125,Huesca
 22100,22206,Sangarrén
@@ -5457,7 +5375,6 @@ codigo_postal,municipio_id,municipio_nombre
 22193,22163,Nueno
 22194,22019,Alerre
 22194,22047,Banastás
-22194,22080,Capella
 22194,22096,Chimillas
 22194,22125,Huesca
 22195,22125,Huesca
@@ -5620,7 +5537,6 @@ codigo_postal,municipio_id,municipio_nombre
 22460,22177,Perarrúa
 22460,22212,Santaliestra y San Quílez
 22461,22066,Boltaña
-22461,22117,Graus
 22461,22212,Santaliestra y San Quílez
 22462,22111,Foradada del Toscar
 22462,22129,Isábena
@@ -5699,14 +5615,12 @@ codigo_postal,municipio_id,municipio_nombre
 22585,22051,Bárcabo
 22585,22087,Castigaleu
 22585,22112,Fraga
-22585,22201,Salas Altas
 22585,22229,Tolva
 22585,22247,Viacamp y Litera
 22586,22142,Lascuarre
 22587,22080,Capella
 22587,22087,Castigaleu
 22587,22155,Monesma y Cajigar
-22588,22053,Benabarre
 22588,22117,Graus
 22589,22053,Benabarre
 22589,22105,Estopiñán del Castillo
@@ -5757,7 +5671,6 @@ codigo_postal,municipio_id,municipio_nombre
 22714,22199,Sabiñánigo
 22715,22130,Jaca
 22720,22901,Valle de Hecho
-22725,22028,Ansó
 22728,22028,Ansó
 22729,22106,Fago
 22730,22032,Aragüés del Puerto
@@ -5999,7 +5912,6 @@ codigo_postal,municipio_id,municipio_nombre
 23740,23005,Andújar
 23746,23040,Lahiguera
 23747,23005,Andújar
-23747,23009,Baeza
 23748,23005,Andújar
 23749,23005,Andújar
 23749,23096,Villanueva de la Reina
@@ -6325,7 +6237,6 @@ codigo_postal,municipio_id,municipio_nombre
 24441,24206,Toral de los Vados
 24442,24041,Carucedo
 24443,24022,Borrenes
-24443,24041,Carucedo
 24444,24022,Borrenes
 24445,24119,Priaranza del Bierzo
 24446,24119,Priaranza del Bierzo
@@ -6333,6 +6244,7 @@ codigo_postal,municipio_id,municipio_nombre
 24448,24115,Ponferrada
 24448,24119,Priaranza del Bierzo
 24450,24169,Toreno
+24456,24007,Arganza
 24457,24169,Toreno
 24457,25253,"Vilosell, El"
 24458,24102,Noceda del Bierzo
@@ -6655,7 +6567,6 @@ codigo_postal,municipio_id,municipio_nombre
 25185,25102,"Granja d'Escarp, La"
 25186,25125,Llardecans
 25187,25020,Almatret
-25190,25120,Lleida
 25191,25120,Lleida
 25192,25120,Lleida
 25193,25011,Alcarràs
@@ -6666,13 +6577,14 @@ codigo_postal,municipio_id,municipio_nombre
 25196,25120,Lleida
 25197,25120,Lleida
 25198,25120,Lleida
+25198,25904,Castell de Mur
 25199,25120,Lleida
 25200,25072,Cervera
 25210,25110,Guissona
 25211,25132,Massoteres
 25211,25197,Sant Guim de la Plana
+25211,25219,Tarroja de Segarra
 25211,25907,Torrefeta i Florejacs
-25212,25219,Tarroja de Segarra
 25212,25907,Torrefeta i Florejacs
 25212,25911,"Plans de Sió, Els"
 25213,25072,Cervera
@@ -6729,7 +6641,6 @@ codigo_postal,municipio_id,municipio_nombre
 25283,25148,Odèn
 25284,25163,"Coma i la Pedra, La"
 25285,25111,Guixers
-25286,25024,Alt Àneu
 25286,25146,Navès
 25286,25151,Olius
 25286,25166,Pinell de Solsonès
@@ -6775,6 +6686,7 @@ codigo_postal,municipio_id,municipio_nombre
 25353,25217,Tàrrega
 25354,25217,Tàrrega
 25360,25217,Tàrrega
+25370,25034,Artesa de Segre
 25400,25058,"Borges Blanques, Les"
 25410,25081,"Espluga Calba, L'"
 25411,25097,Fulleda
@@ -6804,7 +6716,6 @@ codigo_postal,municipio_id,municipio_nombre
 25518,25161,Conca de Dalt
 25520,25173,"Pont de Suert, El"
 25526,25043,"Vall de Boí, La"
-25526,25161,Conca de Dalt
 25526,25173,"Pont de Suert, El"
 25527,25043,"Vall de Boí, La"
 25528,25043,"Vall de Boí, La"
@@ -6884,7 +6795,6 @@ codigo_postal,municipio_id,municipio_nombre
 25616,25138,Montgai
 25617,25035,"Sentiu de Sió, La"
 25617,25240,Vallfogona de Balaguer
-25620,25051,Bellver de Cerdanya
 25620,25234,Tremp
 25630,25215,Talarn
 25631,25904,Castell de Mur
@@ -6932,11 +6842,9 @@ codigo_postal,municipio_id,municipio_nombre
 25715,25005,Alàs i Cerc
 25716,25100,Gósol
 25717,25005,Alàs i Cerc
-25717,25901,Vall de Cardós
 25717,25909,"Vansa i Fórnols, La"
 25717,25910,Josa i Tuixén
 25718,25005,Alàs i Cerc
-25718,25140,Montferrer i Castellbò
 25719,25088,Estamariu
 25720,25051,Bellver de Cerdanya
 25721,25051,Bellver de Cerdanya
@@ -6965,7 +6873,6 @@ codigo_postal,municipio_id,municipio_nombre
 25739,25034,Artesa de Segre
 25740,25172,Ponts
 25746,25172,Ponts
-25747,25001,Abella de la Conca
 25747,25042,"Baronia de Rialb, La"
 25748,25060,Cabanabona
 25748,25150,Oliola
@@ -6978,7 +6885,6 @@ codigo_postal,municipio_id,municipio_nombre
 25752,25055,Biosca
 25753,25055,Biosca
 25753,25191,Sanaüja
-25772,25055,Biosca
 25790,25044,Bassella
 25790,25077,Coll de Nargó
 25790,25148,Odèn
@@ -7299,7 +7205,6 @@ codigo_postal,municipio_id,municipio_nombre
 27216,27040,Palas de Rei
 27217,27040,Palas de Rei
 27220,27020,Friol
-27220,27048,"Pontenova, A"
 27226,27020,Friol
 27227,27020,Friol
 27228,27020,Friol
@@ -7309,7 +7214,6 @@ codigo_postal,municipio_id,municipio_nombre
 27232,27028,Lugo
 27233,27023,Guntín
 27233,27028,Lugo
-27234,27017,Folgoso do Courel
 27234,27023,Guntín
 27235,27020,Friol
 27240,27029,Meira
@@ -7785,6 +7689,7 @@ codigo_postal,municipio_id,municipio_nombre
 28140,28059,Fuente el Saz de Jarama
 28150,28164,Valdetorres de Jarama
 28160,28145,Talamanca de Jarama
+28160,28151,Torrelaguna
 28170,28163,Valdepiélagos
 28180,28151,Torrelaguna
 28189,28016,"Atazar, El"
@@ -7816,7 +7721,6 @@ codigo_postal,municipio_id,municipio_nombre
 28223,28115,Pozuelo de Alarcón
 28224,28115,Pozuelo de Alarcón
 28229,28177,Villanueva del Pardillo
-28230,28061,Galapagar
 28231,28127,"Rozas de Madrid, Las"
 28232,28127,"Rozas de Madrid, Las"
 28240,28072,Hoyo de Manzanares
@@ -7862,7 +7766,6 @@ codigo_postal,municipio_id,municipio_nombre
 28450,28046,Collado Mediano
 28460,28087,"Molinos, Los"
 28470,28038,Cercedilla
-28470,28082,Manzanares el Real
 28480,28068,Guadarrama
 28490,28018,Becerril de la Sierra
 28491,28093,Navacerrada
@@ -7951,7 +7854,6 @@ codigo_postal,municipio_id,municipio_nombre
 28749,28120,Rascafría
 28750,28045,Colmenar Viejo
 28750,28129,San Agustín del Guadalix
-28750,28131,San Lorenzo de El Escorial
 28751,28030,"Cabrera, La"
 28752,28901,Lozoyuela-Navas-Sieteiglesias
 28753,28901,Lozoyuela-Navas-Sieteiglesias
@@ -7962,7 +7864,6 @@ codigo_postal,municipio_id,municipio_nombre
 28755,28078,Madarcos
 28755,28126,Robregordo
 28756,28143,Somosierra
-28760,28079,Madrid
 28760,28903,Tres Cantos
 28770,28045,Colmenar Viejo
 28791,28144,Soto del Real
@@ -8014,7 +7915,6 @@ codigo_postal,municipio_id,municipio_nombre
 28909,28065,Getafe
 28911,28074,Leganés
 28912,28074,Leganés
-28913,28007,Alcorcón
 28913,28074,Leganés
 28914,28074,Leganés
 28915,28074,Leganés
@@ -8026,7 +7926,6 @@ codigo_postal,municipio_id,municipio_nombre
 28922,28007,Alcorcón
 28923,28007,Alcorcón
 28924,28007,Alcorcón
-28924,28047,Collado Villalba
 28925,28007,Alcorcón
 28931,28092,Móstoles
 28932,28092,Móstoles
@@ -8126,7 +8025,6 @@ codigo_postal,municipio_id,municipio_nombre
 29391,29046,Cortes de la Frontera
 29392,29063,Jimera de Líbar
 29394,29084,Ronda
-29400,29056,Gaucín
 29400,29084,Ronda
 29400,29904,Serrato
 29410,29100,Yunquera
@@ -8393,7 +8291,6 @@ codigo_postal,municipio_id,municipio_nombre
 30580,30030,Murcia
 30588,30030,Murcia
 30589,30030,Murcia
-30590,30016,Cartagena
 30590,30030,Murcia
 30591,30037,Torre-Pacheco
 30592,30030,Murcia
@@ -8410,6 +8307,7 @@ codigo_postal,municipio_id,municipio_nombre
 30620,30020,Fortuna
 30626,30001,Abanilla
 30626,30020,Fortuna
+30627,30027,Molina de Segura
 30628,30020,Fortuna
 30629,30020,Fortuna
 30640,30001,Abanilla
@@ -8503,7 +8401,6 @@ codigo_postal,municipio_id,municipio_nombre
 31133,31147,Legarda
 31133,31246,Uterga
 31140,31038,Artajona
-31147,31052,Belascoáin
 31150,31167,Mendigorría
 31151,31183,Obanos
 31152,31180,Muruzábal
@@ -8547,7 +8444,6 @@ codigo_postal,municipio_id,municipio_nombre
 31194,31101,Ezcabarte
 31194,31136,Juslapeña
 31195,31902,Berrioplano/Berriobeiti
-31195,31903,Berriozar
 31200,31097,Estella-Lizarra
 31208,31041,Ayegui/Aiegi
 31210,31029,"Arcos, Los"
@@ -8726,7 +8622,6 @@ codigo_postal,municipio_id,municipio_nombre
 31522,31233,Tulebras
 31523,31006,Ablitas
 31523,31048,Barillas
-31523,31171,Miranda de Arga
 31530,31078,Cortes
 31540,31057,Buñuel
 31550,31208,Ribaforada
@@ -8767,6 +8662,7 @@ codigo_postal,municipio_id,municipio_nombre
 31692,31003,Abaurregaina/Abaurrea Alta
 31692,31004,Abaurrepea/Abaurrea Baja
 31692,31112,Garaioa
+31693,31098,Esteribar
 31693,31115,Garralda
 31694,31092,Erro
 31695,31092,Erro
@@ -9054,7 +8950,6 @@ codigo_postal,municipio_id,municipio_nombre
 32579,32045,Maside
 32590,32048,"Mezquita, A"
 32591,32021,Castrelo do Val
-32591,32092,Vilariño de Conso
 32592,32007,Baños de Molgas
 32592,32055,Paderne de Allariz
 32593,32054,Ourense
@@ -9140,7 +9035,6 @@ codigo_postal,municipio_id,municipio_nombre
 32699,32085,Verín
 32700,32043,Maceda
 32701,32007,Baños de Molgas
-32702,32007,Baños de Molgas
 32702,32089,Vilar de Barrio
 32703,32043,Maceda
 32704,32007,Baños de Molgas
@@ -9192,7 +9086,6 @@ codigo_postal,municipio_id,municipio_nombre
 32789,32086,Viana do Bolo
 32790,32043,Maceda
 32790,32049,Montederramo
-32790,32057,Parada de Sil
 32791,32052,Nogueira de Ramuín
 32792,32058,"Pereiro de Aguiar, O"
 32793,32031,Esgos
@@ -9295,7 +9188,6 @@ codigo_postal,municipio_id,municipio_nombre
 33013,33044,Oviedo
 33060,33044,Oviedo
 33069,33044,Oviedo
-33100,33044,Oviedo
 33110,33072,Teverga
 33111,33072,Teverga
 33112,33052,Proaza
@@ -9402,7 +9294,6 @@ codigo_postal,municipio_id,municipio_nombre
 33391,33024,Gijón
 33392,33024,Gijón
 33393,33024,Gijón
-33393,33067,Sobrescobio
 33394,33024,Gijón
 33401,33004,Avilés
 33401,33016,Castrillón
@@ -9426,6 +9317,7 @@ codigo_postal,municipio_id,municipio_nombre
 33418,33025,Gozón
 33419,33025,Gozón
 33420,33066,Siero
+33422,33035,Llanera
 33423,33035,Llanera
 33424,33035,Llanera
 33425,33035,Llanera
@@ -9453,7 +9345,6 @@ codigo_postal,municipio_id,municipio_nombre
 33470,33020,Corvera de Asturias
 33470,33035,Llanera
 33476,33070,Tapia de Casariego
-33480,33035,Llanera
 33490,33004,Avilés
 33491,33014,Carreño
 33492,33014,Carreño
@@ -9492,7 +9383,6 @@ codigo_postal,municipio_id,municipio_nombre
 33556,33012,Cangas de Onís
 33556,33043,Onís
 33557,33003,Amieva
-33557,33012,Cangas de Onís
 33557,33050,Ponga
 33558,33003,Amieva
 33558,33050,Ponga
@@ -9605,6 +9495,7 @@ codigo_postal,municipio_id,municipio_nombre
 33746,33023,"Franco, El"
 33746,33070,Tapia de Casariego
 33747,33070,Tapia de Casariego
+33748,33070,Tapia de Casariego
 33749,33070,Tapia de Casariego
 33750,33023,"Franco, El"
 33757,33023,"Franco, El"
@@ -9789,7 +9680,6 @@ codigo_postal,municipio_id,municipio_nombre
 34131,34047,Carrión de los Condes
 34131,34243,Villoldo
 34132,34233,Villasarracino
-34141,34243,Villoldo
 34159,34010,Ampudia
 34160,34010,Ampudia
 34170,34102,Mazariegos
@@ -10034,9 +9924,7 @@ codigo_postal,municipio_id,municipio_nombre
 34889,34100,Mantinos
 34889,34199,Velilla del Río Carrión
 34889,34214,Villalba de Guardo
-35000,35006,Arucas
 35000,35011,Ingenio
-35000,35022,Santa Lucía de Tirajana
 35000,35027,Teror
 35000,35032,Valleseco
 35001,35016,"Palmas de Gran Canaria, Las"
@@ -10055,7 +9943,6 @@ codigo_postal,municipio_id,municipio_nombre
 35014,35016,"Palmas de Gran Canaria, Las"
 35015,35016,"Palmas de Gran Canaria, Las"
 35016,35016,"Palmas de Gran Canaria, Las"
-35016,35031,Valsequillo de Gran Canaria
 35017,35016,"Palmas de Gran Canaria, Las"
 35018,35016,"Palmas de Gran Canaria, Las"
 35019,35016,"Palmas de Gran Canaria, Las"
@@ -10106,6 +9993,7 @@ codigo_postal,municipio_id,municipio_nombre
 35280,35022,Santa Lucía de Tirajana
 35290,35019,San Bartolomé de Tirajana
 35299,35019,San Bartolomé de Tirajana
+35300,35006,Arucas
 35300,35021,Santa Brígida
 35307,35021,Santa Brígida
 35308,35021,Santa Brígida
@@ -10127,7 +10015,6 @@ codigo_postal,municipio_id,municipio_nombre
 35369,35019,San Bartolomé de Tirajana
 35370,35034,Yaiza
 35400,35006,Arucas
-35404,35006,Arucas
 35411,35006,Arucas
 35412,35006,Arucas
 35413,35006,Arucas
@@ -10212,6 +10099,7 @@ codigo_postal,municipio_id,municipio_nombre
 35640,35014,"Oliva, La"
 35649,35014,"Oliva, La"
 35650,35014,"Oliva, La"
+35651,35014,"Oliva, La"
 35660,35014,"Oliva, La"
 36001,36038,Pontevedra
 36002,36038,Pontevedra
@@ -10287,7 +10175,6 @@ codigo_postal,municipio_id,municipio_nombre
 36340,36035,Nigrán
 36350,36035,Nigrán
 36360,36035,Nigrán
-36370,36003,Baiona
 36370,36035,Nigrán
 36378,36021,Gondomar
 36379,36035,Nigrán
@@ -10654,7 +10541,6 @@ codigo_postal,municipio_id,municipio_nombre
 37115,37170,Ledesma
 37115,37342,Valverdón
 37115,37345,Vega de Tirados
-37115,37365,Villarmayor
 37116,37170,Ledesma
 37117,37117,Doñinos de Salamanca
 37120,37087,Carrascal de Barregas
@@ -10709,7 +10595,6 @@ codigo_postal,municipio_id,municipio_nombre
 37185,37342,Valverdón
 37185,37354,Villamayor
 37186,37023,Aldeatejada
-37186,37040,Barbadillo
 37186,37209,Mozárbez
 37186,37291,San Pedro de Rozados
 37187,37023,Aldeatejada
@@ -10720,10 +10605,8 @@ codigo_postal,municipio_id,municipio_nombre
 37190,37322,Terradillos
 37191,37070,Calvarrasa de Arriba
 37191,37085,Carbajosa de la Sagrada
-37192,37023,Aldeatejada
 37192,37087,Carrascal de Barregas
 37193,37067,Cabrerizos
-37196,37209,Mozárbez
 37200,37135,"Fuente de San Esteban, La"
 37208,37135,"Fuente de San Esteban, La"
 37208,37289,San Muñoz
@@ -10776,7 +10659,6 @@ codigo_postal,municipio_id,municipio_nombre
 37271,37039,Bañobárez
 37273,37101,Cerralbo
 37281,37113,"Cubo de Don Sancho, El"
-37281,37257,Pozos de Hinojo
 37290,37052,Boada
 37291,37049,Bermellar
 37291,37055,Bogajo
@@ -10822,7 +10704,6 @@ codigo_postal,municipio_id,municipio_nombre
 37420,37152,Gomecello
 37426,37222,Negrilla de Palencia
 37426,37229,Palencia de Negrilla
-37427,37224,"Orbada, La"
 37427,37238,Pedrosillo el Ralo
 37427,37347,"Vellés, La"
 37428,37224,"Orbada, La"
@@ -10836,7 +10717,6 @@ codigo_postal,municipio_id,municipio_nombre
 37439,37278,San Cristóbal de la Cuesta
 37440,37040,Barbadillo
 37440,37072,Calzada de Don Diego
-37440,37087,Carrascal de Barregas
 37446,37353,Villalba de los Llanos
 37447,37271,Rollán
 37448,37072,Calzada de Don Diego
@@ -11162,7 +11042,6 @@ codigo_postal,municipio_id,municipio_nombre
 38293,38046,Tegueste
 38294,38023,San Cristóbal de La Laguna
 38294,38038,Santa Cruz de Tenerife
-38295,38023,San Cristóbal de La Laguna
 38296,38023,San Cristóbal de La Laguna
 38297,38023,San Cristóbal de La Laguna
 38297,38046,Tegueste
@@ -11266,8 +11145,6 @@ codigo_postal,municipio_id,municipio_nombre
 38630,38006,Arona
 38631,38006,Arona
 38632,38006,Arona
-38639,38006,Arona
-38639,38017,Granadilla de Abona
 38639,38035,San Miguel de Abona
 38640,38006,Arona
 38649,38006,Arona
@@ -11341,7 +11218,6 @@ codigo_postal,municipio_id,municipio_nombre
 38850,38050,Vallehermoso
 38852,38049,Valle Gran Rey
 38852,38050,Vallehermoso
-38860,38050,Vallehermoso
 38869,38021,Hermigua
 38869,38050,Vallehermoso
 38870,38049,Valle Gran Rey
@@ -11383,7 +11259,6 @@ codigo_postal,municipio_id,municipio_nombre
 39170,39011,Bareyo
 39178,39037,Liérganes
 39180,39047,Noja
-39190,39011,Bareyo
 39191,39011,Bareyo
 39192,39043,Meruelo
 39193,39006,Arnuero
@@ -11403,7 +11278,6 @@ codigo_postal,municipio_id,municipio_nombre
 39220,39094,Valderredible
 39229,39094,Valderredible
 39230,39094,Valderredible
-39231,39094,Valderredible
 39232,09011,Alfoz de Bricia
 39232,39094,Valderredible
 39248,39093,Valdeprado del Río
@@ -11660,7 +11534,6 @@ codigo_postal,municipio_id,municipio_nombre
 40004,40194,Segovia
 40005,40194,Segovia
 40006,40194,Segovia
-40024,40076,"Espinar, El"
 40100,40181,Real Sitio de San Ildefonso
 40109,40181,Real Sitio de San Ildefonso
 40120,40094,Garcillán
@@ -11689,7 +11562,6 @@ codigo_postal,municipio_id,municipio_nombre
 40152,40233,Zarzuela del Monte
 40153,40194,Segovia
 40154,40194,Segovia
-40156,40079,Fresno de Cantespino
 40160,40203,Torrecaballeros
 40161,40139,Navafría
 40162,40007,Aldealengua de Pedraza
@@ -11711,7 +11583,6 @@ codigo_postal,municipio_id,municipio_nombre
 40175,40125,"Matilla, La"
 40176,40150,Orejana
 40176,40221,Valleruela de Sepúlveda
-40178,40170,Riaza
 40180,40026,Basardilla
 40180,40033,Brieva
 40180,40157,Pelayos del Arroyo
@@ -11729,9 +11600,9 @@ codigo_postal,municipio_id,municipio_nombre
 40190,40031,Bernuy de Porreros
 40191,40022,Armuña
 40191,40077,Espirdo
-40191,40194,Segovia
 40192,40002,Adrada de Pirón
 40192,40205,Torreiglesias
+40193,40155,Palazuelos de Eresma
 40194,40155,Palazuelos de Eresma
 40194,40207,Trescasas
 40195,40194,Segovia
@@ -11743,7 +11614,6 @@ codigo_postal,municipio_id,municipio_nombre
 40211,40063,Cuéllar
 40212,40177,San Cristóbal de Cuéllar
 40213,40219,Vallelado
-40214,40024,Ayllón
 40214,40124,Mata de Cuéllar
 40215,40063,Cuéllar
 40216,40065,Chañe
@@ -11928,13 +11798,13 @@ codigo_postal,municipio_id,municipio_nombre
 40555,40008,Aldealengua de Santa María
 40556,40109,Languilla
 40560,40032,Boceguillas
-40561,40142,Navares de Ayuso
 40567,40154,Pajarejos
 40568,40032,Boceguillas
 40569,40097,Grajera
 40590,40045,Casla
 40590,40191,Santo Tomé del Puerto
 40591,40053,Cerezo de Abajo
+40592,40053,Cerezo de Abajo
 40592,40054,Cerezo de Arriba
 40593,40046,Castillejo de Mesleón
 40594,40024,Ayllón
@@ -11958,12 +11828,10 @@ codigo_postal,municipio_id,municipio_nombre
 41018,41091,Sevilla
 41019,41091,Sevilla
 41020,41091,Sevilla
-41073,41038,Dos Hermanas
 41089,41038,Dos Hermanas
 41092,41091,Sevilla
 41100,41034,Coria del Río
 41110,41016,Bollullos de la Mitación
-41110,41094,Umbrete
 41111,41010,Almensilla
 41120,41044,Gelves
 41130,41079,"Puebla del Río, La"
@@ -12012,12 +11880,10 @@ codigo_postal,municipio_id,municipio_nombre
 41450,41033,Constantina
 41460,41066,"Navas de la Concepción, Las"
 41470,41074,Peñaflor
-41470,41078,"Puebla de los Infantes, La"
 41471,41095,Utrera
 41479,41078,"Puebla de los Infantes, La"
 41489,41012,Aznalcázar
 41500,41004,Alcalá de Guadaíra
-41500,41091,Sevilla
 41510,41058,Mairena del Alcor
 41520,41004,Alcalá de Guadaíra
 41520,41102,"Viso del Alcor, El"
@@ -12068,7 +11934,6 @@ codigo_postal,municipio_id,municipio_nombre
 41729,41020,"Cabezas de San Juan, Las"
 41730,41020,"Cabezas de San Juan, Las"
 41730,41032,Cazalla de la Sierra
-41731,41020,"Cabezas de San Juan, Las"
 41740,41053,Lebrija
 41749,41903,"Cuervo de Sevilla, El"
 41750,41063,"Molares, Los"
@@ -12118,7 +11983,6 @@ codigo_postal,municipio_id,municipio_nombre
 42002,42173,Soria
 42003,42173,Soria
 42004,42173,Soria
-42005,42004,Ágreda
 42005,42173,Soria
 42100,42004,Ágreda
 42100,42134,Ólvega
@@ -12149,7 +12013,6 @@ codigo_postal,municipio_id,municipio_nombre
 42114,42163,San Felices
 42114,42196,Valdeprado
 42120,42096,Gómara
-42124,42050,Cañamaque
 42124,42088,Fuentelmonge
 42124,42132,Noviercas
 42124,42184,Torlengua
@@ -12175,7 +12038,6 @@ codigo_postal,municipio_id,municipio_nombre
 42134,42154,Renieblas
 42135,42009,Aldealafuente
 42135,42044,Cabrejas del Campo
-42136,42022,Almenar de Soria
 42136,42140,Portillo de Soria
 42136,42187,Torrubia de Soria
 42137,42051,Carabantes
@@ -12192,17 +12054,18 @@ codigo_postal,municipio_id,municipio_nombre
 42142,42081,Espejón
 42143,42085,Fuentearmegil
 42143,42127,Nafría de Ucero
-42144,42055,Casarejos
 42144,42098,Herrera de Soria
 42144,42190,Vadillo
 42145,42061,Cidones
 42146,42001,Abejar
 42146,42045,Cabrejas del Pinar
 42147,42045,Cabrejas del Pinar
+42148,42055,Casarejos
 42148,42070,Cubilla
 42148,42125,Muriel Viejo
 42148,42178,Talveila
 42149,42129,Navaleno
+42149,42173,Soria
 42150,42215,Vinuesa
 42151,42215,Vinuesa
 42152,42173,Soria
@@ -12213,7 +12076,6 @@ codigo_postal,municipio_id,municipio_nombre
 42157,42069,Covaleda
 42158,42078,Duruelo de la Sierra
 42159,42160,"Royo, El"
-42160,42019,Almarza
 42161,42019,Almarza
 42161,42027,Arévalo de la Sierra
 42162,42042,Buitrago
@@ -12253,9 +12115,7 @@ codigo_postal,municipio_id,municipio_nombre
 42177,42209,Villar del Río
 42177,42218,Yanguas
 42180,42012,Aldealseñor
-42180,42013,Aldehuela de Periáñez
 42180,42017,Almajano
-42180,42024,Arancón
 42180,42054,Carrascosa de la Sierra
 42180,42065,Cirujales del Río
 42180,42211,"Villares de Soria, Los"
@@ -12290,11 +12150,9 @@ codigo_postal,municipio_id,municipio_nombre
 42196,42195,Valdenebro
 42200,42020,Almazán
 42210,42030,Barca
-42210,42200,Velamazán
 42211,42059,Centenera de Andaluz
 42211,42111,Matamala de Almazán
 42212,42020,Almazán
-42213,42008,Alcubilla de las Peñas
 42213,42023,Alpanseque
 42213,42029,Baraona
 42214,42029,Baraona
@@ -12310,12 +12168,11 @@ codigo_postal,municipio_id,municipio_nombre
 42218,42130,Nepas
 42218,42183,Tejado
 42218,42204,Viana de Duero
+42220,42050,Cañamaque
 42220,42119,Monteagudo de las Vicarías
-42221,50215,Pozuel de Ariza
 42222,42018,Almaluez
 42223,42068,Coscurita
 42223,42123,Morón de Almazán
-42223,42172,Soliedra
 42224,42079,Escobosa de Almazán
 42224,42131,Nolay
 42224,42172,Soliedra
@@ -12325,7 +12182,6 @@ codigo_postal,municipio_id,municipio_nombre
 42225,42202,Velilla de los Ajos
 42230,42113,Medinaceli
 42230,42115,Miño de Medinaceli
-42230,42219,Yelo
 42240,42113,Medinaceli
 42248,42113,Medinaceli
 42249,42025,Arcos de Jalón
@@ -12363,18 +12219,16 @@ codigo_postal,municipio_id,municipio_nombre
 42311,42043,Burgo de Osma-Ciudad de Osma
 42311,42052,Caracena
 42311,42053,Carrascosa de Abajo
+42311,42084,Fresno de Caracena
 42311,42120,Montejo de Tiermes
 42312,42043,Burgo de Osma-Ciudad de Osma
-42312,42084,Fresno de Caracena
 42312,42206,Villanueva de Gormaz
-42313,42022,Almenar de Soria
 42313,42043,Burgo de Osma-Ciudad de Osma
 42313,42097,Gormaz
 42313,42145,Quintanas de Gormaz
 42313,42152,Recuerda
 42313,42195,Valdenebro
 42314,42152,Recuerda
-42315,42120,Montejo de Tiermes
 42315,42152,Recuerda
 42315,42155,Retortillo de Soria
 42316,42043,Burgo de Osma-Ciudad de Osma
@@ -12395,6 +12249,7 @@ codigo_postal,municipio_id,municipio_nombre
 42340,42162,San Esteban de Gormaz
 42341,42105,Liceras
 42341,42120,Montejo de Tiermes
+42342,42086,Fuentecambrón
 42342,42120,Montejo de Tiermes
 42342,42162,San Esteban de Gormaz
 42343,42120,Montejo de Tiermes
@@ -12408,24 +12263,20 @@ codigo_postal,municipio_id,municipio_nombre
 42351,42162,San Esteban de Gormaz
 42353,42007,Alcubilla de Avellaneda
 42360,42035,Berlanga de Duero
-42365,42177,Tajueco
 42366,42032,Bayubas de Abajo
 42366,42033,Bayubas de Arriba
 42366,42035,Berlanga de Duero
 42366,42177,Tajueco
-42366,42200,Velamazán
 42367,42035,Berlanga de Duero
 42367,42048,Caltojar
 42368,42026,Arenillas
 42368,42031,Barcones
-42368,42035,Berlanga de Duero
 42368,42153,Rello
 42368,42157,"Riba de Escalote, La"
 42369,42035,Berlanga de Duero
 42391,42043,Burgo de Osma-Ciudad de Osma
 42391,42162,San Esteban de Gormaz
 42392,42200,Velamazán
-42592,43052,Xerta
 43001,43148,Tarragona
 43002,43148,Tarragona
 43003,43148,Tarragona
@@ -12513,7 +12364,6 @@ codigo_postal,municipio_id,municipio_nombre
 43427,43073,Llorac
 43427,43143,Savallà del Comtat
 43427,43159,Vallfogona de Riucorb
-43428,43046,Conesa
 43428,43105,"Piles, Les"
 43428,43142,Sarral
 43429,43021,Barberà de la Conca
@@ -12555,7 +12405,6 @@ codigo_postal,municipio_id,municipio_nombre
 43529,43133,Roquetes
 43530,43004,Alcanar
 43540,43136,Sant Carles de la Ràpita
-43548,43136,Sant Carles de la Ràpita
 43549,43014,Amposta
 43550,43156,Ulldecona
 43558,43062,Freginals
@@ -12581,8 +12430,6 @@ codigo_postal,municipio_id,municipio_nombre
 43713,43137,Sant Jaume dels Domenys
 43714,43001,Aiguamúrcia
 43714,43090,"Montmell, El"
-43715,43074,Llorenç del Penedès
-43715,43090,"Montmell, El"
 43715,43120,Querol
 43716,43002,Albinyana
 43717,43028,"Bisbal del Penedès, La"
@@ -12594,7 +12441,6 @@ codigo_postal,municipio_id,municipio_nombre
 43720,43016,"Arboç, L'"
 43730,43055,Falset
 43730,43076,Marçà
-43730,43085,"Molar, El"
 43736,43058,"Figuera, La"
 43736,43082,"Masroig, El"
 43736,43085,"Molar, El"
@@ -12978,7 +12824,6 @@ codigo_postal,municipio_id,municipio_nombre
 45002,45168,Toledo
 45003,45168,Toledo
 45004,45168,Toledo
-45005,45081,Illescas
 45005,45168,Toledo
 45006,45168,Toledo
 45007,45168,Toledo
@@ -12997,7 +12842,6 @@ codigo_postal,municipio_id,municipio_nombre
 45121,45098,Menasalbas
 45122,45016,Argés
 45123,45083,Layos
-45123,45161,Seseña
 45124,45042,Casasbuenas
 45125,45140,Pulgar
 45126,45055,Cuerva
@@ -13094,7 +12938,6 @@ codigo_postal,municipio_id,municipio_nombre
 45525,45018,Barcience
 45526,45901,Santo Domingo-Caudilla
 45529,45203,Yuncler
-45530,45101,Miguel Esteban
 45530,45158,Santa Olalla
 45531,45036,Carmena
 45532,45039,Carriches
@@ -13180,7 +13023,6 @@ codigo_postal,municipio_id,municipio_nombre
 45677,45148,Robledo del Mazo
 45678,45148,Robledo del Mazo
 45680,45046,Cebolla
-45680,45185,Villacañas
 45682,45048,"Cerralbos, Los"
 45683,45045,Cazalegas
 45684,45086,Lucillos
@@ -13199,10 +13041,8 @@ codigo_postal,municipio_id,municipio_nombre
 45730,45187,Villafranca de los Caballeros
 45740,45197,Villasequilla
 45749,45191,Villamuelas
-45750,45026,Cabañas de Yepes
 45750,45078,Huerta de Valdecarábanos
 45760,45071,"Guardia, La"
-45770,45062,Escalonilla
 45770,45149,"Romeral, El"
 45780,45166,Tembleque
 45789,45175,Turleque
@@ -13234,7 +13074,6 @@ codigo_postal,municipio_id,municipio_nombre
 46002,46250,Valencia
 46003,46250,Valencia
 46004,46250,Valencia
-46005,28079,Madrid
 46005,46250,Valencia
 46006,46250,Valencia
 46007,46250,Valencia
@@ -13652,7 +13491,6 @@ codigo_postal,municipio_id,municipio_nombre
 47184,47062,Fombellida
 47185,47034,Canillas de Esgueva
 47186,47060,Encinas de Esgueva
-47186,47092,Montealegre de Campos
 47190,47230,Wamba
 47191,47051,Ciguñuela
 47192,47041,Castrodeza
@@ -13662,7 +13500,6 @@ codigo_postal,municipio_id,municipio_nombre
 47195,47010,Arroyo de la Encomienda
 47196,47111,"Pedraja de Portillo, La"
 47197,47186,Valladolid
-47198,47186,Valladolid
 47200,47184,Valoria la Buena
 47209,47144,San Martín de Valvení
 47210,47011,Ataquines
@@ -13672,11 +13509,10 @@ codigo_postal,municipio_id,municipio_nombre
 47220,47124,Pozaldez
 47230,47082,Matapozuelos
 47231,47159,Serrada
+47232,47192,Ventosa de la Cuesta
 47238,47005,Alcazarén
 47238,47074,Hornillos de Eresma
 47238,47082,Matapozuelos
-47239,47159,Serrada
-47239,47192,Ventosa de la Cuesta
 47239,47218,Villanueva de Duero
 47240,47182,Valdestillas
 47250,47090,Mojados
@@ -13736,7 +13572,6 @@ codigo_postal,municipio_id,municipio_nombre
 47419,47021,Bocigas
 47419,47126,Puras
 47420,47075,Íscar
-47428,37225,Pajares de la Laguna
 47430,47112,Pedrajas de San Esteban
 47440,47053,Cogeces de Íscar
 47440,47087,Megeces
@@ -13950,7 +13785,6 @@ codigo_postal,municipio_id,municipio_nombre
 48490,48065,Ugao-Miraballes
 48498,48005,Arakaldo
 48498,48009,Arrankudiaga
-48498,48074,Urduña/Orduña
 48499,48025,Zeberio
 48500,48002,Abanto y Ciérvana-Abanto Zierbena
 48508,48913,Zierbena
@@ -13975,6 +13809,7 @@ codigo_postal,municipio_id,municipio_nombre
 48830,48045,Güeñes
 48840,48045,Güeñes
 48850,48096,Zalla
+48850,48902,Erandio
 48860,48096,Zalla
 48869,48086,Sopuerta
 48869,48096,Zalla
@@ -14106,6 +13941,7 @@ codigo_postal,municipio_id,municipio_nombre
 49177,49149,Peñausende
 49178,49149,Peñausende
 49180,49007,Almaraz de Duero
+49180,49275,Zamora
 49181,49269,Villaseco del Pan
 49182,49194,San Pedro de la Nave-Almendra
 49183,49194,San Pedro de la Nave-Almendra
@@ -14390,7 +14226,6 @@ codigo_postal,municipio_id,municipio_nombre
 49783,49105,Maire de Castroponce
 49800,49219,Toro
 49810,49129,Morales de Toro
-49820,49219,Toro
 49820,49239,Villabuena del Puente
 49830,49020,Belver de los Montes
 49831,49030,Bustillo del Oro
@@ -14462,13 +14297,11 @@ codigo_postal,municipio_id,municipio_nombre
 50155,50005,Aguilón
 50156,50291,Villar de los Navarros
 50160,50137,Leciñena
-50160,50182,"Muela, La"
 50161,50206,Perdiguera
 50162,50903,Villamayor de Gállego
 50163,50104,Farlete
 50164,50170,Monegrillo
 50170,50165,Mequinenza
-50170,50219,"Puebla de Alfindén, La"
 50171,50219,"Puebla de Alfindén, La"
 50172,50017,Alfajarín
 50173,50193,Nuez de Ebro
@@ -14489,7 +14322,6 @@ codigo_postal,municipio_id,municipio_nombre
 50212,50072,Carenas
 50213,50082,Cimballa
 50213,50173,Monterde
-50213,50192,Nuévalos
 50214,50071,Campillo de Aragón
 50215,50178,Moros
 50216,50287,Villalengua
@@ -14509,7 +14341,6 @@ codigo_postal,municipio_id,municipio_nombre
 50239,50058,Bubierca
 50239,50087,Contamina
 50239,50096,Embid de Ariza
-50240,50066,Cadrete
 50240,50177,Morés
 50246,50057,Brea de Aragón
 50247,50177,Morés
@@ -14544,7 +14375,6 @@ codigo_postal,municipio_id,municipio_nombre
 50296,50211,Plasencia de Jalón
 50296,50269,Urrea de Jalón
 50297,50043,Bárboles
-50297,50121,Gotor
 50297,50123,Grisén
 50297,50212,Pleitas
 50298,50209,Pinseque
@@ -14640,7 +14470,6 @@ codigo_postal,municipio_id,municipio_nombre
 50510,50190,Novallas
 50511,50157,Malón
 50512,50261,Torrellas
-50512,50291,Villar de los Navarros
 50513,50106,"Fayos, Los"
 50513,50122,Grisel
 50513,50237,Santa Cruz de Moncayo
@@ -14653,8 +14482,6 @@ codigo_postal,municipio_id,municipio_nombre
 50529,50216,Pozuelo de Aragón
 50530,50191,Novillas
 50540,50055,Borja
-50540,50181,Muel
-50540,50292,Villarreal de Huerva
 50546,50027,Ambel
 50546,50060,Bulbuente
 50546,50250,Talamantes
@@ -14671,11 +14498,9 @@ codigo_postal,municipio_id,municipio_nombre
 50580,50280,Vera de Moncayo
 50581,50141,Lituénigo
 50582,50140,Litago
-50582,50295,Vistabella
 50583,50265,Trasmoz
 50584,50234,San Martín de la Virgen de Moncayo
 50590,50030,Añón de Moncayo
-50590,50099,Épila
 50591,50014,Alcalá de Moncayo
 50600,50095,Ejea de los Caballeros
 50610,50109,"Frago, El"
@@ -14710,7 +14535,6 @@ codigo_postal,municipio_id,municipio_nombre
 50641,50053,Boquiñeni
 50650,50118,Gallur
 50660,50252,Tauste
-50667,50217,Pradilla de Ebro
 50668,50217,Pradilla de Ebro
 50669,50252,Tauste
 50670,50230,Sádaba
@@ -14724,7 +14548,6 @@ codigo_postal,municipio_id,municipio_nombre
 50683,50245,Sigüés
 50684,50232,Salvatierra de Esca
 50685,50041,Bagüés
-50685,50186,Navardún
 50685,50210,"Pintanos, Los"
 50685,50270,Urriés
 50686,31203,Petilla de Aragón
@@ -14747,7 +14570,6 @@ codigo_postal,municipio_id,municipio_nombre
 50700,50074,Caspe
 50709,50074,Caspe
 50710,50152,Maella
-50720,50225,Ricla
 50720,50297,Zaragoza
 50730,50062,"Burgo de Ebro, El"
 50740,50115,Fuentes de Ebro
@@ -14769,7 +14591,6 @@ codigo_postal,municipio_id,municipio_nombre
 50800,50298,Zuera
 50810,50298,Zuera
 50820,50297,Zaragoza
-50830,50008,Alagón
 50830,50288,Villanueva de Gállego
 50830,50298,Zuera
 50840,50235,San Mateo de Gállego
@@ -14786,9 +14607,3 @@ codigo_postal,municipio_id,municipio_nombre
 52004,52001,Melilla
 52005,52001,Melilla
 52006,52001,Melilla
-70702,07032,Maó-Mahón
-72318,42043,Burgo de Osma-Ciudad de Osma
-73711,43020,Banyeres del Penedès
-80154,12077,Moncofa
-91319,33024,Gijón
-91349,33024,Gijón
