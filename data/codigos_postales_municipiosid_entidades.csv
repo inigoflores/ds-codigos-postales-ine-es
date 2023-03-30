@@ -1,4 +1,5 @@
 codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nucleo_nombre
+00001,06086,0001701,Montemolin,Montemolin
 00043,43110,0001799,"Pobla de Massaluca (La)",*Diseminado*
 01001,01059,0063501,Vitoria-Gasteiz,Vitoria-Gasteiz
 01002,01059,0063501,Vitoria-Gasteiz,Vitoria-Gasteiz
@@ -50,7 +51,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 01128,01037,0004399,Atauri,*Diseminado*
 01128,01037,0005601,Azazeta,Azazeta
 01129,01037,0002201,Apellániz/Apilaiz,Apellániz/Apilaiz
-01129,01037,0002299,Apellániz/Apilaiz,*Diseminado*
 01129,01037,0007501,Korres,Korres
 01129,01037,0012001,Onraita/Erroeta,Onraita/Erroeta
 01129,01037,0013601,Róitegui/Erroitegi,Róitegui/Erroitegi
@@ -79,7 +79,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 01138,01018,0008101,Eribe,Eribe
 01138,01018,0009401,Gopegi,Gopegi
 01138,01018,0010801,Larrinoa,Larrinoa
-01138,01018,0010899,Larrinoa,*Diseminado*
 01138,01018,0011501,Letona,Letona
 01138,01018,0012001,Manurga,Manurga
 01138,01018,0012099,Manurga,*Diseminado*
@@ -128,6 +127,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 01170,01058,0006999,Legutio,*Diseminado*
 01170,01058,0007599,Larrabea,*Diseminado*
 01171,01058,0005699,Urrunaga,*Diseminado*
+01171,01058,0006999,Legutio,*Diseminado*
 01191,01059,0017301,Asteguieta,Asteguieta
 01191,01059,0026501,Estarrona,Estarrona
 01191,01059,0033201,Gobeo,Gobeo
@@ -139,6 +139,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 01191,01901,0004301,Trespuentes,Trespuentes
 01191,01901,0004399,Trespuentes,*Diseminado*
 01192,01021,0001701,Añua,Añua
+01192,01021,0001799,Añua,*Diseminado*
 01192,01021,0002201,Arbulu,Arbulu
 01192,01021,0003801,Argomaniz,Argomaniz
 01192,01021,0004301,Elburgo/Burgelu,Elburgo/Burgelu
@@ -190,6 +191,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 01195,01901,0005601,Villodas/Billoda,Villodas/Billoda
 01195,01901,0005699,Villodas/Billoda,*Diseminado*
 01196,01018,0007501,"Etxabarri Ibiña","Etxabarri Ibiña"
+01196,01018,0007599,"Etxabarri Ibiña",*Diseminado*
 01196,01018,0013601,Mendarozketa,Mendarozketa
 01196,01059,0006901,Antezana/Andetxa,Antezana/Andetxa
 01196,01059,0007501,Arangiz,Arangiz
@@ -810,6 +812,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 02316,02070,0001701,Reolid,Reolid
 02316,02070,0001799,Reolid,*Diseminado*
 02316,02070,0002201,Salobre,Salobre
+02316,02070,0002299,Salobre,*Diseminado*
 02320,02012,0001701,Balazote,Balazote
 02320,02012,0001799,Balazote,*Diseminado*
 02326,02071,0001701,"Cañada Juncosa","Cañada Juncosa"
@@ -907,6 +910,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 02439,02030,0008199,"Longuera (La)",*Diseminado*
 02440,02049,0011501,Molinicos,Molinicos
 02440,02049,0011599,Molinicos,*Diseminado*
+02440,02049,0016702,Vegallera,Vegallera
 02448,02017,0009401,Yeguarizas,Yeguarizas
 02448,02049,0001701,"Alejos (Los)","Alejos (Los)"
 02448,02049,0002201,"Alfera (La)","Alfera (La)"
@@ -963,6 +967,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 02461,02028,0002201,Cotillas,Cotillas
 02461,02028,0002299,Cotillas,*Diseminado*
 02461,02028,0003801,"Rio de Cotillas O Resiner","Rio de Cotillas O Resiner"
+02462,02028,0001799,Arroyofrio,*Diseminado*
 02462,02067,0010801,Umbria-Angulo,Umbria-Angulo
 02462,02067,0010899,Umbria-Angulo,*Diseminado*
 02462,02084,0002201,Campillo,Campillo
@@ -1197,8 +1202,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03016,03014,0010899,"Santa Faz",*Diseminado*
 03100,03083,0001701,Xixona/Jijona,Xixona/Jijona
 03100,03083,0001799,Xixona/Jijona,*Diseminado*
-03108,03132,0001701,"Torre de Les Maçanes, La/","Torre de Les Maçanes, La/"
-03108,03132,0001799,"Torre de Les Maçanes, La/",*Diseminado*
+03108,03132,0001701,"Torre de Les Maçanes, la","Torre de Les Maçanes, la"
+03108,03132,0001799,"Torre de Les Maçanes, la",*Diseminado*
 03109,03129,0001701,Tibi,"Finca Terol"
 03109,03129,0001702,Tibi,"Pinares del Mecli"
 03109,03129,0001703,Tibi,Tibi
@@ -1357,7 +1362,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03187,03903,0001799,"Montesinos (Los)",*Diseminado*
 03188,03133,0001701,"Mata (La)","Mata (La)"
 03188,03133,0002202,Torrevieja,"Cabo Cervera-Playa Mata"
-03188,03133,0002205,Torrevieja,"Torretas (Las)"
 03188,03133,0002206,Torrevieja,Torrevieja
 03189,03099,0008101,"Orihuela Costa","Dehesa de Campoamor"
 03189,03099,0008102,"Orihuela Costa",Villamartin
@@ -1638,7 +1642,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03460,03023,0001799,Beneixama,*Diseminado*
 03469,03023,0003801,"Salse (El)","Salse (El)"
 03469,03023,0003899,"Salse (El)",*Diseminado*
-03469,03051,0001701,"Camp de Mirra, El/Campo","Camp de Mirra, El/Campo D"
+03469,03051,0001701,"Camp de Mirra, El/Campo","Camp de Mirra, El/Campo"
 03469,03051,0001799,"Camp de Mirra, El/Campo",*Diseminado*
 03501,03031,0001702,Benidorm,Benidorm
 03502,03031,0001702,Benidorm,Benidorm
@@ -1854,6 +1858,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03659,03105,0002201,"Cañada del Trigo","Cañada del Trigo"
 03659,03105,0002299,"Cañada del Trigo",*Diseminado*
 03659,03105,0003899,"Casas de Ibañez",*Diseminado*
+03659,03105,0009499,Rodriguillo,*Diseminado*
 03660,03093,0001701,"Estacion (La)","Estacion (La)"
 03660,03093,0002201,Novelda,"Montesinos (Els)"
 03660,03093,0002202,Novelda,Novelda
@@ -1990,13 +1995,13 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03725,03128,0002213,Teulada,Port
 03725,03128,0002215,Teulada,Teulada
 03725,03128,0002299,Teulada,*Diseminado*
-03726,03042,0001701,"Poble Nou de Benitatxell,",Alcasar
-03726,03042,0001702,"Poble Nou de Benitatxell,","Poble Nou de Benitatxell,"
-03726,03042,0001703,"Poble Nou de Benitatxell,",Calistros-Asegador
-03726,03042,0001704,"Poble Nou de Benitatxell,","Cumbre del Sol"
-03726,03042,0001705,"Poble Nou de Benitatxell,","Fonts (Les)"
-03726,03042,0001706,"Poble Nou de Benitatxell,","Raco Nadal"
-03726,03042,0001799,"Poble Nou de Benitatxell,",*Diseminado*
+03726,03042,0001701,"Poble Nou de Benitatxell",Alcasar
+03726,03042,0001702,"Poble Nou de Benitatxell","Poble Nou de Benitatxell"
+03726,03042,0001703,"Poble Nou de Benitatxell",Calistros-Asegador
+03726,03042,0001704,"Poble Nou de Benitatxell","Cumbre del Sol"
+03726,03042,0001705,"Poble Nou de Benitatxell","Fonts (Les)"
+03726,03042,0001706,"Poble Nou de Benitatxell","Raco Nadal"
+03726,03042,0001799,"Poble Nou de Benitatxell",*Diseminado*
 03727,03081,0001701,Xaló,Xaló
 03727,03081,0001702,Xaló,"Urbanizacion Solana Park"
 03727,03081,0001703,Xaló,"Urbanizacion Solana S.a."
@@ -2121,14 +2126,16 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03788,03136,0007501,Llombai,Llombai
 03788,03136,0008101,Alpatro,Alpatro
 03788,03136,0008199,Alpatro,*Diseminado*
-03789,03135,0001701,"Vall de Ebo","Vall de Ebo"
-03789,03135,0001799,"Vall de Ebo",*Diseminado*
+03789,03135,0001701,"Vall D'Ebo (La)","Vall D'Ebo (La)"
+03789,03135,0001799,"Vall D'Ebo (La)",*Diseminado*
 03790,03097,0003801,Orba,"Aspre (El)"
 03790,03097,0003803,Orba,"Carrers D'Orbeta"
 03790,03097,0003804,Orba,"Orba (Casco Antiguo)"
 03790,03097,0003808,Orba,"Foia (La)"
 03790,03097,0003809,Orba,Trullent
+03790,03097,0003899,Orba,*Diseminado*
 03791,03097,0003802,Orba,"Capso (El)"
+03791,03097,0003804,Orba,"Orba (Casco Antiguo)"
 03791,03097,0003805,Orba,"Plana (La)"
 03791,03097,0003807,Orba,Palmeria
 03791,03137,0001701,Benimaurell,Benimaurell
@@ -2153,20 +2160,20 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03795,03115,0001799,Sagra,*Diseminado*
 03795,03131,0001701,Tormos,Tormos
 03795,03131,0001799,Tormos,*Diseminado*
-03800,03009,0001799,Alcoy/Alcoi,*Diseminado*
-03801,03009,0001701,Alcoy/Alcoi,Alcoy/Alcoi
-03801,03009,0001705,Alcoy/Alcoi,"Font Roja"
-03801,03009,0001799,Alcoy/Alcoi,*Diseminado*
-03802,03009,0001701,Alcoy/Alcoi,Alcoy/Alcoi
-03802,03009,0001702,Alcoy/Alcoi,Baradello-Sargento
-03802,03009,0001703,Alcoy/Alcoi,"Cases del Salt"
-03802,03009,0001706,Alcoy/Alcoi,Montesol
-03802,03009,0001799,Alcoy/Alcoi,*Diseminado*
-03803,03009,0001701,Alcoy/Alcoi,Alcoy/Alcoi
-03803,03009,0001799,Alcoy/Alcoi,*Diseminado*
-03804,03009,0001701,Alcoy/Alcoi,Alcoy/Alcoi
-03804,03009,0001707,Alcoy/Alcoi,"Sol I Camp"
-03804,03009,0001799,Alcoy/Alcoi,*Diseminado*
+03800,03009,0001799,Alcoi/Alcoy,*Diseminado*
+03801,03009,0001701,Alcoi/Alcoy,Alcoi/Alcoy
+03801,03009,0001705,Alcoi/Alcoy,"Font Roja"
+03801,03009,0001799,Alcoi/Alcoy,*Diseminado*
+03802,03009,0001701,Alcoi/Alcoy,Alcoi/Alcoy
+03802,03009,0001702,Alcoi/Alcoy,Baradello-Sargento
+03802,03009,0001703,Alcoi/Alcoy,"Cases del Salt"
+03802,03009,0001706,Alcoi/Alcoy,Montesol
+03802,03009,0001799,Alcoi/Alcoy,*Diseminado*
+03803,03009,0001701,Alcoi/Alcoy,Alcoi/Alcoy
+03803,03009,0001799,Alcoi/Alcoy,*Diseminado*
+03804,03009,0001701,Alcoi/Alcoy,Alcoi/Alcoy
+03804,03009,0001707,Alcoi/Alcoy,"Sol I Camp"
+03804,03009,0001799,Alcoi/Alcoy,*Diseminado*
 03810,03035,0001701,Benilloba,Benilloba
 03810,03035,0001799,Benilloba,*Diseminado*
 03811,03060,0001701,Quatretondeta,Quatretondeta
@@ -2179,8 +2186,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03812,03039,0001799,Benimassot,*Diseminado*
 03812,03086,0001701,Millena,Millena
 03812,03086,0001799,Millena,*Diseminado*
-03813,03067,0001701,Facheca,Facheca
-03813,03067,0001799,Facheca,*Diseminado*
+03813,03067,0001701,Fageca,Fageca
+03813,03067,0001799,Fageca,*Diseminado*
 03813,03068,0001701,Famorca,Famorca
 03813,03130,0001701,Tollos,Tollos
 03813,03130,0001799,Tollos,*Diseminado*
@@ -2192,9 +2199,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 03815,03103,0001799,Penaguila,*Diseminado*
 03816,03032,0001701,Benifallim,Benifallim
 03816,03032,0001799,Benifallim,*Diseminado*
-03818,03009,0001799,Alcoy/Alcoi,*Diseminado*
-03819,03009,0001704,Alcoy/Alcoi,"Estepar (L')"
-03819,03009,0001799,Alcoy/Alcoi,*Diseminado*
+03818,03009,0001799,Alcoi/Alcoy,*Diseminado*
+03819,03009,0001704,Alcoi/Alcoy,"Estepar (L')"
+03819,03009,0001799,Alcoi/Alcoy,*Diseminado*
 03820,03056,0001701,Alcudia,Alcudia
 03820,03056,0001799,Alcudia,*Diseminado*
 03820,03056,0002201,Algars,Algars
@@ -2363,7 +2370,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04149,04032,0024901,"Cigarron (El)","Cigarron (El)"
 04149,04032,0024999,"Cigarron (El)",*Diseminado*
 04149,04032,0025299,"Arboleja (La)",*Diseminado*
+04149,04032,0026501,"Meseta Alta (La)","Meseta Alta (La)"
 04149,04032,0026599,"Meseta Alta (La)",*Diseminado*
+04149,04032,0027199,"Ventorrillo (El)",*Diseminado*
 04149,04066,0001701,"Agua Amarga","Agua Amarga"
 04149,04066,0001799,"Agua Amarga",*Diseminado*
 04149,04086,0401301,"Alamillos (Los)","Alamillos (Los)"
@@ -2473,7 +2482,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04271,04059,0007508,"Rambla Aljibe (La)","Tranco (El)"
 04271,04059,0007599,"Rambla Aljibe (La)",*Diseminado*
 04271,04059,0008101,"Rambla Honda (La)","Rambla Honda (La)"
-04271,04059,0008102,"Rambla Honda (La)","Sacristan (El)"
 04271,04059,0008199,"Rambla Honda (La)",*Diseminado*
 04271,04059,0009401,"Saeti (El)","Dioses (Los)"
 04271,04059,0009402,"Saeti (El)","Fuemblanquilla (La)"
@@ -2504,6 +2512,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04276,04026,0001701,Benitagla,Benitagla
 04276,04027,0001701,Benizalon,Benizalon
 04276,04027,0001799,Benizalon,*Diseminado*
+04276,04027,0002299,"Fuente de la Higuera (La)",*Diseminado*
 04276,04027,0003899,"Santuario Monteagud (El)",*Diseminado*
 04277,04086,0202001,"Andreses (Los)","Andreses (Los)"
 04277,04086,0304001,"Puntal (El)","Puntal (El)"
@@ -2612,6 +2621,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04458,04023,0001799,Beires,*Diseminado*
 04458,04071,0001701,Padules,Padules
 04458,04071,0001799,Padules,*Diseminado*
+04459,04050,0003899,"Aneas (Las)",*Diseminado*
 04459,04067,0001701,Ohanes,Ohanes
 04459,04067,0001799,Ohanes,*Diseminado*
 04459,04067,0002299,Tices,*Diseminado*
@@ -3022,8 +3032,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04720,04079,0003899,"Campillo del Moro",*Diseminado*
 04720,04079,0006901,"Parador Hortichuelas (El)","Parador Hortichuelas (El)"
 04720,04079,0006999,"Parador Hortichuelas (El)",*Diseminado*
-04721,04102,0006902,"Gangosa (La)","Parador (El)"
-04727,04102,0006903,"Gangosa (La)","Envia (La)"
+04721,04102,0012001,"Parador (El)","Parador (El)"
+04727,04102,0011501,"Envia (La)","Envia (La)"
 04728,04043,0002201,Felix,Felix
 04728,04043,0002299,Felix,*Diseminado*
 04729,04041,0001701,Enix,Enix
@@ -3051,6 +3061,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 04738,04102,0009499,Vicar,*Diseminado*
 04738,04102,0010801,Congo-Canal,"Congo (El)"
 04738,04102,0010899,Congo-Canal,*Diseminado*
+04738,04102,0012001,"Parador (El)","Parador (El)"
+04738,04102,0012099,"Parador (El)",*Diseminado*
 04740,04079,0005601,"Marinas (Las)","Marinas (Las)"
 04740,04079,0005699,"Marinas (Las)",*Diseminado*
 04740,04079,0006901,"Parador Hortichuelas (El)","Parador Hortichuelas (El)"
@@ -3549,6 +3561,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 05146,05180,0001701,"Parral (El)","Parral (El)"
 05146,05209,0001701,"San Garcia de Ingelmos","San Garcia de Ingelmos"
 05146,05209,0001799,"San Garcia de Ingelmos",*Diseminado*
+05146,05215,0001701,"San Martin Vega Alberche","San Martin Vega Alberche"
 05146,05265,0001701,Vita,Vita
 05147,05080,0001701,Blascojimeno,Blascojimeno
 05147,05080,0002201,"Gallegos de Sobrinos","Gallegos de Sobrinos"
@@ -3583,6 +3596,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 05154,05144,0003899,"Narrillos del Alamo",*Diseminado*
 05154,05144,0004301,"Ventosa de la Cuesta","Ventosa de la Cuesta"
 05154,05266,0001701,"Zapardiel de la Cañada","Zapardiel de la Cañada"
+05154,05266,0001799,"Zapardiel de la Cañada",*Diseminado*
 05160,05019,0001701,"Alamedilla del Berrocal","Alamedilla del Berrocal"
 05160,05019,0007501,"Narrillos de San Leonardo","Narrillos de San Leonardo"
 05161,05128,0002201,"Zorita de Los Molinos","Zorita de Los Molinos"
@@ -3703,6 +3717,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 05268,05222,0001701,"Santa Cruz de Pinares","Santa Cruz de Pinares"
 05268,05222,0001799,"Santa Cruz de Pinares",*Diseminado*
 05270,05241,0003801,"Poblado de Burguillo",Piquer
+05270,05241,0003802,"Poblado de Burguillo","Poblado de Burguillo"
 05270,05241,0003899,"Poblado de Burguillo",*Diseminado*
 05270,05241,0004301,"Puente Nuevo","Puente Nuevo"
 05270,05241,0004399,"Puente Nuevo",Diseminado
@@ -4097,6 +4112,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 06100,06095,0001799,Olivenza,*Diseminado*
 06100,06095,0002299,"San Benito Contienda",*Diseminado*
 06100,06095,0004301,"San Jorge de Alor","San Jorge"
+06100,06095,0004399,"San Jorge de Alor",*Diseminado*
 06100,06095,0006901,"Santo Domingo","Santo Domingo"
 06100,06095,0007599,Villarreal,*Diseminado*
 06105,06042,0001701,Cheles,Cheles
@@ -4352,6 +4368,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 06441,06064,0001701,"Higuera de la Serena","Higuera de la Serena"
 06441,06064,0001799,"Higuera de la Serena",*Diseminado*
 06442,06112,0001701,"Retamal de Llerena","Retamal de Llerena"
+06442,06112,0001799,"Retamal de Llerena",*Diseminado*
 06442,06160,0001799,"San Cristobal de Zalamea",*Diseminado*
 06443,06029,0001701,"Campillo de Llerena","Campillo de Llerena"
 06443,06029,0001799,"Campillo de Llerena",*Diseminado*
@@ -4367,6 +4384,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 06459,06028,0002201,"Guarda (La)","Guarda (La)"
 06460,06028,0001701,Campanario,Campanario
 06460,06028,0001799,Campanario,*Diseminado*
+06460,06028,0002201,"Guarda (La)","Guarda (La)"
 06468,06075,0001701,Magacela,Magacela
 06468,06075,0001799,Magacela,*Diseminado*
 06469,06039,0001701,"Coronada (La)","Coronada (La)"
@@ -4597,6 +4615,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 06980,06053,0002201,"Fuente del Arco","Fuente del Arco"
 06980,06053,0002299,"Fuente del Arco",*Diseminado*
 06980,06053,0003899,Valdecigueñas,*Diseminado*
+06981,06084,0001799,Mirandilla,*Diseminado*
 07001,07040,0012001,Palma,Palma
 07002,07040,0012001,Palma,Palma
 07003,07040,0012001,Palma,Palma
@@ -4800,6 +4819,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 07199,07040,0005601,"Casa Blanca (Sa)","Casa Blanca (Sa)"
 07199,07040,0005699,"Casa Blanca (Sa)",*Diseminado*
 07199,07040,0007599,"Creu Vermella (Sa)",*Diseminado*
+07199,07040,0013699,"Pil.lari (Es)",*Diseminado*
 07199,07040,0015401,"Sant Jordi","Sant Jordi"
 07199,07040,0015402,"Sant Jordi","Son Gual"
 07199,07040,0015499,"Sant Jordi",*Diseminado*
@@ -5138,7 +5158,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 07760,07015,0003801,"Ciutadella de Menorca","Ciutadella de Menorca"
 07760,07015,0004399,"San Juan",*Diseminado*
 07760,07015,0005605,Santandria,"Son Xoriguer"
-07760,07057,0002201,"Cala D'Or","Cala D'Or"
 07769,07015,0001799,Almudaina,*Diseminado*
 07769,07015,0005601,Santandria,"Cala Blanca"
 07769,07015,0005602,Santandria,"Cala'N Bosch"
@@ -5667,6 +5686,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08240,08113,0003801,"Comtals (Els)","Comtals Grup (Els)"
 08240,08113,0003899,"Comtals (Els)",*Diseminado*
 08240,08113,0004399,"Ferreres (Les)",*Diseminado*
+08240,08113,0005699,"Guix (El)",*Diseminado*
 08240,08113,0006901,Manresa,Manresa
 08240,08113,0010899,"Oller (El)",*Diseminado*
 08240,08113,0011501,"Plana del Pont Nou (La)","Plana del Pont Nou (La)"
@@ -5704,6 +5724,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08242,08113,0015404,"Santa Caterina","Vista Alegre"
 08243,08113,0002299,"Colomer (El)",*Diseminado*
 08243,08113,0003801,"Comtals (Els)","Comtals Grup (Els)"
+08243,08113,0003899,"Comtals (Els)",*Diseminado*
 08243,08113,0005601,"Guix (El)","Guix (El)"
 08243,08113,0005699,"Guix (El)",*Diseminado*
 08243,08113,0006901,Manresa,Manresa
@@ -6336,6 +6357,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08470,08202,0004399,Olzinelles,*Diseminado*
 08470,08202,0005699,Partegas,*Diseminado*
 08470,08202,0006901,"Sant Celoni","Sant Celoni"
+08470,08202,0006999,"Sant Celoni",*Diseminado*
 08470,08202,0007501,Vilardell,Vilardell
 08470,08202,0007599,Vilardell,*Diseminado*
 08471,08294,0001701,Vallgorguina,Vallgorguina
@@ -6855,10 +6877,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08717,08133,0001799,"Panadella (La)",*Diseminado*
 08717,08133,0002201,Montmaneu,Montmaneu
 08717,08133,0002299,Montmaneu,*Diseminado*
-08717,25216,0001701,Bellmunt,Bellmunt
-08717,25216,0001799,Bellmunt,*Diseminado*
-08717,25216,0002201,Civit,Civit
-08717,25216,0002299,Civit,*Diseminado*
 08718,08028,0001799,"Can Feixes",*Diseminado*
 08718,08028,0003899,"Can Gallego",*Diseminado*
 08718,08028,0004301,"Can Ros","Can Ros"
@@ -7083,6 +7101,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08755,08054,0014101,"Can Nicolau de Dalt","Can Nicolau Dalt, Sec Sur"
 08755,08054,0014199,"Can Nicolau de Dalt",*Diseminado*
 08755,08054,0015401,"Colonia del Carme","Colonia del Carme"
+08755,08290,0001701,Ullastrell,Ullastrell
 08756,08905,0001701,"Can Iglèsies","Can Iglèsies"
 08756,08905,0002299,"Can Mascaró",*Diseminado*
 08756,08905,0003801,"Can Vidal","Can Vidal"
@@ -7449,6 +7468,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 08871,08270,0002201,Garraf,Garraf
 08871,08270,0002299,Garraf,*Diseminado*
 08872,08270,0004301,Vallcarca,Vallcarca
+08873,08122,0001799,"Can Paixano",*Diseminado*
 08880,08074,0001701,Cubelles,"Clot Basso I Mota S Pere"
 08880,08074,0001702,Cubelles,Cubelles
 08880,08074,0001703,Cubelles,"Estoreres (Urbanitzacio)"
@@ -8126,6 +8146,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 09268,09360,0003801,"San Vicente del Valle","San Vicente del Valle"
 09268,09407,0001701,Valmala,Valmala
 09268,09433,0001701,Ezquerra,Ezquerra
+09268,09433,0001799,Ezquerra,*Diseminado*
 09268,09433,0002201,"Santa Olalla del Valle","Santa Olalla del Valle"
 09268,09433,0003801,Villagalijo,Villagalijo
 09269,09303,0003801,Villamudria,Villamudria
@@ -8200,6 +8221,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 09317,09339,0001701,"San Martin de Rubiales","San Martin de Rubiales"
 09318,09138,0001701,Fuentelisendo,Fuentelisendo
 09318,09229,0001701,"Nava de Roa","Nava de Roa"
+09318,09229,0001799,"Nava de Roa",*Diseminado*
 09318,09405,0001701,Valdezate,Valdezate
 09320,09108,0001701,Cogollos,Cogollos
 09320,09108,0001799,Cogollos,*Diseminado*
@@ -8265,6 +8287,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 09349,09104,0001799,"Cilleruelo de Arriba",*Diseminado*
 09349,09127,0001701,Fontioso,"Granja Guimara"
 09349,09127,0001702,Fontioso,Fontioso
+09349,09127,0001799,Fontioso,*Diseminado*
 09349,09194,0003801,"Rabe de Los Escuderos","Rabe de Los Escuderos"
 09349,09267,0001701,"Pineda Trasmonte","Pineda Trasmonte"
 09349,09267,0001799,"Pineda Trasmonte",*Diseminado*
@@ -8323,6 +8346,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 09443,09152,0002201,Ventosilla,Ventosilla
 09443,09438,0001701,"Villalba de Duero","Villalba de Duero"
 09443,09438,0001799,"Villalba de Duero",*Diseminado*
+09450,09018,0002201,"Aranda de Duero","Aranda de Duero"
 09450,09018,0003801,Sinovas,Sinovas
 09450,09018,0003899,Sinovas,*Diseminado*
 09450,09035,0001701,"Baños de Valdearados","Baños de Valdearados"
@@ -8382,6 +8406,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 09510,09908,0012001,"Quincoces de Yuso","Quincoces de Yuso"
 09510,09908,0014101,Relloso,Relloso
 09510,09908,0020601,Villabasil,Villabasil
+09510,09908,0025201,Vescolides,Vescolides
 09511,09050,0001701,Berberana,Berberana
 09511,09190,0003801,Mijala,Mijala
 09511,09190,0004301,Murita,Murita
@@ -9137,7 +9162,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10341,10132,0001799,"Navalvillar de Ibor",*Diseminado*
 10350,10019,0001701,Almaraz,Almaraz
 10350,10019,0001799,Almaraz,*Diseminado*
-10359,10097,0001701,Higuera,Higuera
+10359,10097,0001701,"Higuera de Albalat","Higuera de Albalat"
 10359,10160,0001701,Romangordo,Romangordo
 10359,10160,0001799,Romangordo,*Diseminado*
 10360,10057,0001701,"Casas de Miravete","Casas de Miravete"
@@ -9184,8 +9209,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10412,10079,0001799,"Garganta la Olla",*Diseminado*
 10413,10191,0001701,Torremenga,Torremenga
 10413,10191,0001799,Torremenga,*Diseminado*
-10414,10065,0001701,Collado,Collado
-10414,10065,0001799,Collado,*Diseminado*
+10414,10065,0001701,"Collado de la Vera","Collado de la Vera"
+10414,10065,0001799,"Collado de la Vera",*Diseminado*
 10420,10181,0001701,"Tejeda de Tietar","Tejeda de Tietar"
 10420,10181,0001799,"Tejeda de Tietar",*Diseminado*
 10420,10181,0002201,Valdeiñigos,Valdeiñigos
@@ -9336,6 +9361,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10628,10051,0003899,"Casares de Las Hurdes",*Diseminado*
 10628,10051,0004301,Heras,Heras
 10628,10051,0005601,"Huetre (La)",Huetre
+10628,10051,0005699,"Huetre (La)",*Diseminado*
 10628,10051,0006901,Robledo,Robledo
 10628,10051,0006999,Robledo,*Diseminado*
 10628,10135,0001701,Aceitunilla,Aceitunilla
@@ -9459,6 +9485,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10740,10015,0001799,"Aldeanueva del Camino",*Diseminado*
 10748,10001,0001701,Abadia,Abadia
 10748,10001,0001799,Abadia,*Diseminado*
+10748,10015,0001799,"Aldeanueva del Camino",*Diseminado*
 10749,10080,0001701,Gargantilla,Gargantilla
 10750,10024,0001701,"Baños de Montemayor","Baños de Montemayor"
 10750,10024,0001799,"Baños de Montemayor",*Diseminado*
@@ -9524,6 +9551,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10857,10003,0001701,Acebo,Acebo
 10857,10003,0001799,Acebo,*Diseminado*
 10858,10215,0001701,"Villasbuenas de Gata","Villasbuenas de Gata"
+10858,10215,0001799,"Villasbuenas de Gata",*Diseminado*
 10859,10171,0001701,"Santibañez El Alto","Santibañez El Alto"
 10859,10171,0001799,"Santibañez El Alto",*Diseminado*
 10860,10084,0001701,Gata,Gata
@@ -9572,6 +9600,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 10900,10021,0001799,"Arroyo de la Luz",*Diseminado*
 10910,10115,0001701,"Malpartida de Caceres","Malpartida de Caceres"
 10910,10115,0001799,"Malpartida de Caceres",*Diseminado*
+10920,10037,0001701,Caceres,Caceres
 10920,10037,0002201,"Estacion de Arroyo-Malpar","Estacion de Arroyo-Malpar"
 10930,10133,0001701,"Navas del Madroño","Navas del Madroño"
 10930,10133,0001799,"Navas del Madroño",*Diseminado*
@@ -9974,6 +10003,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 11610,11019,0002299,Gaidovar,*Diseminado*
 11610,11019,0003801,Grazalema,Grazalema
 11611,11040,0001701,"Villaluenga del Rosario","Villaluenga del Rosario"
+11611,11040,0001799,"Villaluenga del Rosario",*Diseminado*
 11612,11009,0001701,Benaocaz,Benaocaz
 11612,11009,0001799,Benaocaz,*Diseminado*
 11612,11009,0002201,Tavizna,Tavizna
@@ -10075,6 +10105,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12110,12005,0003801,"Foia de L'Alcalaten (La)","Foia de L'Alcalaten (La)"
 12110,12005,0003899,"Foia de L'Alcalaten (La)",Diseminado
 12110,12005,0004399,"Urbanizacion El Pantano",*Diseminado*
+12118,12122,0003899,"Basa Ensaera",*Diseminado*
 12118,12122,0004399,Bovalar,*Diseminado*
 12118,12122,0006999,"Cap En Roure",*Diseminado*
 12118,12122,0008199,"Las Crevadas",*Diseminado*
@@ -10164,6 +10195,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12131,12122,0032699,"Useras/Useres (Les)",*Diseminado*
 12131,12122,0033201,"El Pla","Pou de Encalvo"
 12131,12122,0033202,"El Pla","Mas Blanch"
+12131,12122,0033299,"El Pla",*Diseminado*
 12131,12122,0034799,"Bassa En Surco",*Diseminado*
 12131,12122,0035099,Burguet,*Diseminado*
 12131,12122,0040299,Figuerasa,*Diseminado*
@@ -10237,7 +10269,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12165,12014,0010899,Torre-Beltran,*Diseminado*
 12165,12014,0011599,"Masia Roca de Abajo",*Diseminado*
 12165,12014,0012099,"Montalbana (La)",*Diseminado*
-12166,12105,0024999,"Marina (La)",*Diseminado*
 12170,12100,0001701,"Sant Mateu","Sant Mateu"
 12170,12100,0001799,"Sant Mateu",*Diseminado*
 12179,12111,0001701,Tirig,Tirig
@@ -10250,6 +10281,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12181,12029,0002299,Benlloc,*Diseminado*
 12181,12029,0006901,Cuartico-Subarra,Cuartico
 12181,12029,0006999,Cuartico-Subarra,*Diseminado*
+12182,12105,0006999,"Brusalet (El)",*Diseminado*
 12182,12105,0013699,"Ibarsos (Els)",*Diseminado*
 12182,12105,0024999,"Marina (La)",*Diseminado*
 12182,12105,0031199,Collet,*Diseminado*
@@ -10276,6 +10308,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12186,12098,0003899,"Masia del Andaluz Abajo",*Diseminado*
 12186,12098,0004399,"Masia del Andaluz Arriba",*Diseminado*
 12186,12098,0009401,"Salzadella (La)","Salzadella (La)"
+12186,12098,0010899,"Masia la Solana",*Diseminado*
 12190,12031,0001701,Borriol,"Urbanizacion L'Abeller"
 12190,12031,0001702,Borriol,"Urb Afanias-Alcormar"
 12190,12031,0001703,Borriol,"Urbanizacion Benadresa"
@@ -10458,6 +10491,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12410,12012,0007599,"Masía Rivas",*Diseminado*
 12410,12012,0008199,Alfaz,*Diseminado*
 12410,12012,0009499,"Barranco Hondo",*Diseminado*
+12410,12012,0010899,Cabezuelo,*Diseminado*
+12410,12012,0011599,"Calarizo (El)",*Diseminado*
 12410,12012,0012099,"Canaleta (La)",*Diseminado*
 12410,12012,0013699,"Cartuja Valdecristo",*Diseminado*
 12410,12012,0014199,"Cruz (La)",*Diseminado*
@@ -10481,7 +10516,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12413,12039,0001799,Castellnovo,*Diseminado*
 12414,12008,0001701,"Algimia de Almonacid","Algimia de Almonacid"
 12414,12008,0001799,"Algimia de Almonacid",Diseminado
-12414,12104,0003801,Peñalba,Peñalva
+12414,12104,0003801,Peñalba,Peñalba
 12414,12125,0001701,"Vall de Almonacid","Vall de Almonacid"
 12414,12125,0001799,"Vall de Almonacid",*Diseminado*
 12415,12065,0001701,Gaibiel,Gaibiel
@@ -10510,6 +10545,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 12430,12022,0005699,"Rios de Arriba",*Diseminado*
 12430,12022,0006999,"Arteas de Arriba",*Diseminado*
 12431,12114,0001701,Toras,Toras
+12431,12114,0001799,Toras,Diseminado
 12440,12043,0001701,Caudiel,Caudiel
 12440,12043,0001799,Caudiel,*Diseminado*
 12447,12078,0001701,Montan,Montan
@@ -11054,6 +11090,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 13730,13077,0001701,"Santa Cruz de Mudela","Santa Cruz de Mudela"
 13730,13077,0001799,"Santa Cruz de Mudela",*Diseminado*
 13730,13077,0002201,"Paraje de Las Virtudes","Paraje de Las Virtudes"
+13738,13098,0008199,"Viso del Marques",*Diseminado*
 13739,13027,0003801,"Mirones (Los)","Mirones (Los)"
 13739,13098,0001701,Bazan,Bazan
 13739,13098,0001799,Bazan,*Diseminado*
@@ -11118,10 +11155,12 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 14012,14021,0017302,"Morales (Los)","La Matrid"
 14012,14021,0017399,"Morales (Los)",*Diseminado*
 14013,14021,0009401,Cordoba,Cordoba
+14013,14021,0009499,Cordoba,*Diseminado*
 14013,14021,0027101,Valchillon,"Reina (La)"
 14013,14021,0027102,Valchillon,"Cañuelo Bajo"
 14013,14021,0027199,Valchillon,*Diseminado*
 14014,14021,0009401,Cordoba,Cordoba
+14014,14021,0009499,Cordoba,*Diseminado*
 14014,14021,0018901,"Nuestra Señora de Linares","Doña Manuela"
 14014,14021,0018903,"Nuestra Señora de Linares",Peñatejada
 14014,14021,0018904,"Nuestra Señora de Linares",Torreblanca
@@ -11194,8 +11233,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 14130,14033,0004301,Guadalcazar,Guadalcazar
 14130,14033,0004399,Guadalcazar,*Diseminado*
 14140,14065,0003801,"Victoria (La)","Victoria (La)"
-14140,14065,0003802,"Victoria (La)","Aldea Quintana"
 14140,14065,0003899,"Victoria (La)",*Diseminado*
+14140,14065,0004301,"Aldea Quintana","Aldea Quintana"
+14140,14065,0004399,"Aldea Quintana",*Diseminado*
 14150,14059,0001701,"San Sebastian de Los Ball","San Sebastian de Los Ball"
 14150,14059,0001799,"San Sebastian de Los Ball",*Diseminado*
 14190,14010,0001701,Benameji,Benameji
@@ -11248,6 +11288,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 14249,14029,0009401,Navalcuervo,Navalcuervo
 14249,14029,0012001,"Panchez (Los)","Panchez (Los)"
 14249,14029,0015401,Posadilla,Posadilla
+14249,14029,0015499,Posadilla,*Diseminado*
 14250,14070,0001799,Mojonera,*Diseminado*
 14250,14070,0002201,"Villanueva del Duque","Villanueva del Duque"
 14250,14070,0002299,"Villanueva del Duque",*Diseminado*
@@ -11343,7 +11384,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 14511,14038,0006999,"Dehesa del Cañaveral",*Diseminado*
 14511,14038,0012001,"Navas del Selpillar","Navas del Selpillar"
 14511,14038,0013699,"Piedros (Los)",*Diseminado*
-14512,14056,0001799,Arenales,*Diseminado*
 14512,14056,0002201,"Bocas del Riguelo","Bocas del Riguelo"
 14512,14056,0010801,"Mina (La)","Mina (La)"
 14512,14056,0011501,Palomar,Palomar
@@ -11574,6 +11614,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 14859,14007,0009499,"Sierra (La)",*Diseminado*
 14860,14022,0001701,"Doña Mencia","Doña Mencia"
 14870,14075,0001701,Zuheros,Zuheros
+14870,14075,0001799,Zuheros,*Diseminado*
 14880,14039,0001701,"Estacion (La)","Estacion (La)"
 14880,14039,0001799,"Estacion (La)",*Diseminado*
 14880,14039,0002201,Luque,Luque
@@ -12049,22 +12090,22 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15109,15019,1537199,"Vilares (Os)",*Diseminado*
 15109,15019,1538799,"Ferveda (A)",*Diseminado*
 15109,15019,1540499,"Pontenova (A)",*Diseminado*
-15110,15014,0501299,"Santa Margarita de Baneir",*Diseminado*
+15110,15014,0501299,"Sta Margarida de Baneira",*Diseminado*
 15110,15014,0502799,Barallans,*Diseminado*
 15110,15014,0503399,Bello,*Diseminado*
-15110,15014,0504899,Braña,*Diseminado*
+15110,15014,0504899,"Braña (A)",*Diseminado*
 15110,15014,0505199,Cardezo,*Diseminado*
-15110,15014,0506499,Castro,*Diseminado*
-15110,15014,0507001,"Corcoesto Lugar Grande","Corcoesto Lugar Grande"
+15110,15014,0506499,"Castro (O)",*Diseminado*
+15110,15014,0507001,"Lugar Grande (O)","Lugar Grande (O)"
 15110,15014,0508699,Cruces,*Diseminado*
 15110,15014,0509999,Cures,*Diseminado*
-15110,15014,0510399,Lamas,*Diseminado*
+15110,15014,0510399,"Lamas (As)",*Diseminado*
 15110,15014,0511001,Millan,Millan
 15110,15014,0512501,Montefurado,Montefurado
-15110,15014,0513199,Rectoral,*Diseminado*
+15110,15014,0513199,"Rectoral (A)",*Diseminado*
 15110,15014,0514699,Regoseco,*Diseminado*
 15110,15014,0515999,Teixedo,*Diseminado*
-15110,15014,0516299,"Quente (De)",*Diseminado*
+15110,15014,0516299,"Dequente (O)",*Diseminado*
 15110,15014,0517899,Fonterremula,*Diseminado*
 15110,15014,0518499,Perrol,*Diseminado*
 15110,15014,0519799,Xabarido,*Diseminado*
@@ -12202,40 +12243,40 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15114,15068,0406501,Guxin,Guxin
 15114,15068,0407199,"Roncudo (O)",*Diseminado*
 15114,15068,0501201,Corme-Porto,Corme-Porto
-15115,15014,0401301,Aspera,Aspera
-15115,15014,0402801,Balado,Balado
-15115,15014,0403499,Balsa,*Diseminado*
-15115,15014,0404999,Bosque,*Diseminado*
-15115,15014,0405201,Bronllo,Bronllo
-15115,15014,0406599,Burgo,*Diseminado*
-15115,15014,0407199,Buzaco,*Diseminado*
+15115,15014,0401301,"Aspera (A)","Aspera (A)"
+15115,15014,0402801,"Valado (O)","Valado (O)"
+15115,15014,0403499,"Balsa (A)",*Diseminado*
+15115,15014,0404999,"Bosque (O)",*Diseminado*
+15115,15014,0405201,"Bronllo (O)","Bronllo (O)"
+15115,15014,0406599,"Burgo (O)",*Diseminado*
+15115,15014,0407199,"Buzaco (O)",*Diseminado*
 15115,15014,0408701,Cabana,Cabana
 15115,15014,0409001,"Carballa (A)","Carballa (A)"
-15115,15014,0410401,Carballal,Carballal
+15115,15014,0410401,"Carballal (O)","Carballal (O)"
 15115,15014,0411199,Esmoris,*Diseminado*
-15115,15014,0412699,Esqueiro,*Diseminado*
+15115,15014,0412699,"Esqueiro (O)",*Diseminado*
 15115,15014,0413201,Fontenla,Fontenla
-15115,15014,0414799,"Forca Do Lobo",*Diseminado*
-15115,15014,0415001,Iglesia,Iglesia
-15115,15014,0416301,Meixoada,Meixoada
-15115,15014,0417999,Muiño,*Diseminado*
+15115,15014,0414799,"Forca Do Lobo (A)",*Diseminado*
+15115,15014,0415001,"Igrexa (A)","Igrexa (A)"
+15115,15014,0416301,"Meixoada (A)","Meixoada (A)"
+15115,15014,0417999,"Muiño (O)",*Diseminado*
 15115,15014,0418501,Neaño,Neaño
-15115,15014,0419801,"Pedra Cuca","Pedra Cuca"
-15115,15014,0420201,Penedo,Penedo
-15115,15014,0421901,"Ponteceso de Cabana (Outr","Ponteceso de Cabana (Outr"
+15115,15014,0419801,"Pedra Cuca (A)","Pedra Cuca (A)"
+15115,15014,0420201,"Penedo (O)","Penedo (O)"
+15115,15014,0421901,"Ponteceso de Cabana","Ponteceso de Cabana"
 15115,15014,0422401,Rebordelo,Rebordelo
-15115,15014,0423099,Regengo,*Diseminado*
+15115,15014,0423099,"Reguengo (O)",*Diseminado*
 15115,15014,0424599,Ternande,*Diseminado*
-15115,15014,0425899,Seixoso,*Diseminado*
+15115,15014,0425899,"Seixoso (O)",*Diseminado*
 15115,15014,0426199,"San Fins",*Diseminado*
-15115,15014,0427799,Egipto,*Diseminado*
+15115,15014,0427799,Exipto,*Diseminado*
 15115,15014,0428399,"Picon (O)",*Diseminado*
 15115,15014,0429699,"Rebuiras (As)",*Diseminado*
 15115,15014,0430099,"Redondas (As)",*Diseminado*
 15115,15014,0431799,"Salgueiras (As)",*Diseminado*
-15116,15014,0301499,Aguarrey,*Diseminado*
-15116,15014,0302999,Buzaco,*Diseminado*
-15116,15014,0303599,Cabodarea,*Diseminado*
+15116,15014,0301499,Aguarrei,*Diseminado*
+15116,15014,0302999,"Buzaco (O)",*Diseminado*
+15116,15014,0303599,"Cabo de Area (O)",*Diseminado*
 15116,15014,0304001,Canduas,Canduas
 15116,15014,0305399,Frexufre,*Diseminado*
 15116,15014,0306601,"Grelas (As)","Grelas (As)"
@@ -12243,17 +12284,17 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15116,15014,0308899,"San Pedro",*Diseminado*
 15116,15014,0309101,Sinde,Sinde
 15116,15014,0310501,Taboido,Taboido
-15116,15014,0311201,Trasdagra,Trasdagra
+15116,15014,0311201,"Tras Da Agra","Tras Da Agra"
 15116,15014,0312701,Ures,Ures
 15116,15014,0313399,Arnela,*Diseminado*
-15116,15014,0314899,Cachadiña,*Diseminado*
+15116,15014,0314899,"Cachadiña (A)",*Diseminado*
 15116,15014,0315199,"Carballas (As)",*Diseminado*
 15116,15014,0316499,"Costa (A)",*Diseminado*
-15116,15014,0317099,"Cruz Do Cabalo",*Diseminado*
+15116,15014,0317099,"Cruz Do Cabalo (A)",*Diseminado*
 15116,15014,0318699,Monelos,*Diseminado*
-15116,15014,0319999,Semonte,*Diseminado*
+15116,15014,0319999,Somonte,*Diseminado*
 15116,15014,0320399,"Telleira (A)",*Diseminado*
-15116,15014,0321099,Pedrageira,*Diseminado*
+15116,15014,0321099,"Pedragueira (A)",*Diseminado*
 15116,15014,0322501,Rebordelo,Rebordelo
 15117,15040,0101601,Laxe,Laxe
 15117,15040,0102199,"Peñascales (Os)",*Diseminado*
@@ -12294,12 +12335,12 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15118,15040,0613099,"Costa (A)",*Diseminado*
 15118,15040,0614501,"Carballal-Campodorreiro (","Carballal-Campodorreiro ("
 15119,15014,0201501,Borneiro,Borneiro
-15119,15014,0202001,Briño,Briño
+15119,15014,0202001,"Briño (O)","Briño (O)"
 15119,15014,0203601,Dombate,Dombate
-15119,15014,0204101,Fontefria,Fontefria
-15119,15014,0205401,Gandara,Gandara
+15119,15014,0204101,"Fontefria (A)","Fontefria (A)"
+15119,15014,0205401,"Gandara (A)","Gandara (A)"
 15119,15014,0206701,Vilaseco,Vilaseco
-15119,15014,0207399,Vistalegre,*Diseminado*
+15119,15014,0207399,"Vista Alegre",*Diseminado*
 15121,15016,0201501,Arou,Arou
 15121,15016,0202001,Camelle,Camelle
 15121,15016,0203699,Lazo,*Diseminado*
@@ -12563,7 +12604,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15138,15023,0606399,Guimareu,*Diseminado*
 15138,15023,0607901,Sembra,Sembra
 15138,15023,0608501,"Toba de Abaixo","Toba de Abaixo"
-15138,15023,0608599,"Toba de Abaixo",*Diseminado*
 15138,15023,0609801,"Toba de Arriba","Toba de Arriba"
 15138,15023,0610201,"Vilar de Toba (O)","Vilar de Toba (O)"
 15139,15031,0301401,"Castelo de Abaixo","Castelo de Abaixo"
@@ -12816,6 +12856,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15145,15041,0934801,"Pena (A)","Pena (A)"
 15145,15041,0935199,"Penedo (O)",*Diseminado*
 15145,15041,0936499,Propeste,*Diseminado*
+15145,15041,0937099,"Pumar (O)",*Diseminado*
 15145,15041,0938699,"Ramiscal (O)",*Diseminado*
 15145,15041,0939901,"Raño (O)","Raño (O)"
 15145,15041,0940399,"Ribeiriña (A)",*Diseminado*
@@ -12888,16 +12929,24 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15145,15041,1202701,Gabenlle,Gabenlle
 15145,15041,1203301,"Gandara (A)","Gandara (A)"
 15145,15041,1204899,"Ganduma (A)",*Diseminado*
+15145,15041,1205199,Guilfoi,*Diseminado*
 15145,15041,1206401,"Laracha (A)","Laracha (A)"
 15145,15041,1207001,Leboris,Leboris
 15145,15041,1208601,"Campo (O)","Campo (O)"
 15145,15041,1208699,"Campo (O)",*Diseminado*
 15145,15041,1210399,Miron,*Diseminado*
+15145,15041,1212599,"Ponte (A)",*Diseminado*
 15145,15041,1214699,Riotorto,*Diseminado*
 15145,15041,1216201,Toras,Toras
+15145,15041,1217899,"Torre (A)",*Diseminado*
 15145,15041,1218401,"Torres de Cillobre (As)","Torres de Cillobre (As)"
 15145,15041,1218499,"Torres de Cillobre (As)",*Diseminado*
+15145,15041,1219799,Troa,*Diseminado*
 15145,15041,1221801,"Barreira (A)","Barreira (A)"
+15145,15041,1222399,"Castros (Os)",*Diseminado*
+15145,15041,1224499,"Peton (O)",*Diseminado*
+15145,15041,1225799,"Ponte Martin (A)",*Diseminado*
+15145,15041,1226001,Vilasuso,Vilasuso
 15145,15041,1301101,Amboade,Amboade
 15145,15041,1302601,"Areosa (A)","Areosa (A)"
 15145,15041,1303299,"Barreira (A)",*Diseminado*
@@ -12979,6 +13028,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15146,15041,0144499,"Carredo (O)",*Diseminado*
 15146,15041,0145799,"Fraga (A)",*Diseminado*
 15146,15041,0146001,"Monte Claro","Monte Claro"
+15146,15041,0147699,"Quinto (O)",*Diseminado*
 15146,15041,0148299,"Piñeiro (O)",*Diseminado*
 15146,15041,0149599,"Vixia (A)",*Diseminado*
 15146,15041,0606399,"Igrexario (O)",*Diseminado*
@@ -13133,70 +13183,70 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15148,15029,0804599,Teixoeiras,*Diseminado*
 15148,15029,0805801,"Vieite de Abaixo","Vieite de Abaixo"
 15148,15029,0806101,"Vieite de Arriba","Vieite de Arriba"
-15149,15014,0101699,Anles,*Diseminado*
-15149,15014,0102101,Cotaredo,Cotaredo
-15149,15014,0103701,Cruceiro,Cruceiro
-15149,15014,0104299,"Espiño Da Eirita",*Diseminado*
-15149,15014,0105599,Enfesta,*Diseminado*
+15149,15014,0101699,"Anles (Os)",*Diseminado*
+15149,15014,0102101,"Cotaredo (O)","Cotaredo (O)"
+15149,15014,0103701,"Cruceiro (O)","Cruceiro (O)"
+15149,15014,0104299,"Eirita (A)",*Diseminado*
+15149,15014,0105599,"Enfesta (A)",*Diseminado*
 15149,15014,0106899,Guisande,*Diseminado*
-15149,15014,0107499,Hermida,*Diseminado*
-15149,15014,0108099,Medoña,*Diseminado*
-15149,15014,0109301,Outeiro,Outeiro
-15149,15014,0110701,Piñeiro,Piñeiro
+15149,15014,0107499,"Ermida (A)",*Diseminado*
+15149,15014,0108099,"Medoña (A)",*Diseminado*
+15149,15014,0109301,"Outeiro (O)","Outeiro (O)"
+15149,15014,0110701,"Piñeiro (O)","Piñeiro (O)"
 15149,15014,0111499,Remisqueira,*Diseminado*
 15149,15014,0112999,Rozamonde,*Diseminado*
-15149,15014,0113599,Vento,*Diseminado*
+15149,15014,0113599,"Vento (O)",*Diseminado*
 15149,15014,0114099,Xerne,*Diseminado*
 15149,15014,0115399,Boancho,*Diseminado*
 15149,15014,0116699,"Galiñeira (A)",*Diseminado*
 15149,15014,0601199,Cundins,*Diseminado*
 15149,15014,0602601,Frinle,Frinle
-15149,15014,0603201,Gandara,Gandara
+15149,15014,0603201,"Gandara (A)","Gandara (A)"
 15149,15014,0604701,Iñaño,Iñaño
-15149,15014,0605001,Margarida,Margarida
-15149,15014,0606399,Outeiro,*Diseminado*
+15149,15014,0605001,"Margarida (A)","Margarida (A)"
+15149,15014,0606399,"Outeiro (O)",*Diseminado*
 15149,15014,0607901,Pedrouzo,Pedrouzo
-15149,15014,0608599,Caixeira,*Diseminado*
-15149,15014,0609899,Coviña,*Diseminado*
-15149,15014,0610299,Eirita,*Diseminado*
+15149,15014,0608599,"Caixeira (A)",*Diseminado*
+15149,15014,0609899,"Coviña (A)",*Diseminado*
+15149,15014,0610299,"Eirita (A)",*Diseminado*
 15149,15014,0701001,Beres,Beres
-15149,15014,0702501,Esto,Esto
+15149,15014,0702501,"Esto (O)","Esto (O)"
 15149,15014,0703101,Leas,Leas
-15149,15014,0704699,Parrocha,*Diseminado*
-15149,15014,0705901,Rieiro,Rieiro
-15149,15014,0706299,Cajenla,*Diseminado*
+15149,15014,0704699,"Parrocha (A)",*Diseminado*
+15149,15014,0705901,"Rieiro (O)","Rieiro (O)"
+15149,15014,0706299,"Caguenla (A)",*Diseminado*
 15149,15014,0707899,"Gandara de Beres",*Diseminado*
-15149,15014,0801901,Ameixenda,Ameixenda
-15149,15014,0802499,Carballas,*Diseminado*
-15149,15014,0803099,Casanova,*Diseminado*
+15149,15014,0801901,"Ameixenda (A)","Ameixenda (A)"
+15149,15014,0802499,"Carballas (Os)",*Diseminado*
+15149,15014,0803099,"Casanova (A)",*Diseminado*
 15149,15014,0804599,"Castro Do Anido",*Diseminado*
 15149,15014,0805801,Cazon,Cazon
-15149,15014,0806199,Cuncha,*Diseminado*
+15149,15014,0806199,"Cuncha (A)",*Diseminado*
 15149,15014,0807799,Denellon,*Diseminado*
 15149,15014,0808399,Doeña,*Diseminado*
-15149,15014,0809699,Martices,*Diseminado*
-15149,15014,0810099,Palleira,*Diseminado*
+15149,15014,0809699,"Martices (Os)",*Diseminado*
+15149,15014,0810099,"Palleira (A)",*Diseminado*
 15149,15014,0811701,"Pedra (A)","Pedra (A)"
 15149,15014,0812201,"Piolla (A)","Piolla (A)"
-15149,15014,0813899,Vidual,*Diseminado*
+15149,15014,0813899,"Bidual (O)",*Diseminado*
 15149,15014,0814399,"Carretera Nova",*Diseminado*
-15149,15014,0901899,Barcia,*Diseminado*
+15149,15014,0901899,"Barcia (A)",*Diseminado*
 15149,15014,0902301,Camafreita,Camafreita
-15149,15014,0903999,Devesa,*Diseminado*
+15149,15014,0903999,"Devesa (A)",*Diseminado*
 15149,15014,0905701,Folgoso,Folgoso
 15149,15014,0906001,"Mata (A)","Mata (A)"
 15149,15014,0907699,Meixoeiro,*Diseminado*
 15149,15014,0908299,Padrin,*Diseminado*
 15149,15014,0909599,Riobo,*Diseminado*
-15149,15014,0911699,"Bao (O)",*Diseminado*
-15149,15014,0912199,"Repenin (O)",*Diseminado*
-15149,15014,1001499,Avieira,*Diseminado*
+15149,15014,0911699,"Vao (O)",*Diseminado*
+15149,15014,0912199,"Rempenin (O)",*Diseminado*
+15149,15014,1001499,"Avieira (A)",*Diseminado*
 15149,15014,1002999,Baneira,*Diseminado*
 15149,15014,1003501,Paradoa,Paradoa
-15149,15014,1004099,Pedra,*Diseminado*
-15149,15014,1005399,Penela,*Diseminado*
-15149,15014,1006601,Silvarredonda,Silvarredonda
-15149,15014,1007299,"Braña de Silvarredonda",*Diseminado*
+15149,15014,1004099,"Pedra (A)",*Diseminado*
+15149,15014,1005399,"Penela (A)",*Diseminado*
+15149,15014,1006601,"Silvarredonda (A)","Silvarredonda (A)"
+15149,15014,1007299,"Braña (A)",*Diseminado*
 15150,15092,0201501,Bamiro,Bamiro
 15150,15092,0202099,"Campo (O)",*Diseminado*
 15150,15092,0203699,Cheis,*Diseminado*
@@ -13226,6 +13276,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15151,15034,0109301,Sarteguas,Sarteguas
 15151,15034,0110701,"Vacariza (A)","Vacariza (A)"
 15151,15034,0111499,Vilar,*Diseminado*
+15151,15034,0112999,"Gatiñeiras (As)",*Diseminado*
 15151,15034,0201501,Ansean,Ansean
 15151,15034,0202099,"Brazal (O)",*Diseminado*
 15151,15034,0203699,Busto,*Diseminado*
@@ -13261,6 +13312,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15151,15034,0315101,Paradela,Paradela
 15151,15034,0316499,Sanxumil,*Diseminado*
 15151,15034,0317099,Truitin,*Diseminado*
+15151,15034,0318601,"Barrio Novo","Barrio Novo"
 15151,15034,0501299,"Boudañeira (A)",*Diseminado*
 15151,15034,0502799,"Couquiño (O)",*Diseminado*
 15151,15034,0503301,"Logoso (O)","Logoso (O)"
@@ -13318,7 +13370,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15165,15008,0101601,"Aldea de Arriba (A)","Aldea de Arriba (A)"
 15165,15008,0102101,Babio,Babio
 15165,15008,0103701,"Casal (O)","Casal (O)"
-15165,15008,0104201,"Cuesta Santa Marta","Cuesta Santa Marta"
+15165,15008,0104201,"Costa de Santa Marta (A)","Costa de Santa Marta (A)"
 15165,15008,0105501,"Poligono Industrial","Poligono Industrial"
 15165,15008,0201501,Bergondiño,Bergondiño
 15165,15008,0203699,"Campiña (A)",*Diseminado*
@@ -13690,53 +13742,52 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15184,15021,0518499,Chamoso,*Diseminado*
 15184,15021,0519799,Gandaron,*Diseminado*
 15184,15021,0520199,"Tarroeira de Sumio",*Diseminado*
-15185,15024,0101601,Acebedo,Acebedo
+15185,15024,0101601,"Acevedo (O)","Acevedo (O)"
 15185,15024,0108001,Cerceda,Cerceda
 15185,15024,0113599,Coence,*Diseminado*
-15185,15024,0116699,Esperon,*Diseminado*
-15185,15024,0142301,Trigueira,Trigueira
+15185,15024,0116699,"Esperon (O)",*Diseminado*
+15185,15024,0142301,"Trigueira (A)","Trigueira (A)"
 15185,15024,0144401,Vilar,Vilar
 15185,15024,0145701,"Baixa (A)","Baixa (A)"
 15185,15024,0146001,"Cima (A)","Cima (A)"
 15185,15024,0147601,Parada,Parada
 15185,15024,0148201,Xermar,Xermar
 15185,15024,0301499,Belsar,*Diseminado*
-15185,15024,0310599,Fontan,*Diseminado*
+15185,15024,0310599,"Fontan (O)",*Diseminado*
 15185,15024,0322501,Xesteda,Xesteda
-15185,15024,0404901,Castelo,Castelo
+15185,15024,0404901,"Castelo (O)","Castelo (O)"
 15185,15024,0408701,Longo,Longo
 15185,15024,0527601,Viris,Viris
 15185,15024,0528201,Astande,Astande
 15185,15024,0529501,"Cima Abaixo","Cima Abaixo"
 15185,15024,0530901,"Cima Arriba","Cima Arriba"
-15185,15024,0531601,Lodeiro,Lodeiro
+15185,15024,0531601,"Lodeiro (O)","Lodeiro (O)"
 15185,15024,0532101,Queixas,Queixas
-15186,15024,0601101,Abeleira,Abeleira
-15186,15024,0602601,Adro,Adro
+15186,15024,0601101,"Abeleira (A)","Abeleira (A)"
+15186,15024,0602601,"Adro (O)","Adro (O)"
 15186,15024,0604701,Belir,Belir
 15186,15024,0607901,Buzarelos,Buzarelos
-15186,15024,0613001,Cerdeira,Cerdeira
+15186,15024,0613001,"Cerdeira (A)","Cerdeira (A)"
 15186,15024,0618301,Gosende,Gosende
 15186,15024,0620001,Mixon,Mixon
 15186,15024,0625601,Rodis,Rodis
 15186,15024,0629401,"Silva (A)","Silva (A)"
-15186,15024,0631501,Tablilla,Tablilla
+15186,15024,0631501,"Tablilla (A)","Tablilla (A)"
 15186,15024,0632001,Tasende,Tasende
 15186,15024,0639299,Xende,*Diseminado*
 15186,15024,0640601,Baixa,Baixa
 15186,15024,0641301,Vilamarta,Vilamarta
-15187,15024,0201599,Arroio,*Diseminado*
-15187,15024,0208901,Enfesta,Enfesta
-15187,15024,0213499,Loureiro,*Diseminado*
+15187,15024,0201599,"Arroio (O)",*Diseminado*
+15187,15024,0208901,"Enfesta (A)","Enfesta (A)"
+15187,15024,0213499,"Loureiro (O)",*Diseminado*
 15187,15024,0215299,Lucin,*Diseminado*
-15187,15024,0219099,Quintan,*Diseminado*
+15187,15024,0219099,"Quintan (A)",*Diseminado*
 15187,15024,0220499,"San Cosmade",*Diseminado*
-15187,15024,0222601,Vidual,Vidual
-15187,15024,0224701,Encrobas,Encrobas
+15187,15024,0222601,Bidual,Bidual
+15187,15024,0224701,"Encrobas (As)","Encrobas (As)"
 15187,15024,0225001,Morzos,Morzos
-15187,15024,0226301,Xalo,Xalo
+15187,15024,0226301,"Xalo (O)","Xalo (O)"
 15188,15024,0417901,Meirama,Meirama
-15189,15031,0105501,"Telva (A)","Telva (A)"
 15189,15031,0501201,Culleredo,Culleredo
 15189,15031,0502701,Fontemaior,Fontemaior
 15189,15031,0503301,Ermida,Ermida
@@ -14241,15 +14292,11 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15270,15023,0301401,Cee,Cee
 15270,15023,0302901,"Escabanas (As)","Escabanas (As)"
 15270,15023,0303501,"Granxa (A)","Granxa (A)"
-15270,15023,0303599,"Granxa (A)",*Diseminado*
 15270,15023,0304001,Xallas,Xallas
 15270,15023,0305301,Lagarteira,Lagarteira
 15270,15023,0306601,Pallares,Pallares
-15270,15023,0306699,Pallares,*Diseminado*
 15270,15023,0307201,"Raices de Abaixo","Raices de Abaixo"
-15270,15023,0307299,"Raices de Abaixo",*Diseminado*
 15270,15023,0308801,"Raices de Arriba","Raices de Arriba"
-15270,15023,0308899,"Raices de Arriba",*Diseminado*
 15270,15023,0309101,"Son (O)","Son (O)"
 15280,15013,0101601,Adoufe,Adoufe
 15280,15013,0102101,Alqueidon,Alqueidon
@@ -15398,6 +15445,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15332,15061,0770899,"Gocende de Riba",*Diseminado*
 15332,15061,0777301,"Cristo (O)","Cristo (O)"
 15332,15061,1010599,"Loureiros de Baixo (Os)",*Diseminado*
+15332,15061,1011299,Meixido,*Diseminado*
 15332,15061,1013399,"Picheira (A)",*Diseminado*
 15332,15061,1014899,"Piñeiro (O)",*Diseminado*
 15332,15061,1018699,"Salgueiron (O)",*Diseminado*
@@ -16118,6 +16166,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15390,15902,2414901,Trasanquelos,Trasanquelos
 15390,15902,2415201,"Vilar (O)","Vilar (O)"
 15390,15902,2416599,Vilavide,*Diseminado*
+15391,15902,0401399,Bidueiros,*Diseminado*
 15391,15902,0402899,Cabanas,*Diseminado*
 15391,15902,0403499,"Casanova (A)",*Diseminado*
 15391,15902,0404901,"Cha (A)","Cha (A)"
@@ -16956,6 +17005,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15564,15049,0211399,Loira,*Diseminado*
 15564,15049,0212899,Monteluz,*Diseminado*
 15564,15049,0213499,Porcal,*Diseminado*
+15564,15049,0214999,Ramesquido,*Diseminado*
 15564,15049,0215299,Ribeira,*Diseminado*
 15564,15049,0216599,Riodavila,*Diseminado*
 15564,15049,0217199,"San Xiao de Abaixo",*Diseminado*
@@ -17785,6 +17835,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15617,15050,0513199,Primoy,*Diseminado*
 15617,15050,0514699,Queijeiro,*Diseminado*
 15617,15050,0515999,Redondo,*Diseminado*
+15617,15050,0516299,Rodeiro,*Diseminado*
 15617,15050,0517899,"Torre de San Bartolome",*Diseminado*
 15617,15050,0518401,Villafail,Villafail
 15617,15050,0519799,Viñas,*Diseminado*
@@ -19150,6 +19201,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15808,15079,0109399,Talin,*Diseminado*
 15808,15079,0201501,"Barazon Grande","Barazon Grande"
 15808,15079,0202001,Choren,Choren
+15808,15079,0203699,Medos,*Diseminado*
 15808,15079,0302999,"Picouto (O)",*Diseminado*
 15808,15079,0304001,"Souto (O)","Souto (O)"
 15808,15079,0305399,Vilanova,*Diseminado*
@@ -19164,7 +19216,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15808,15079,0503399,"Baiuca (A)",*Diseminado*
 15808,15079,0504899,Gozulfes,*Diseminado*
 15808,15079,0601101,Mourazos,Mourazos
-15808,15079,0602699,Outeriño,*Diseminado*
+15808,15079,0602699,"Outeiriño (O)",*Diseminado*
 15808,15079,0603299,"San Xurxo",*Diseminado*
 15808,15079,0604799,Vide,*Diseminado*
 15808,15079,0701099,"Barazon Pequeno",*Diseminado*
@@ -19198,9 +19250,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15808,15079,1105299,Trebolo,*Diseminado*
 15808,15079,1201299,Albin,*Diseminado*
 15808,15079,1202799,Amboaxe,*Diseminado*
+15808,15079,1203399,"Busel de Abaixo",*Diseminado*
+15808,15079,1204899,"Busel de Arriba",*Diseminado*
 15808,15079,1205199,Gosenxe,*Diseminado*
 15808,15079,1206499,Moreda,*Diseminado*
-15808,15079,1207001,Busel,Busel
 15808,15079,1301101,"Campo Da Eirexe (O)","Campo Da Eirexe (O)"
 15808,15079,1302699,"Casal (O)",*Diseminado*
 15808,15079,1303299,Cimadevila,*Diseminado*
@@ -19675,6 +19728,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15819,15006,0702599,Codeseira,*Diseminado*
 15819,15006,0704699,Iglesia,*Diseminado*
 15819,15006,0705999,Mañas,*Diseminado*
+15819,15006,0706299,Muiños,*Diseminado*
 15819,15006,0707801,Orxal,Orxal
 15819,15006,0708401,Pena,Pena
 15819,15006,0709799,Sebio,*Diseminado*
@@ -21064,8 +21118,11 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15885,15089,0609801,Texo,Texo
 15885,15089,0610201,Trasariz,Trasariz
 15885,15089,0701001,Calzande,Calzande
+15885,15089,0702501,Cibran,Cibran
 15885,15089,0703101,Laraño,Laraño
 15885,15089,0704699,Matelo,*Diseminado*
+15885,15089,0705901,Paradela,Paradela
+15885,15089,0706201,Quintans,Quintans
 15885,15089,0707899,Ramonde,*Diseminado*
 15885,15089,0708499,Romaris,*Diseminado*
 15885,15089,0709701,"Torre (A)","Torre (A)"
@@ -21425,8 +21482,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15915,15065,0308801,"Rego Da Manga (O)","Rego Da Manga (O)"
 15915,15065,0309199,"Rocha (A)",*Diseminado*
 15915,15065,0310599,"Santa Cruz",*Diseminado*
-15916,15033,0103701,Lestrove,Lestrove
-15916,15033,0103799,Lestrove,*Diseminado*
+15916,15033,0103701,Lestrobe,Lestrobe
+15916,15033,0103799,Lestrobe,*Diseminado*
 15917,15065,0401399,"Aduana (A)",*Diseminado*
 15917,15065,0402801,Anteportas,Anteportas
 15917,15065,0403499,"Barco (O)",*Diseminado*
@@ -21790,7 +21847,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 15981,15033,0301401,Eiro,Eiro
 15981,15033,0302901,"Igrexa de Laiño (A)","Igrexa de Laiño (A)"
 15981,15033,0303501,Manselle,Manselle
-15981,15033,0303599,Manselle,*Diseminado*
 15981,15033,0304001,Paizal,Paizal
 15981,15033,0305301,Pexegueiro,Pexegueiro
 15981,15033,0305399,Pexegueiro,*Diseminado*
@@ -22470,6 +22526,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 16710,16204,0001799,Tebar,*Diseminado*
 16720,16047,0001701,"Cañada Juncosa","Cañada Juncosa"
 16730,16102,0001701,Honrubia,Honrubia
+16730,16102,0001799,Honrubia,*Diseminado*
 16738,16049,0001701,"Cañavate (El)","Cañavate (El)"
 16739,16213,0001701,"Torrubia del Castillo","Torrubia del Castillo"
 16740,16015,0001701,"Almarcha (La)","Almarcha (La)"
@@ -22575,6 +22632,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 17111,17902,0302901,"Puig de Sant Ramon","Puig de Sant Ramon"
 17111,17902,0303501,Vulpellac,Vulpellac
 17111,17902,0303599,Vulpellac,*Diseminado*
+17113,17126,0002201,Fonolleres,Fonolleres
 17113,17902,0201501,Canapost,Canapost
 17113,17902,0201599,Canapost,*Diseminado*
 17113,17902,0202001,Peratallada,Peratallada
@@ -24335,6 +24393,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 18250,18914,0001701,Valderrubio,Valderrubio
 18250,18914,0001799,Valderrubio,*Diseminado*
 18260,18102,0001799,"Alhondiguilla (La)",*Diseminado*
+18260,18102,0002201,Alomartes,Alomartes
 18260,18102,0007501,Illora,Illora
 18260,18102,0007599,Illora,*Diseminado*
 18260,18102,0008101,Tocon,Tocon
@@ -24374,6 +24433,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 18291,18158,0005699,Casanueva,*Diseminado*
 18291,18158,0012001,Zujaira,Zujaira
 18291,18158,0012099,Zujaira,*Diseminado*
+18292,18022,0001701,Atarfe,Atarfe
 18292,18022,0003801,"Sierra Elvira","Sierra Elvira"
 18293,18102,0004301,Escoznar,Escoznar
 18293,18102,0005601,Obeilar,Obeilar
@@ -24452,6 +24512,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 18340,18079,0002201,"Fuente Vaqueros","Fuente Vaqueros"
 18340,18079,0002299,"Fuente Vaqueros",*Diseminado*
 18340,18079,0003801,"Paz (La)","Paz (La)"
+18341,18122,0003899,"Dehesa de Los Montes",*Diseminado*
 18349,18044,0001799,Castaras,*Diseminado*
 18350,18102,0002201,Alomartes,Alomartes
 18350,18102,0002299,Alomartes,*Diseminado*
@@ -24574,6 +24635,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 18480,18182,0004399,"Montoros (Los)",*Diseminado*
 18480,18182,0006901,Ugijar,Ugijar
 18480,18182,0006999,Ugijar,*Diseminado*
+18488,18035,0003899,"Rambla del Banco (La)",*Diseminado*
 18490,18141,0009401,Murtas,Murtas
 18490,18141,0009499,Murtas,*Diseminado*
 18491,18181,0001799,"Casimiros (Los)",*Diseminado*
@@ -24973,6 +25035,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 18816,18046,0004399,Fatima,*Diseminado*
 18816,18046,0005601,"Fuente Vera","Fuente Vera"
 18816,18046,0005602,"Fuente Vera",Isidoros
+18816,18046,0005699,"Fuente Vera",*Diseminado*
 18816,18046,0006902,Martin,Martin
 18816,18046,0006903,Martin,Puentezuela
 18816,18046,0006904,Martin,Solana
@@ -25177,7 +25240,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 19134,19266,0001799,Tendilla,*Diseminado*
 19135,19041,0001701,"Armuña de Tajuña","Armuña de Tajuña"
 19135,19041,0001799,"Armuña de Tajuña",*Diseminado*
-19135,19042,0001701,"Arroyo de Las Fraguas","Arroyo de Fraguas"
 19139,19326,0003801,Valdeluz,Valdeluz
 19140,19143,0001701,Horche,Horche
 19140,19143,0001799,Horche,*Diseminado*
@@ -25223,6 +25285,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 19160,19105,0006901,"Monte de Los Santos","Monte de Los Santos"
 19161,19225,0001701,"Pozo de Guadalajara","Pozo de Guadalajara"
 19161,19225,0001799,"Pozo de Guadalajara",*Diseminado*
+19162,19130,0001799,Guadalajara,*Diseminado*
 19162,19220,0001701,Pioz,Pioz
 19162,19220,0001799,Pioz,*Diseminado*
 19162,19220,0002299,"Charquillos (Los)",*Diseminado*
@@ -25238,6 +25301,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 19162,19220,0012001,"Villas de Pioz (Las)","Villas de Pioz (Las)"
 19162,19220,0013601,Montealto,Montealto
 19162,19220,0014101,"Llanos (Los)","Llanos (Los)"
+19163,19130,0001799,Guadalajara,*Diseminado*
 19170,19071,0001701,"Casar (El)","Casar (El)"
 19170,19071,0002201,"Colinas (Las)","Colinas (Las)"
 19170,19071,0003801,"Coto (El)","Coto (El)"
@@ -25387,6 +25451,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 19237,19248,0001701,"San Andres del Congosto","San Andres del Congosto"
 19237,19334,0001701,"Zarzuela de Jadraque","Zarzuela de Jadraque"
 19237,19334,0001799,"Zarzuela de Jadraque",*Diseminado*
+19238,19042,0001701,"Arroyo de Las Fraguas","Arroyo de Fraguas"
 19238,19146,0001701,"Huerce (La)","Huerce (La)"
 19238,19146,0001799,"Huerce (La)",*Diseminado*
 19238,19146,0003801,Valdepinillos,Valdepinillos
@@ -25805,8 +25870,18 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 20018,20069,0005699,"Donostia / San Sebastian",*Diseminado*
 20100,20053,0001701,Lezo,Lezo
 20100,20053,0001799,Lezo,*Diseminado*
+20100,20053,0002299,Donibanealdea,*Diseminado*
+20100,20053,0003899,Herriondo,*Diseminado*
+20100,20053,0004399,Sagasti,*Diseminado*
+20100,20053,0005699,Iturrin,*Diseminado*
+20100,20053,0006999,"Gaintxurizketa Goikoa",*Diseminado*
+20100,20053,0007599,Errekalde,*Diseminado*
 20100,20067,0001701,Errenteria,Errenteria
 20100,20067,0001799,Errenteria,*Diseminado*
+20100,20067,0002299,"Aldura Gunea",*Diseminado*
+20100,20067,0003899,"San Marko Gunea",*Diseminado*
+20100,20067,0004399,"Zamalbide Gunea",*Diseminado*
+20100,20067,0005699,"Zentolen Gunea",*Diseminado*
 20100,20069,0004399,Landarbaso,*Diseminado*
 20110,20064,0001701,"Pasai Antxo","Pasai Antxo"
 20110,20064,0002201,"Pasai San Pedro","Pasai San Pedro"
@@ -25830,6 +25905,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 20128,20040,0010899,Pagoaga,*Diseminado*
 20130,20072,0003801,Urnieta,Urnieta
 20130,20072,0003899,Urnieta,*Diseminado*
+20130,20072,0004399,Ergoien,*Diseminado*
+20130,20072,0005699,Goiburu,*Diseminado*
+20130,20072,0006999,Lategi,*Diseminado*
+20130,20072,0007599,Oztaran,*Diseminado*
 20140,20009,0001701,Andoain,Andoain
 20140,20009,0002299,Buruntza,*Diseminado*
 20140,20009,0005699,Goiburu,*Diseminado*
@@ -26150,6 +26229,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 20700,20080,0001701,Zumarraga,Zumarraga
 20700,20080,0001799,Zumarraga,*Diseminado*
 20700,20080,0002299,Aginaga,*Diseminado*
+20700,20080,0003899,"San Cristóbal",*Diseminado*
+20700,20080,0004399,Soraitz,*Diseminado*
 20709,20035,0001701,Itsaso-Alegia,Itsaso-Alegia
 20709,20035,0001799,Itsaso-Alegia,*Diseminado*
 20709,20035,0002201,Ezkio,Ezkio
@@ -26263,8 +26344,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 20870,20032,0004399,Sallobente-Ermuaran,*Diseminado*
 20870,20032,0005699,"Aiastia (San Migel)",*Diseminado*
 20870,20032,0006999,"Idotorbe (San Pedro)",*Diseminado*
-20870,20032,0007501,"San Roke","San Roke"
 20870,20032,0007599,"San Roke",*Diseminado*
+20870,20032,0008199,Arriaga,*Diseminado*
+20870,20032,0009499,Urruzuno,*Diseminado*
 21001,21041,0001701,Huelva,Huelva
 21002,21041,0001701,Huelva,Huelva
 21002,21041,0003801,Peguerillas,Peguerillas
@@ -26333,6 +26415,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 21230,21025,0001799,"Corte (La)",*Diseminado*
 21230,21025,0002201,Cortegana,Cortegana
 21230,21025,0002299,Cortegana,*Diseminado*
+21230,21025,0005601,"San Telmo","San Telmo"
 21239,21008,0001701,"Andreses (Los)","Andreses (Los)"
 21239,21008,0003801,"Bravos (Los)","Bravos (Los)"
 21239,21008,0004301,"Cefiñas (Las)","Cefiñas (Las)"
@@ -26447,6 +26530,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 21400,21010,0003899,Fotea,*Diseminado*
 21400,21010,0005601,"Isla del Moral","Isla del Moral"
 21400,21010,0007599,"Santa Clara",*Diseminado*
+21400,21010,0008101,"Playa Isla de Canela","Playa Isla de Canela"
 21400,21010,0009401,"Villa Antonia","Villa Antonia"
 21400,21010,0010801,"Costa Esuri","Costa Esuri"
 21400,21044,0004399,Lepe,*Diseminado*
@@ -26518,6 +26602,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 21500,21035,0011599,"San Isidro",*Diseminado*
 21510,21063,0001701,"San Bartolome de la Torre","San Bartolome de la Torre"
 21510,21063,0001799,"San Bartolome de la Torre",*Diseminado*
+21510,21068,0001799,"Santa Barbara de Casa",*Diseminado*
 21520,21006,0001701,Alosno,Alosno
 21520,21006,0001799,Alosno,*Diseminado*
 21520,21063,0001799,"San Bartolome de la Torre",*Diseminado*
@@ -26552,6 +26637,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 21592,21075,0001799,"Villanueva de Las Cruces",*Diseminado*
 21593,21003,0001701,"Almendro (El)","Almendro (El)"
 21593,21003,0001799,"Almendro (El)",*Diseminado*
+21593,21045,0001799,"Linares de la Sierra",*Diseminado*
 21594,21037,0003801,"Granado (El)","Granado (El)"
 21594,21037,0003899,"Granado (El)",*Diseminado*
 21594,21037,0004301,"Puerto de la Laja","Puerto de la Laja"
@@ -26942,6 +27028,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22280,22119,0003899,"Gurrea de Gallego",*Diseminado*
 22280,22119,0004399,"Paul (La)",*Diseminado*
 22280,22119,0005699,"Temple (El)",*Diseminado*
+22280,22173,0008101,Triste,Triste
 22281,22119,0004301,"Paul (La)","Paul (La)"
 22281,22119,0004399,"Paul (La)",*Diseminado*
 22281,22119,0005601,"Temple (El)","Temple (El)"
@@ -27149,6 +27236,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22394,22113,0012001,Mediano,Mediano
 22394,22113,0017301,Samitier,Samitier
 22394,22907,0007501,"Castejon de Sobrarbe","Castejon de Sobrarbe"
+22394,22907,0012001,Latorre,Latorre
 22394,22907,0014101,Olson,Olson
 22394,22907,0014199,Olson,*Diseminado*
 22394,22907,0015499,"Pardina (La)",*Diseminado*
@@ -27215,6 +27303,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22437,22117,0013699,"Puebla de Fantova (La)",*Diseminado*
 22438,22113,0016799,"Salinas de Trillo",*Diseminado*
 22438,22113,0022801,Troncedo,Troncedo
+22438,22113,0022899,Troncedo,*Diseminado*
 22438,22113,0024901,Clamosa,Clamosa
 22438,22113,0026501,Trillo,Trillo
 22438,22113,0026599,Trillo,*Diseminado*
@@ -27520,6 +27609,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22587,22155,0001799,Cajigar,*Diseminado*
 22587,22155,0002201,Monesma,Noguero(Caserio)
 22587,22155,0002299,Monesma,*Diseminado*
+22588,22053,0001701,Aler,Aler
 22588,22117,0003801,Aguinaliu,Aguinaliu
 22588,22117,0010801,Juseu,Juseu
 22588,22117,0010899,Juseu,*Diseminado*
@@ -27659,11 +27749,13 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22663,22204,0005601,"Tramacastilla de Tena","Tramacastilla de Tena"
 22664,22204,0004301,Sandinies,Sandinies
 22665,22059,0012001,"Piedrafita de Jaca","Piedrafita de Jaca"
+22665,22059,0012099,"Piedrafita de Jaca",*Diseminado*
 22666,22199,0026501,Larrede,Larrede
 22666,22199,0047701,Senegue,Senegue
 22666,22199,0047799,Senegue,*Diseminado*
 22666,22199,0048301,Sorripas,Sorripas
 22700,22130,0007501,Atares,Atares
+22700,22130,0007599,Atares,*Diseminado*
 22700,22130,0011501,Bernues,Bernues
 22700,22130,0021301,Jaca,Jaca
 22700,22130,0021399,Jaca,*Diseminado*
@@ -27673,6 +27765,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22710,22130,0012001,"Bescos de Garcipollera","Bescos de Garcipollera"
 22710,22130,0031101,Villanovilla,Villanovilla
 22711,22130,0011501,Bernues,Bernues
+22711,22130,0011599,Bernues,*Diseminado*
 22711,22130,0014101,Botaya,Botaya
 22711,22130,0014199,Botaya,*Diseminado*
 22712,22130,0003801,Ara,Ara
@@ -27783,6 +27876,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 22811,22905,0004399,Ortilla,*Diseminado*
 22820,22173,0003801,"Peña Estacion (La)","Peña Estacion (La)"
 22820,22173,0003899,"Peña Estacion (La)",*Diseminado*
+22820,22173,0005601,Riglos,Riglos
 22820,22173,0007501,"Santa Maria","Santa Maria"
 22820,22173,0007599,"Santa Maria",*Diseminado*
 22820,22173,0008101,Triste,Triste
@@ -27992,6 +28086,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 23293,23081,0005699,"Catena Alto",*Diseminado*
 23293,23081,0006901,"Cortijos Nuevos","Cortijos Nuevos"
 23293,23081,0006902,"Cortijos Nuevos","Espinareda (La)"
+23293,23081,0006903,"Cortijos Nuevos","Aldea El Pelon"
 23293,23081,0006999,"Cortijos Nuevos",*Diseminado*
 23293,23081,0008101,"Ojuelo (El)","Ojuelo (El)"
 23293,23081,0008199,"Ojuelo (El)",*Diseminado*
@@ -28183,6 +28278,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 23485,23070,0007599,"Pozo Alcon",*Diseminado*
 23486,23042,0002201,Cuenca,Cuenca
 23486,23042,0003801,Hinojares,Hinojares
+23486,23042,0003899,Hinojares,*Diseminado*
 23486,23070,0004301,Fontanar,Fontanar
 23487,23045,0001799,"Arroyo Molinos",*Diseminado*
 23487,23045,0002299,Ceal,*Diseminado*
@@ -28348,6 +28444,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 23689,23002,0014101,"Venta de Agramaderos","Peñas de Majalcoron"
 23690,23033,0001799,"Cañada de Alcala",*Diseminado*
 23690,23033,0002201,Frailes,Frailes
+23690,23033,0002299,Frailes,*Diseminado*
 23690,23033,0006999,"Bailadores (Los)",*Diseminado*
 23690,23033,0008199,"Baños (Los)",*Diseminado*
 23690,23033,0009499,"Cañada Nogueras",*Diseminado*
@@ -28790,6 +28887,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24217,24095,0003801,"Villamoros de Mansilla","Villamoros de Mansilla"
 24217,24095,0004301,"Villaverde de Sandoval","Villaverde de Sandoval"
 24217,24095,0004399,"Villaverde de Sandoval",*Diseminado*
+24217,24218,0003801,Villacelama,Villacelama
+24217,24218,0003899,Villacelama,*Diseminado*
+24217,24218,0004301,"Villanueva de Las Manzana","Villanueva de Las Manzana"
+24217,24218,0004399,"Villanueva de Las Manzana",*Diseminado*
 24218,24094,0002201,"Mansilla del Esla","Mansilla del Esla"
 24218,24094,0003801,Villomar,Villomar
 24218,24094,0003899,Villomar,*Diseminado*
@@ -28826,10 +28927,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24225,24218,0001701,Palanquinos,Palanquinos
 24225,24218,0002201,"Riego del Monte","Riego del Monte"
 24225,24218,0002299,"Riego del Monte",*Diseminado*
-24225,24218,0003801,Villacelama,Villacelama
-24225,24218,0003899,Villacelama,*Diseminado*
-24225,24218,0004301,"Villanueva de Las Manzana","Villanueva de Las Manzana"
-24225,24218,0004399,"Villanueva de Las Manzana",*Diseminado*
 24226,24225,0002201,Villarente,Villarente
 24226,24225,0002299,Villarente,*Diseminado*
 24226,24227,0003801,Mancilleros,Mancilleros
@@ -29178,6 +29275,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24369,24210,0009401,Ucedo,Ucedo
 24369,24210,0010801,"Valbuena de la Encomienda","Valbuena de la Encomienda"
 24370,24170,0005601,"Matavenero Y Poibueno","Matavenero Y Poibueno"
+24370,24170,0010801,"Santibañez de Montes","Santibañez de Montes"
 24370,24170,0011501,"Torre del Bierzo","Torre del Bierzo"
 24374,24083,0001701,Almagarinos,Almagarinos
 24374,24170,0101601,"Cerezal de Tremor","Cerezal de Tremor"
@@ -29440,6 +29538,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24459,24169,0004301,Pradilla,Pradilla
 24459,24169,0007501,"Santa Marina del Sil","Santa Marina del Sil"
 24459,24169,0010801,Valdelaloba,Valdelaloba
+24460,24169,0009401,Toreno,Toreno
 24460,24169,0101601,"Matarrosa del Sil","Matarrosa del Sil"
 24469,24110,0007501,"Villamartin del Sil","Villamartin del Sil"
 24469,24169,0007501,"Santa Marina del Sil","Santa Marina del Sil"
@@ -29608,6 +29707,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24560,24206,0301499,"Toral de Los Vados",*Diseminado*
 24565,24038,0004301,Villadepalos,Villadepalos
 24565,24038,0004399,Villadepalos,*Diseminado*
+24565,24038,0007599,"Peon de Arriba",*Diseminado*
 24566,24103,0102101,Oencia,Oencia
 24566,24103,0102199,Oencia,*Diseminado*
 24566,24103,0201501,Leiroso,Leiroso
@@ -29959,6 +30059,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 24815,24056,0008101,"Santibañez de Rueda","Santibañez de Rueda"
 24815,24056,0008199,"Santibañez de Rueda",*Diseminado*
 24815,24056,0009401,Sorriba,Sorriba
+24815,24056,0009499,Sorriba,*Diseminado*
 24816,24056,0006901,"Quintana de la Peña","Quintana de la Peña"
 24816,24056,0010801,Valmartino,Valmartino
 24816,24056,0010899,Valmartino,*Diseminado*
@@ -30475,6 +30576,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 25212,25911,0011501,Ratera,Ratera
 25213,25072,0006901,Vergos,Vergos
 25213,25216,0001701,Bellmunt,Bellmunt
+25213,25216,0001799,Bellmunt,*Diseminado*
+25213,25216,0002201,Civit,Civit
+25213,25216,0002299,Civit,*Diseminado*
 25213,25216,0003801,Pallerols,Pallerols
 25213,25216,0003899,Pallerols,*Diseminado*
 25213,25216,0004301,Pavia,Pavia
@@ -30886,9 +30990,12 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 25517,25161,0011501,Sossis,Sossis
 25517,25161,0013601,Torallola,Torallola
 25518,25161,0001701,Aramunt,Aramunt
+25518,25161,0003801,Erinya,Erinya
+25518,25161,0005601,Hortoneda,Hortoneda
 25518,25161,0006901,Pessonada,Pessonada
 25518,25161,0006999,Pessonada,*Diseminado*
 25518,25161,0009401,"Sant Marti de Canals","Sant Marti de Canals"
+25518,25161,0013601,Torallola,Torallola
 25520,25173,0016701,"Pont de Suert (El)","Pont de Suert (El)"
 25526,25043,0003801,Cardet,Cardet
 25526,25043,0004301,Coll,Coll
@@ -31118,6 +31225,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 25590,25039,0010801,"Gerri de la Sal","Gerri de la Sal"
 25590,25039,0010899,"Gerri de la Sal",*Diseminado*
 25591,25039,0003899,Balestui,*Diseminado*
+25591,25039,0004399,Bresca,*Diseminado*
 25591,25039,0007599,"Comte (El)",*Diseminado*
 25591,25039,0014101,Peramea,Peramea
 25591,25039,0014199,Peramea,*Diseminado*
@@ -31965,6 +32073,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 26270,26110,0006901,Ulizarna,Ulizarna
 26270,26110,0007501,Uyarra,Uyarra
 26280,26061,0003801,Ezcaray,Ezcaray
+26280,26061,0003899,Ezcaray,Diseminado
 26288,26162,0001701,Valgañon,Valgañon
 26288,26162,0001799,Valgañon,*Diseminado*
 26288,26183,0001701,Zorraquin,Zorraquin
@@ -33757,6 +33866,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27227,27020,3235699,"Toxo (O)",*Diseminado*
 27227,27020,3236999,"Vilar (O)",*Diseminado*
 27227,27020,3238101,Xia,Xia
+27227,27020,3239499,"Foxo (O)",*Diseminado*
 27228,27020,0401399,"Albeiro (O)",*Diseminado*
 27228,27020,0402899,Barallobre,*Diseminado*
 27228,27020,0403499,Bernadal,*Diseminado*
@@ -34724,6 +34834,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27296,27028,0901801,Bocamaos,Bocamaos
 27296,27028,0902399,"Vilar de Bocamaos (O)",*Diseminado*
 27296,27028,0903999,Vilardon,*Diseminado*
+27296,27028,0904499,"San Xillao",*Diseminado*
 27296,27028,2901001,Castro,Castro
 27296,27028,2902599,Distriz,*Diseminado*
 27296,27028,2903199,Guntin,*Diseminado*
@@ -35434,6 +35545,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27347,27024,1204899,"Pereiro (O)",*Diseminado*
 27347,27024,1205199,Rio,*Diseminado*
 27347,27024,1206499,"Santa Mariña",*Diseminado*
+27347,27024,2401599,"Airela (A)",*Diseminado*
 27347,27024,2402001,"Ferreria (A)","Ferreria (A)"
 27347,27024,2404199,"Raxoa (A)",*Diseminado*
 27347,27024,2405401,Trascastro,Trascastro
@@ -36078,6 +36190,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27391,27050,1502499,Casti,*Diseminado*
 27391,27050,1503099,"Freixeiro (O)",*Diseminado*
 27391,27050,1504501,Margaride,Margaride
+27391,27050,1505899,"Pacio (O)",*Diseminado*
 27391,27050,1506199,Paradela,*Diseminado*
 27391,27050,1507799,Pozos,*Diseminado*
 27391,27050,1509699,"San Pedro",*Diseminado*
@@ -37011,6 +37124,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27528,27009,1903601,"Mato (O)","Mato (O)"
 27528,27009,1904199,Vales,*Diseminado*
 27528,27009,2302199,"Cuqueira (A)",*Diseminado*
+27528,27009,2303799,"Enfonxa (A)",*Diseminado*
 27528,27009,2304299,"Laxa (A)",*Diseminado*
 27528,27009,2305599,Pasarin,*Diseminado*
 27528,27009,2306801,"San Lourenzo","San Lourenzo"
@@ -37785,6 +37899,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27593,27041,2409299,"Regueira (A)",*Diseminado*
 27593,27041,2411301,Trasulfe,Trasulfe
 27593,27041,2413401,Toiriz,Toiriz
+27594,27058,1801699,"Abadia (A)",*Diseminado*
 27594,27058,1802199,"Devesa (A)",*Diseminado*
 27594,27058,1803701,Pesqueiras,Pesqueiras
 27594,27058,1804299,"Santo Estevo",*Diseminado*
@@ -40122,7 +40237,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27796,27051,0509901,Vilandriz,Vilandriz
 27796,27051,0510399,"Barrio Novo",*Diseminado*
 27796,27051,0513101,"Barral (O)","Barral (O)"
+27796,27051,0514699,"Campana (A)",*Diseminado*
+27796,27051,0515999,Preixoana,*Diseminado*
 27796,27051,0516299,"Avesada (A)",*Diseminado*
+27796,27051,0517899,"Rigueira (A)",*Diseminado*
 27797,27051,1001401,"Campo de San Lourenzo (O)","Campo de San Lourenzo (O)"
 27797,27051,1002999,"Carreira Branca",*Diseminado*
 27797,27051,1003599,Coedo,*Diseminado*
@@ -40411,6 +40529,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27816,27065,1503001,"Pereira (A)","Pereira (A)"
 27816,27065,2902599,"Balsa Pequena (A)",*Diseminado*
 27816,27065,2904601,"Bouza (A)","Bouza (A)"
+27816,27065,2905999,"Cal de Abelleira",*Diseminado*
 27816,27065,2907899,"Carballeira (A)",*Diseminado*
 27816,27065,2909799,Castiñeiras,*Diseminado*
 27816,27065,2912399,Cornas,*Diseminado*
@@ -40418,6 +40537,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 27816,27065,2917699,"Escourido (O)",*Diseminado*
 27816,27065,2918299,"Fraga (A)",*Diseminado*
 27816,27065,2919599,Fraguas,*Diseminado*
+27816,27065,2921699,Gondulfe,*Diseminado*
 27816,27065,2922199,"Igrexario (O)",*Diseminado*
 27816,27065,2923799,"Insua (A)",*Diseminado*
 27816,27065,2925599,"Lombo Do Cervo",*Diseminado*
@@ -42206,6 +42326,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28412,28023,0011501,"San Muriel","San Muriel"
 28413,28023,0001701,"Boalo (El)","Boalo (El)"
 28413,28023,0001799,"Boalo (El)",*Diseminado*
+28413,28023,0003801,Mataelpino,Mataelpino
 28413,28023,0005601,"Peña de Las Gallinas","Peña de Las Gallinas"
 28420,28061,0020601,Parquelagos,Parquelagos
 28420,28061,0020699,Parquelagos,*Diseminado*
@@ -42345,6 +42466,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28598,28173,0002201,"Castillo de Tajo","Castillo de Tajo"
 28598,28173,0003801,"Villamanrique de Tajo","Villamanrique de Tajo"
 28598,28173,0003899,"Villamanrique de Tajo",*Diseminado*
+28598,28173,0004399,"Hoya de Simancas",*Diseminado*
 28598,28173,0005699,"Vega de Los Bodegones",*Diseminado*
 28600,28096,0001701,"Calypo II","Calypo II"
 28600,28096,0003801,Navalcarnero,Navalcarnero
@@ -42587,6 +42709,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28739,28182,0003899,"Cabezas (Las)",*Diseminado*
 28739,28182,0004301,"Tercio de la Laguna (El)","Tercio de la Laguna (El)"
 28739,28182,0005601,"Villavieja del Lozoya","Villavieja del Lozoya"
+28739,28182,0006901,"Cañada (La)","Cañada (La)"
 28739,28182,0006999,"Cañada (La)",*Diseminado*
 28739,28182,0007501,"Solanilla (La)","Solanilla (La)"
 28740,28120,0001799,"Oteruelo del Valle",*Diseminado*
@@ -42617,7 +42740,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28750,28045,0006905,"Pueblas (Las)","Valdelagua-Punta Galea"
 28750,28129,0001701,"San Agustin del Guadalix","San Agustin del Guadalix"
 28750,28129,0001799,"San Agustin del Guadalix",*Diseminado*
-28750,28129,0005699,Moncalvillo,*Diseminado*
 28750,28129,0006999,"Peñas Rubias",*Diseminado*
 28750,28129,0009401,Valdelagua,Valdelagua
 28750,28129,0010899,Valdeoliva,*Diseminado*
@@ -42627,6 +42749,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28751,28030,0003801,"Cabrerita Y El Roble (La)","Cabrerita Y El Roble (La)"
 28751,28030,0007501,"Rabusera (La)","Rabusera (La)"
 28751,28030,0007599,"Rabusera (La)",*Diseminado*
+28752,28901,0001799,"Navas de Buitrago",*Diseminado*
 28752,28901,0002201,Sieteiglesias,Sieteiglesias
 28752,28901,0002299,Sieteiglesias,*Diseminado*
 28752,28901,0003801,"Fuente Blanquilla","Fuente Blanquilla"
@@ -42674,6 +42797,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 28791,28144,0001701,"Soto del Real","Soto del Real"
 28791,28144,0001799,"Soto del Real",*Diseminado*
 28791,28144,0002201,"Rancajales (Los)","Rancajales (Los)"
+28791,28144,0002299,"Rancajales (Los)",*Diseminado*
 28791,28144,0003801,"Dehesa Boyal","Fresneda-Dehesa Boyal"
 28791,28144,0004301,"Cierro de San Bartolome","Cierro de San Bartolome"
 28792,28085,0001701,"Endrinales (Los)","Endrinales (Los)"
@@ -43191,6 +43315,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 29394,29084,0013602,Ronda,"Cimada (La)"
 29394,29084,0013604,Ronda,"Prados (Los)"
 29394,29084,0013699,Ronda,*Diseminado*
+29395,29035,0001799,"Cañete la Real",*Diseminado*
 29400,29084,0013601,Ronda,Ronda
 29400,29084,0013605,Ronda,"Pinos (Los)"
 29400,29084,0013606,Ronda,"Puerto del Sauco"
@@ -43354,7 +43479,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 29604,29069,0009403,Marbella,Elviria
 29604,29069,0009405,Marbella,Ricmar
 29604,29069,0009407,Marbella,"Rosario (El)"
-29604,29069,0009499,Marbella,*Diseminado*
 29610,29076,0001701,Ojen,Ojen
 29610,29076,0001702,Ojen,"Mairena (La)"
 29610,29076,0001703,Ojen,"Palo Alto"
@@ -43426,6 +43550,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 29679,29023,0003899,Cortes,*Diseminado*
 29679,29069,0013607,"San Pedro Alcantara","San Pedro Alcantara"
 29680,29051,0006901,Estepona,Estepona
+29680,29051,0006999,Estepona,*Diseminado*
 29680,29051,0008199,"Loma del Monte",*Diseminado*
 29688,29051,0001701,Atalaya-Isdabe,Atalaya-Isdabe
 29688,29051,0004301,Cancelada,Cancelada
@@ -43461,7 +43586,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 29692,29068,0005601,Manilva,"Castillo de la Duquesa"
 29692,29068,0005602,Manilva,"Chullera (La)"
 29692,29068,0005604,Manilva,"Honda Cavada"
-29692,29068,0005605,Manilva,Manilva
 29692,29068,0005607,Manilva,"San Luis de Sabinillas"
 29692,29068,0005608,Manilva,Alcorrin
 29692,29068,0005699,Manilva,*Diseminado*
@@ -44323,11 +44447,12 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 30413,30028,0002201,Moratalla,Moratalla
 30413,30028,0003899,Benamor,*Diseminado*
 30413,30028,0005699,Bejar,*Diseminado*
-30413,30028,0008101,"Cañada de la Cruz","Cañada de la Cruz"
-30413,30028,0008102,"Cañada de la Cruz","Odres (Los)"
-30413,30028,0008199,"Cañada de la Cruz",*Diseminado*
 30413,30028,0012099,Rogativa,*Diseminado*
+30414,30028,0008101,"Cañada de la Cruz","Cañada de la Cruz"
+30414,30028,0008102,"Cañada de la Cruz","Odres (Los)"
+30414,30028,0008199,"Cañada de la Cruz",*Diseminado*
 30420,30013,0001701,Calasparra,Calasparra
+30420,30013,0101699,"Finca (La)",*Diseminado*
 30420,30013,0102199,"Luz (La)",*Diseminado*
 30420,30013,0103799,"Puente del Rio Segura",*Diseminado*
 30420,30013,0201599,"Cuartos de Rotas",*Diseminado*
@@ -44842,6 +44967,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 30810,30024,3405099,"Zarcilla de Ramos",*Diseminado*
 30811,30024,0006999,Ortillo,*Diseminado*
 30811,30024,1101399,Fontanares,*Diseminado*
+30811,30024,1105299,Xiquena,*Diseminado*
 30811,30024,1501999,"Girona, Cuzcos Y Llano",*Diseminado*
 30811,30024,1503099,"Tejera (La) Y la Alqueria",*Diseminado*
 30811,30024,2101801,Alcala,"Consejero (El)"
@@ -44898,6 +45024,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 30813,30024,2204399,"Puerto del Carril",*Diseminado*
 30813,30024,2501499,"Alcanara (La) Y Bucanos",*Diseminado*
 30813,30024,2502999,Altobordo,*Diseminado*
+30813,30024,2503501,"Casa de Las Monjas","Urb Jardines la Almenara"
 30813,30024,2503502,"Casa de Las Monjas","Urb Torre del Obispo"
 30813,30024,2503599,"Casa de Las Monjas",*Diseminado*
 30813,30024,2504001,"Conventos (Los)",Feli
@@ -45453,7 +45580,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31194,31136,0012001,Unzu,Unzu
 31195,31902,0001701,Aizoáin/Aitzoain,Aizoáin/Aitzoain
 31195,31902,0002201,Añézcar,Añézcar
-31195,31902,0004301,Ballariáin,Ballariáin
+31195,31902,0004301,Ballariain,Ballariain
 31195,31902,0005601,Berrioplano/Berriobeiti,Berrioplano/Berriobeiti
 31195,31902,0006901,Berriosuso/Berriogoiti,Berriosuso/Berriogoiti
 31195,31902,0007501,Elcarte,Elcarte
@@ -45672,7 +45799,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31395,31150,0003801,Artariain,Artariain
 31395,31150,0004301,Benegorri,Benegorri
 31395,31150,0005601,Bezquiz,Bezquiz
-31395,31150,0006901,Iratxeta,Iracheta
+31395,31150,0006901,Iratxeta,Iratxeta
 31395,31150,0008101,Leoz,Leoz
 31395,31150,0012001,Sansomain,Sansomain
 31395,31150,0013601,Uzquita,Uzquita
@@ -45710,6 +45837,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31411,31135,0001701,Javier,Javier
 31411,31135,0001799,Javier,*Diseminado*
 31412,31059,0001701,Burgui,Burgui
+31412,31059,0001799,Burgui,*Diseminado*
 31413,31252,0001701,Vidangoz,Vidangoz
 31414,31113,0001701,Garde,Garde
 31415,31210,0001799,"San Martin",*Diseminado*
@@ -45765,7 +45893,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31439,31199,0002201,Oroz-Betelu/Orotz-Betelu,Oroz-Betelu/Orotz-Betelu
 31440,31159,0001701,Lumbier,Lumbier
 31440,31159,0001799,Lumbier,*Diseminado*
-31448,31209,0003899,Biguezal,*Diseminado*
 31448,31241,0001799,Adoain,*Diseminado*
 31448,31241,0003899,Aristu,*Diseminado*
 31448,31241,0004399,Ayechu,*Diseminado*
@@ -45809,6 +45936,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31454,31181,0001799,Aspurz,*Diseminado*
 31454,31209,0002201,Arbonies,Arbonies
 31454,31209,0003801,Biguezal,Biguezal
+31454,31209,0003899,Biguezal,*Diseminado*
 31454,31209,0004301,Domeño,Domeño
 31454,31209,0006999,Napal,*Diseminado*
 31454,31209,0007599,Orradre,*Diseminado*
@@ -45984,6 +46112,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31650,31211,0001701,"Orreaga / Roncesvalles","Orreaga / Roncesvalles"
 31660,31248,0005601,Luzaide/Valcarlos,Luzaide/Valcarlos
 31660,31248,0005699,Luzaide/Valcarlos,*Diseminado*
+31660,31248,0006999,Aitzurre,*Diseminado*
 31669,31248,0001799,Azoleta,*Diseminado*
 31669,31248,0002201,Gaindola,Gaindola
 31669,31248,0002299,Gaindola,*Diseminado*
@@ -46287,6 +46416,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31799,31186,0008199,Ripa,*Diseminado*
 31799,31188,0001799,Beraiz,*Diseminado*
 31799,31188,0002201,Enderiz,Enderiz
+31799,31188,0002299,Enderiz,*Diseminado*
 31799,31188,0003801,Olaiz,Olaiz
 31799,31188,0004301,Olave,Olave
 31799,31188,0005601,Osacain,Osacain
@@ -46349,6 +46479,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 31866,31049,0006901,Igoa,Igoa
 31866,31049,0006999,Igoa,*Diseminado*
 31866,31049,0007501,Jauntsarats,Jauntsarats
+31866,31049,0007599,Jauntsarats,*Diseminado*
+31866,31049,0101699,Beramendi,*Diseminado*
 31866,31049,0201501,Erbiti,Erbiti
 31866,31049,0201599,Erbiti,*Diseminado*
 31866,31049,0202099,Ola,*Diseminado*
@@ -46503,7 +46635,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32005,32075,0603201,"Farixa (A)","Farixa (A)"
 32100,32026,0201501,"Penas Albas","Penas Albas"
 32100,32026,0401301,Cambeo,Cambeo
-32100,32026,0502701,"Madanela (A)","Madanela (A)"
 32100,32026,0701001,Gustei,Gustei
 32100,32026,0702599,Pobadura,*Diseminado*
 32100,32026,0703101,"Seara Vella","Seara Vella"
@@ -46870,6 +47001,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32151,32059,1407899,Corneda,*Diseminado*
 32151,32059,1408499,Ferradal,*Diseminado*
 32152,32026,0501201,Lavandeira,Lavandeira
+32152,32026,0502701,"Madanela (A)","Madanela (A)"
 32152,32026,0503301,Meriz,Meriz
 32152,32026,0504801,Paradela,Paradela
 32152,32026,0505101,Pol,Pol
@@ -47234,6 +47366,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32356,32060,0101699,Casasola,*Diseminado*
 32356,32060,0501201,Petin,Petin
 32357,32015,1401001,"Seixo (O)","Seixo (O)"
+32357,32015,1401099,"Seixo (O)",*Diseminado*
 32357,32038,0401301,Seadur,Seadur
 32357,32060,0201501,Mones,Mones
 32357,32060,0202001,"San Paio","San Paio"
@@ -47274,6 +47407,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32368,32083,2401501,"Santa Cristina","Santa Cristina"
 32368,32083,2801101,Vilaboa,Vilaboa
 32369,32083,0101601,Baños,Baños
+32369,32083,0101699,Baños,*Diseminado*
 32369,32083,0801901,Corzos,Corzos
 32369,32083,2501401,Seoane,Seoane
 32369,32083,2601301,Valdin,Valdin
@@ -47287,32 +47421,43 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32372,32015,0001701,Outardepregos,Outardepregos
 32372,32015,0001799,Outardepregos,*Diseminado*
 32372,32015,0401301,Celavente,Celavente
+32372,32015,0401399,Celavente,*Diseminado*
 32372,32015,0501201,Chandoiro,Chandoiro
 32372,32015,1001401,Lentellais,Lentellais
+32372,32015,1001499,Lentellais,*Diseminado*
 32372,32015,1201201,Aceveda,Aceveda
 32372,32015,1202701,Barxa,Barxa
 32372,32015,1203301,"San Martiño","San Martiño"
+32372,32015,1203399,"San Martiño",*Diseminado*
 32373,32015,0101601,"Bolo (O)","Bolo (O)"
+32373,32015,0101699,"Bolo (O)",*Diseminado*
 32373,32015,0701001,Fornelos,Fornelos
 32373,32015,0901801,"Chao Das Donas","Chao Das Donas"
 32373,32015,0902301,Xava,Xava
+32373,32015,0902399,Xava,*Diseminado*
 32373,32015,0903999,"Orxais (Os)",*Diseminado*
 32373,32015,1101301,Paradela,Paradela
 32373,32015,1501901,"San Pedro Dos Nabos","San Pedro Dos Nabos"
+32373,32015,1501999,"San Pedro Dos Nabos",*Diseminado*
 32373,32015,1502401,Teixido,Teixido
+32373,32015,1502499,Teixido,*Diseminado*
 32373,32015,1701701,Valdanta,Valdanta
+32373,32015,1701799,Valdanta,*Diseminado*
 32374,32015,0201501,Buxan,Buxan
 32374,32015,0301401,Cambela,Cambela
 32374,32015,0301499,Cambela,*Diseminado*
 32374,32015,0302901,Celeiros,Celeiros
 32374,32015,0601101,"Chao de Castro","Chao de Castro"
+32374,32015,0601199,"Chao de Castro",*Diseminado*
 32374,32015,1601801,"Vao (O)","Vao (O)"
 32374,32015,1602301,"Rigueira (A)","Rigueira (A)"
 32374,32015,1602399,"Rigueira (A)",*Diseminado*
 32374,32015,1603901,Tuxe,Tuxe
 32374,32015,1801601,Valbuxan,Valbuxan
+32374,32015,1801699,Valbuxan,*Diseminado*
 32374,32015,1802101,Vilaseco,Vilaseco
 32375,32015,0801901,"Ermidas (As)","Ermidas (As)"
+32375,32015,0801999,"Ermidas (As)",*Diseminado*
 32375,32015,1301101,"Santa Cruz","Santa Cruz"
 32375,32044,0901899,"Escadas (As)",*Diseminado*
 32400,32069,0601101,Ribadavia,Ribadavia
@@ -48153,6 +48298,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32590,32048,0902301,"Vilavella (A)","Vilavella (A)"
 32590,32048,1001401,"Canda (A)","Canda (A)"
 32591,32021,0101601,Campobecerros,Campobecerros
+32591,32021,0101699,Campobecerros,*Diseminado*
 32591,32021,0102101,Sanguñedo,Sanguñedo
 32591,32021,0501201,"Veiga de Nostre","Veiga de Nostre"
 32591,32021,0801901,Portocamba,Portocamba
@@ -48219,7 +48365,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32611,32071,0504801,Rios,Rios
 32611,32071,0505101,Romariz,Romariz
 32612,32021,0701001,Monteveloso,Monteveloso
-32612,32021,0702501,Piornedo,"Piorndedo (O)"
+32612,32021,0702501,Piornedo,"Piornedo (O)"
 32612,32071,0401301,Pousada,Pousada
 32612,32071,0601101,Mañoas,Mañoas
 32612,32071,0602601,Rubios,Rubios
@@ -48315,17 +48461,18 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32622,32039,0408799,Carraxoó,*Diseminado*
 32623,32039,0701001,Matama,Matama
 32623,32039,0801901,Arcucelos,Arcucelos
-32624,32021,0201501,"Castrelo Do Val","Castrelo Do Val"
 32624,32021,0401301,"Nocedo Do Val","Nocedo Do Val"
+32624,32021,0401399,"Nocedo Do Val",*Diseminado*
 32624,32050,0201501,Estevesiños,Estevesiños
 32624,32050,0202001,Mixos,Mixos
 32624,32050,0702501,"Pousa (A)","Pousa (A)"
 32624,32050,1001401,Vences,Vences
 32625,32021,0201501,"Castrelo Do Val","Castrelo Do Val"
+32625,32021,0201599,"Castrelo Do Val",*Diseminado*
 32625,32021,0301401,Gondulfes,Gondulfes
 32625,32021,0302999,Marban,*Diseminado*
-32625,32021,0401301,"Nocedo Do Val","Nocedo Do Val"
 32626,32021,0601101,Pepin,Pepin
+32626,32021,0601199,Pepin,*Diseminado*
 32626,32021,0602601,Ribas,Ribas
 32626,32021,0901801,Fontefria,Fontefria
 32626,32021,0902399,"San Paio",*Diseminado*
@@ -48902,13 +49049,13 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32710,32058,0902301,Cortiñas,Cortiñas
 32710,32058,0903901,"Pereiro de Aguiar (O)","Pereiro de Aguiar (O)"
 32710,32058,0906001,"San Salvador","San Salvador"
-32710,32058,0907601,Vilar,Vilar
+32710,32058,0907601,Vilar,"Vilar (O)"
 32710,32058,1102801,"Murteira (A)","Murteira (A)"
 32710,32058,1104901,Tibias,Tibias
 32711,32058,0501201,Agra,Agra
 32711,32058,0502701,"Bouzas de Fondo","Bouzas de Fondo"
 32711,32058,0503301,Casdemiro,Casdemiro
-32711,32058,0504801,Cimadevila,Cimadevila
+32711,32058,0504801,Cimadevila,"Cimadevila (Melias)"
 32711,32058,0505101,"Condado (O)","Condado (O)"
 32711,32058,0506401,"Peteiras (As)","Peteiras (A)"
 32711,32058,0507099,Espiñedo,*Diseminado*
@@ -49177,6 +49324,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32769,32023,0905799,Casgüil,*Diseminado*
 32769,32023,0906001,Castomas,Castomas
 32769,32023,0907699,"Outeiriño (O)",*Diseminado*
+32769,32023,0909599,"Pelosos (Os)",*Diseminado*
 32769,32023,1501901,"Casares (Os)","Casares (Os)"
 32769,32023,1502401,Casfiel,Casfiel
 32769,32023,1503099,"Vilar de Oleiros",*Diseminado*
@@ -49361,10 +49509,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32792,32058,0801901,Boeiros,Boeiros
 32792,32058,0803001,Casmartiño,Casmartiño
 32792,32058,0804501,Caspiñon,Caspiñon
-32792,32058,0805801,Cimadevila,Cimadevila
+32792,32058,0805801,Cimadevila,"Cimadevila (Santa Marta)"
 32792,32058,0807701,"Gozos (Os)","Gozos (Os)"
 32792,32058,0808301,"Medorra (A)","Medorra (A)"
-32792,32058,0809601,"Outeiro (O)","Outeiro (O)"
+32792,32058,0809601,"Outeiro (O)","Outeiro (Santa Marta)"
 32792,32058,0810001,Outeiromeao,Outeiromeao
 32792,32058,0811701,Pedraio,Pedraio
 32792,32058,0812201,"Penedo (O)","Penedo (O)"
@@ -49384,7 +49532,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32793,32058,0304001,Ordelles,Ordelles
 32793,32058,1201201,Cachamaria,Cachamaria
 32793,32058,1202701,Malobrigo,Malobrigo
-32793,32058,1203301,Outeiro,Outeiro
+32793,32058,1203301,Outeiro,"Outeiro (Trios)"
 32793,32058,1204801,"Pazo (O)","Pazo (O)"
 32793,32058,1205199,Penedo,*Diseminado*
 32793,32058,1206401,Sobrado,Sobrado
@@ -49769,19 +49917,25 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32820,32020,0209201,"San Martiño","San Martiño"
 32820,32020,0211301,"Teixugueira (A)","Teixugueira (A)"
 32820,32020,0605001,"Santa Catalina","Santa Catalina"
+32820,32020,1001499,"San Tome",*Diseminado*
 32820,32020,1201201,"Mato (O)","Mato (O)"
+32820,32020,1202701,"Peto (O)","Peto (O)"
 32820,32020,1202799,"Peto (O)",*Diseminado*
 32820,32020,1203301,Sanguñedo,Sanguñedo
+32820,32020,1203399,Sanguñedo,*Diseminado*
 32820,32020,1204801,"Vilar de Vacas","Vilar de Vacas"
 32821,32020,0212801,Baldariz,Baldariz
-32821,32020,0802401,"Lamas de Outeiro","Lamas de Outeiro"
 32821,32020,0803001,Sabucedo,Sabucedo
 32821,32020,0805801,"Xinzo de Teixugueiras","Xinzo de Teixugueiras"
+32821,32020,0805899,"Xinzo de Teixugueiras",*Diseminado*
 32821,32020,1001401,"San Tome","San Tome"
 32821,32020,1002901,Terzas,Terzas
 32821,32020,1101301,"Bagullo (O)","Bagullo (O)"
+32821,32020,1101399,"Bagullo (O)",*Diseminado*
 32821,32020,1102801,"Carballal (O)","Carballal (O)"
+32821,32020,1102899,"Carballal (O)",*Diseminado*
 32821,32020,1103401,"Seara (A)","Seara (A)"
+32821,32020,1103499,"Seara (A)",*Diseminado*
 32821,32020,1104901,"Seixadas (As)","Seixadas (As)"
 32821,32020,1105201,Seixadelas,Seixadelas
 32822,32020,0201501,"Armada (A)","Armada (A)"
@@ -49790,26 +49944,40 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32822,32020,0210601,"San Pedro","San Pedro"
 32823,32020,0110701,"Vilar Da Ponte","Vilar Da Ponte"
 32823,32020,0901801,Oleiros,Oleiros
+32823,32020,0901899,Oleiros,*Diseminado*
+32823,32020,0902301,Parbon,Parbon
 32823,32020,0903901,"Prado (O)","Prado (O)"
 32823,32020,0904401,Sande,Sande
 32823,32024,1104901,Freixo,Freixo
 32824,32020,0301401,Couxil,Couxil
 32824,32020,0302901,Couxiliño,Couxiliño
+32824,32020,0302999,Couxiliño,*Diseminado*
 32824,32020,0303501,"Lagoa (A)","Lagoa (A)"
+32824,32020,0303599,"Lagoa (A)",*Diseminado*
 32824,32020,0505101,"Maravillas (As)","Maravillas (As)"
 32824,32020,0601101,"Carregal (O)","Carregal (O)"
 32824,32020,0602601,"Gueral de Arriba","Gueral de Arriba"
 32824,32020,0603201,Nogueiro,Nogueiro
 32824,32020,0604701,Outomuro,Outomuro
 32825,32020,0103701,"Gueral de Abaixo","Gueral de Abaixo"
+32825,32020,0103799,"Gueral de Abaixo",*Diseminado*
 32825,32020,0104201,Miros,Miros
 32825,32020,0106801,Sabuz,Sabuz
 32825,32020,0108001,Soutelo,Soutelo
 32825,32020,0109301,"Teixeira (A)","Teixeira (A)"
+32825,32020,0109399,"Teixeira (A)",*Diseminado*
 32825,32020,0111401,"Santa Baia","Santa Baia"
+32825,32020,0111499,"Santa Baia",*Diseminado*
+32826,32020,0402801,Doniz,Doniz
+32826,32020,0402899,Doniz,*Diseminado*
+32826,32020,0403401,"Ella de Abaixo (A)","Ella de Abaixo (A)"
+32826,32020,0404901,"Ella de Arriba (A)","Ella de Arriba (A)"
+32826,32020,0407101,"Pazos (Os)","Pazos (Os)"
+32826,32020,0407199,"Pazos (Os)",*Diseminado*
 32826,32020,0410401,Espiñoso,Espiñoso
 32826,32020,0505101,"Maravillas (As)","Maravillas (As)"
 32826,32020,0701001,"Freixoso de Penela","Freixoso de Penela"
+32826,32020,0701099,"Freixoso de Penela",*Diseminado*
 32827,32024,0401301,Amedo,Amedo
 32827,32024,0402801,Barxa,Barxa
 32827,32024,0403401,"Barxiña (A)","Barxiña (A)"
@@ -49904,6 +50072,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32848,32006,0502701,Trarigo,Trarigo
 32848,32006,1201201,Vilar,Vilar
 32849,32006,0104201,Martiñan,Martiñan
+32849,32006,0104299,Martiñan,*Diseminado*
 32849,32006,0105501,Recarei,Recarei
 32849,32006,0106801,Sarreaus,Sarreaus
 32849,32006,0107401,Seoane,Seoane
@@ -50197,7 +50366,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 32970,32054,1403101,"Curuxeiras (As)",Curuxeiras
 32970,32054,1403199,"Curuxeiras (As)",*Diseminado*
 32970,32054,1404601,Seixalbo,Seixalbo
-32970,32054,1404602,Seixalbo,"Seixalvo (Industrial)"
+32970,32054,1404602,Seixalbo,"Seixalbo (Industrial)"
 32970,32054,1407801,Zain,Zain
 32970,32054,1407899,Zain,*Diseminado*
 32971,32054,0701001,"Santa Mariña Do Monte","Santa Mariña Do Monte"
@@ -50485,7 +50654,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33125,33069,0209299,Ranon,*Diseminado*
 33126,33069,0105599,"Corrada (La)",*Diseminado*
 33126,33069,0106899,"Ferreria (La)",*Diseminado*
-33126,33069,0107499,Folgueras,*Diseminado*
 33126,33069,0108099,Ponte,*Diseminado*
 33126,33069,0201501,"Arena (L')","Arena (L')"
 33126,33069,0303599,"Carretera (La)",*Diseminado*
@@ -50648,6 +50816,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33155,33021,0420201,Salamir,Salamir
 33155,33021,0421901,"San Cosme","San Cosme"
 33155,33021,0422499,Tejidiello,*Diseminado*
+33155,33021,0423001,Argaton,Argaton
 33156,33021,0604701,Oviñana,Oviñana
 33156,33021,0901801,Albuerne,Albuerne
 33156,33021,0902301,Llanorrozo,Llanorrozo
@@ -50663,6 +50832,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33157,33021,0502701,Novellana,Novellana
 33157,33021,0502799,Novellana,*Diseminado*
 33157,33021,0503399,Resiellas,*Diseminado*
+33157,33021,0908201,Valdredo,Valdredo
 33159,33021,0302901,Faedo,Faedo
 33159,33021,0303501,"Fenosa (La)","Fenosa (La)"
 33159,33021,0304099,Orderias,*Diseminado*
@@ -50917,38 +51087,38 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33189,33066,0127001,Vio,Vio
 33189,33066,0128699,"Yérbanu (El)",*Diseminado*
 33190,33054,0101601,Biedes,Biedes
-33190,33054,0101602,Biedes,"Xugal (El)"
+33190,33054,0101602,Biedes,Xugal
 33190,33054,0102199,"Braña (La)",*Diseminado*
 33190,33054,0103799,"Estaca (La)",*Diseminado*
-33190,33054,0104201,Marinas,Marinas
-33190,33054,0105599,Meobra,*Diseminado*
+33190,33054,0104201,Mariñes,Mariñes
+33190,33054,0105599,Miobra,*Diseminado*
 33190,33054,0106801,Parades,Parades
-33190,33054,0201501,Andallon,Andallon
+33190,33054,0201501,Andayòn,Andayòn
 33190,33054,0202001,Ania,Ania
-33190,33054,0203601,Lazana,Lazana
-33190,33054,0204101,Otero,Otero
-33190,33054,0205401,Santullano,Santullano
-33190,33054,0205499,Santullano,*Diseminado*
-33190,33054,0206799,Trascañedo,*Diseminado*
-33190,33054,0207301,Viado,Viado
-33190,33054,0301401,Alcedo,Alcedo
+33190,33054,0203601,Llazana,Llazana
+33190,33054,0204101,Oteru,Oteru
+33190,33054,0205401,Santuyanu,Santuyanu
+33190,33054,0205499,Santuyanu,*Diseminado*
+33190,33054,0206799,Trescañèu,*Diseminado*
+33190,33054,0207301,Viau,Viau
+33190,33054,0301401,Alcèu,Alcèu
 33190,33054,0302999,Pereda,*Diseminado*
-33190,33054,0303501,Soto,Soto
-33190,33054,0303599,Soto,*Diseminado*
-33190,33054,0401301,Aguera,Aguera
-33190,33054,0403401,"Cruces (Las)","Cruces (Las)"
+33190,33054,0303501,Sotu,Sotu
+33190,33054,0303599,Sotu,*Diseminado*
+33190,33054,0401301,Agüera,Agüera
+33190,33054,0403401,"Cruces (Les)","Cruces (Les)"
 33190,33054,0501299,Areces,*Diseminado*
 33190,33054,0502701,Bolgues,Bolgues
 33190,33054,0502799,Bolgues,*Diseminado*
-33190,33054,0503399,Cueto,*Diseminado*
-33190,33054,0504899,"Fuente (La)",*Diseminado*
+33190,33054,0503399,Cuetu,*Diseminado*
+33190,33054,0504899,"Fonte (La)",*Diseminado*
 33190,33054,0505101,Paladin,Paladin
-33190,33054,0506401,Premoño,Premoño
+33190,33054,0506401,Premoñu,Premoñu
 33190,33054,0507099,Puerma,*Diseminado*
-33190,33054,0508601,Valduno,"Casa Nueva"
-33190,33054,0508602,Valduno,Valduno
-33190,33054,0508699,Valduno,*Diseminado*
-33190,33054,0605001,Quejo,Quejo
+33190,33054,0508601,Valdunu,"Casanueva (La)"
+33190,33054,0508602,Valdunu,Valdunu
+33190,33054,0508699,Valdunu,*Diseminado*
+33190,33054,0605001,Quexu,Quexu
 33191,33044,1201299,Fabarín,*Diseminado*
 33191,33044,1202799,Llampaxuga,*Diseminado*
 33191,33044,1203301,Lloriana,Lloriana
@@ -50979,7 +51149,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33191,33044,2714601,"Maces (Les)","Maces (Les)"
 33191,33044,2715999,"Navaliega (La)",*Diseminado*
 33191,33044,2716299,Nievares,*Diseminado*
-33191,33044,2717899,"Omedo (L')",*Diseminado*
+33191,33044,2717899,"Omeo (L')",*Diseminado*
 33191,33044,2718401,"Ataruelo (L')","Ataruelo (L')"
 33191,33044,2719701,Ponteo,Ponteo
 33191,33044,2720101,Ribero,Ribero
@@ -50990,20 +51160,20 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33191,33044,2725701,Villaverde,Villaverde
 33191,33044,2726099,"Torre (La)",*Diseminado*
 33191,33044,2727601,"San Claudio/San Cloyo","San Claudio/San Cloyo"
-33191,33054,0601101,Escamplero,"Chabola (La)"
-33191,33054,0601102,Escamplero,Escamplero
-33191,33054,0601103,Escamplero,"Monte (El)"
+33191,33054,0601101,"Escampleru (L')","Chabola (La)"
+33191,33054,0601102,"Escampleru (L')","Escampleru (L')"
+33191,33054,0601103,"Escampleru (L')","Monte (El)"
 33191,33054,0602601,Gallegos,Gallegos
 33191,33054,0602699,Gallegos,*Diseminado*
-33191,33054,0603201,"San Pedro de Nora",Campanal
-33191,33054,0603202,"San Pedro de Nora","San Pedro de Nora"
+33191,33054,0603201,"San Pedru Nora","Campanal (El)"
+33191,33054,0603202,"San Pedru Nora","San Pedru Nora"
 33191,33054,0604799,Pumeda,*Diseminado*
-33191,33054,0605001,Quejo,Quejo
+33191,33054,0605001,Quexu,Quexu
 33191,33054,0606301,Rañeces,Rañeces
-33191,33054,0607901,Tahoces,Tahoces
-33191,33054,0607999,Tahoces,*Diseminado*
-33191,33054,0608501,Tamargo,Tamargo
-33191,33054,0608502,Tamargo,Taraniello
+33191,33054,0607901,Taoces,Taoces
+33191,33054,0607999,Taoces,*Diseminado*
+33191,33054,0608501,Tamargu,Tamargu
+33191,33054,0608502,Tamargu,Taraniellu
 33191,33054,0609801,Valsera,Valsera
 33192,33024,1501999,Arroyo,*Diseminado*
 33192,33035,0705999,"Otero (L')",*Diseminado*
@@ -51016,10 +51186,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33192,33035,0713999,Pruvia,*Diseminado*
 33192,33035,0714401,"Pruvia Riba","Pruvia Riba"
 33192,33035,0714499,"Pruvia Riba",*Diseminado*
-33192,33054,0401399,Aguera,*Diseminado*
+33192,33054,0401399,Agüera,*Diseminado*
 33192,33054,0404901,Granda,Granda
 33192,33054,0404999,Granda,*Diseminado*
-33192,33054,0405201,Landrio,Landrio
+33192,33054,0405201,Llandriu,Llandriu
 33192,33054,0406599,Pravia,*Diseminado*
 33192,33054,0407101,Premio,Premio
 33192,33054,0407199,Premio,*Diseminado*
@@ -51421,6 +51591,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33314,33076,4001099,"Calderon (El)",*Diseminado*
 33314,33076,4007899,Silva,*Diseminado*
 33314,33076,4008401,Villaverde,Villaverde
+33315,33021,0402801,Beiciella,Beiciella
 33315,33076,0501201,Cabañes,Cabañes
 33315,33076,0502799,"Campa (La)",*Diseminado*
 33315,33076,0503399,"Ermita (La)",*Diseminado*
@@ -51882,9 +52053,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33414,33030,0210699,Rozaflor,*Diseminado*
 33414,33030,0212801,"Peral (La)","Peral (La)"
 33414,33030,0212899,"Peral (La)",*Diseminado*
-33414,33054,0402801,Cogollo,"Collada (La)"
-33414,33054,0402802,Cogollo,"Sucu (El)"
-33414,33054,0402899,Cogollo,*Diseminado*
+33414,33054,0402801,Cogollu,"Collada (La)"
+33414,33054,0402802,Cogollu,"Sucu (El)"
+33414,33054,0402899,Cogollu,*Diseminado*
 33416,33020,0201599,L'Acebo,*Diseminado*
 33416,33020,0202099,Aguilero/Guilero,*Diseminado*
 33416,33020,0203601,Bango,Bango
@@ -52358,6 +52529,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33469,33014,1117999,"Tabla (La)",*Diseminado*
 33469,33014,1118599,"Tranques (Les)",*Diseminado*
 33469,33014,1119899,"Vallina (La)",*Diseminado*
+33469,33014,1120299,"Velilla (La)",*Diseminado*
 33469,33014,1121999,"Venta (La)",*Diseminado*
 33469,33014,1122499,"Villar de Baxo",*Diseminado*
 33469,33014,1123099,"Villar de Riba",*Diseminado*
@@ -55075,6 +55247,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33778,33017,0727499,Vilar,*Diseminado*
 33778,33074,0306601,Penzol,Penzol
 33778,33074,0307201,"Sela Da Loura (A)","Sela Da Loura (A)"
+33778,33074,0311201,"Pumarega (La)","Pumarega (La)"
 33778,33074,0501201,Besedo,Besedo
 33778,33074,0502701,"Cova (A)","Cova (A)"
 33778,33074,0503301,Cobre,Cobre
@@ -55170,6 +55343,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 33784,33034,0218799,"Pueblo (El)",*Diseminado*
 33784,33034,0219099,"Ribao (El)",*Diseminado*
 33784,33034,0220499,"Rozos (Los)",*Diseminado*
+33784,33034,0222699,Sinxania,*Diseminado*
 33784,33034,0224799,Villarin,*Diseminado*
 33784,33034,0701099,Cadorna,*Diseminado*
 33784,33034,0702501,Carcedo,Carcedo
@@ -57710,6 +57884,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 34407,34122,0002201,"Villaneceriel de Boedo","Villaneceriel de Boedo"
 34407,34122,0003801,"Zorita del Paramo","Zorita del Paramo"
 34407,34122,0003899,"Zorita del Paramo",*Diseminado*
+34407,34122,0004301,"Saltos del Sil","Saltos del Sil"
 34407,34154,0001701,"Revilla de Collazos","Revilla de Collazos"
 34407,34176,0001701,"Sotillo de Boedo","Sotillo de Boedo"
 34407,34176,0002201,"Sotobañado Y Priorato","Sotobañado Y Priorato"
@@ -57765,6 +57940,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 34467,34104,0001701,"Melgar de Yuso","Melgar de Yuso"
 34468,34034,0001701,"Boadilla del Camino","Boadilla del Camino"
 34468,34089,0001701,"Itero de la Vega","Itero de la Vega"
+34468,34089,0001799,"Itero de la Vega",*Diseminado*
 34468,34092,0001701,Lantadilla,Lantadilla
 34468,34092,0001799,Lantadilla,*Diseminado*
 34468,34116,0001701,Osornillo,Osornillo
@@ -57927,7 +58103,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 34828,34160,0004301,"Valle de Santullan","Valle de Santullan"
 34829,34027,0003801,Cillamayor,Cillamayor
 34829,34027,0003802,Cillamayor,"Valle (El)"
-34829,34027,0003899,Cillamayor,*Diseminado*
 34829,34027,0004301,Matabuena,Matabuena
 34829,34036,0001701,Brañosera,Brañosera
 34829,34036,0001799,Brañosera,*Diseminado*
@@ -57936,9 +58111,11 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 34829,34036,0003801,Salcedillo,Salcedillo
 34829,34036,0003899,Salcedillo,*Diseminado*
 34829,34036,0004301,Valberzoso,Valberzoso
+34829,34036,0004399,Valberzoso,*Diseminado*
 34829,34036,0005601,"Vallejo de Orbo","Vallejo de Orbo"
 34830,34158,0002201,"Renedo de Zalima","Renedo de Zalima"
 34830,34158,0003801,"Salinas de Pisuerga","Salinas de Pisuerga"
+34830,34158,0003899,"Salinas de Pisuerga",*Diseminado*
 34839,34056,0002201,"Barcenilla de Pisuerga","Barcenilla de Pisuerga"
 34839,34056,0009401,Ligüérzana,Ligüérzana
 34839,34056,0011501,Quintanaluengos,Quintanaluengos
@@ -58341,6 +58518,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 35149,35012,0026599,"Pasitos (Los)",*Diseminado*
 35149,35012,0029001,"Pie de la Cuesta","Pie de la Cuesta"
 35149,35012,0039801,Tabaibales,Tabaibales
+35149,35012,0052101,"Playa de Veneguera (La)","Playa de Veneguera (La)"
 35188,35009,0012001,"Hoya de Pineda","Buenavista Y Los Silos"
 35200,35026,0003802,"Calero (El)","Calero Bajo (El)"
 35200,35026,0004301,"Callejon del Castillo","Callejon del Castillo"
@@ -58482,6 +58660,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 35220,35026,0029099,"Matanza (La)",*Diseminado*
 35220,35026,0048301,"Valle de Jinamar","Valle de Jinamar"
 35229,35016,0019201,Marzagan,"Cuesta Ramon"
+35229,35016,0019202,Marzagan,Jinamar
 35229,35016,0019203,Marzagan,"Llano de Las Nieves"
 35229,35016,0019204,Marzagan,"Llanos de la Barrera"
 35229,35016,0019205,Marzagan,"Lomo El Sabinal"
@@ -58503,6 +58682,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 35250,35011,0007501,"Lomo del Hospital","Lomo del Hospital"
 35250,35011,0009401,"Mejias (Las)","Mejias (Las)"
 35250,35011,0010801,Mondragon,Mondragon
+35250,35011,0010899,Mondragon,*Diseminado*
 35250,35011,0012001,Pasadilla-Roque,Pasadilla
 35250,35011,0012099,Pasadilla-Roque,*Diseminado*
 35259,35011,0001702,Carrizal,"Majoreras (Las)"
@@ -59303,7 +59483,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 35571,35028,0008199,Tias,*Diseminado*
 35572,35028,0002201,Conil,Conil
 35572,35028,0002299,Conil,*Diseminado*
-35572,35028,0003801,Macher,Macher
 35572,35028,0004301,Masdache,Masdache
 35572,35028,0004399,Masdache,*Diseminado*
 35572,35028,0007599,"Puerto del Carmen",*Diseminado*
@@ -59797,6 +59976,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36157,36038,0417999,Piñeiro,*Diseminado*
 36157,36038,0420201,Soutonovo,Soutonovo
 36157,36038,0421999,Banqueira,*Diseminado*
+36157,36038,0422499,"Vao (O)",*Diseminado*
 36157,36038,0423099,"Cañota (A)",*Diseminado*
 36157,36038,0424501,"Parada de Abaixo","Parada de Abaixo"
 36157,36038,0425801,"Parada de Arriba","Parada de Arriba"
@@ -60409,6 +60589,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36331,36057,1028401,Romeu,Romeu
 36331,36057,1029701,Rozo,Rozo
 36331,36057,1033901,Tarrio,Tarrio
+36331,36057,1034401,Tintureira,Tintureira
 36331,36057,1040901,Silveira,Silveira
 36331,36057,1041601,Toralla,Toralla
 36331,36057,1912801,Hermida,Hermida
@@ -60896,6 +61077,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36417,36033,1010599,"San Juan",*Diseminado*
 36417,36033,1011299,Seixabre,*Diseminado*
 36417,36033,1012799,Texe,*Diseminado*
+36418,36033,0906099,Camaña,*Diseminado*
 36418,36039,0101699,Albarin,*Diseminado*
 36418,36039,0102199,"Carbon (O)",*Diseminado*
 36418,36039,0103799,Casilla,*Diseminado*
@@ -60942,6 +61124,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36419,36033,0804599,Monte,*Diseminado*
 36419,36033,0805899,Piñeiro,*Diseminado*
 36419,36033,0806199,Cerqueiras,*Diseminado*
+36419,36033,0907699,Rebullon,*Diseminado*
 36420,36014,0401399,Abelan,*Diseminado*
 36420,36014,0402899,Castro,*Diseminado*
 36420,36014,0403499,Costa,*Diseminado*
@@ -64676,6 +64859,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36789,36023,0323101,"San Roque","San Roque"
 36789,36023,0324601,"Siete Caminos","Siete Caminos"
 36789,36023,0325999,Silveira,*Diseminado*
+36789,36023,0326299,Lagartos,*Diseminado*
 36790,36054,1001401,Aldea,Aldea
 36790,36054,1001499,Aldea,*Diseminado*
 36790,36054,1002999,"Cruceiro (O)",*Diseminado*
@@ -65458,6 +65642,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36883,36009,0950099,Laranxeira,*Diseminado*
 36883,36009,0951799,Loureiros,*Diseminado*
 36883,36009,0952201,Miñoteira,Miñoteira
+36883,36009,0953899,Muiños,*Diseminado*
 36883,36009,0954399,Mourelos,*Diseminado*
 36883,36009,0956999,Outeiro,*Diseminado*
 36883,36009,0957599,Paces,*Diseminado*
@@ -65480,6 +65665,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36883,36009,0984799,Tain,*Diseminado*
 36883,36009,0985001,Tallos,Tallos
 36883,36009,0986301,Temperan,Temperan
+36883,36009,0986399,Temperan,*Diseminado*
 36883,36009,0989899,Torre,*Diseminado*
 36883,36009,0990299,Touzosas,*Diseminado*
 36883,36009,0992499,Valeixe,*Diseminado*
@@ -65645,12 +65831,14 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 36888,36009,0103799,"Aldea de Randufe",*Diseminado*
 36888,36009,0104299,Bueixos,*Diseminado*
 36888,36009,0105599,Carris,*Diseminado*
+36888,36009,0106899,Fenteiras,*Diseminado*
 36888,36009,0107499,Cerdeiredo,*Diseminado*
 36888,36009,0108099,"Costa Do Freixo",*Diseminado*
 36888,36009,0110701,"Coto de Galos","Coto de Galos"
 36888,36009,0111499,"Coto Do Freixo",*Diseminado*
 36888,36009,0112999,Cruceiro,*Diseminado*
 36888,36009,0113599,Cume,*Diseminado*
+36888,36009,0114099,Chan,*Diseminado*
 36888,36009,0115399,"Deva de Abaixo",*Diseminado*
 36888,36009,0116699,Formigos,*Diseminado*
 36888,36009,0117299,Freixo,*Diseminado*
@@ -66503,6 +66691,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 37187,37023,0011599,"Soto (El)",*Diseminado*
 37187,37023,0012099,"Teso del Cercado",*Diseminado*
 37187,37023,0014199,"Finca la Cordillera",*Diseminado*
+37187,37023,0015401,"Urbanizacion Santher","Urbanizacion Santher"
 37187,37192,0001799,Aldeagallega,*Diseminado*
 37187,37192,0002299,Aldeanueva,*Diseminado*
 37187,37192,0003801,"Miranda de Azan","Miranda de Azan"
@@ -67357,6 +67546,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 37882,37008,0005601,"Pinar de Alba (El)","Pinar de Alba (El)"
 37882,37216,0001701,Navales,Navales
 37882,37216,0002299,Revilleja,*Diseminado*
+37882,37235,0001799,"Gomez Velasco",*Diseminado*
 37882,37235,0002201,"Pedraza de Alba","Pedraza de Alba"
 37882,37235,0002299,"Pedraza de Alba",*Diseminado*
 37882,37322,0001799,"Alcubilla (La)",*Diseminado*
@@ -67399,6 +67589,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 37893,37121,0002299,"Encinas de Abajo",*Diseminado*
 37893,37175,0003801,"Francos Viejo","Francos Viejo"
 37893,37175,0005601,"Nuevo Francos","Nuevo Francos"
+37893,37175,0005699,"Nuevo Francos",*Diseminado*
 37893,37322,0009499,"Ventorros (Los)",*Diseminado*
 37893,37352,0001701,Carpio-Bernardo,Carpio-Bernardo
 37893,37352,0003899,Valdesantiago,*Diseminado*
@@ -68760,6 +68951,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 39313,39054,0003801,Polanco,Polanco
 39313,39054,0004301,Posadillo,Posadillo
 39313,39054,0006901,Rinconeda,Rinconeda
+39314,39076,0004301,Mijares,Mijares
 39314,39076,0005601,Queveda,Queveda
 39314,39076,0009401,Viveda,Viveda
 39315,39087,0010802,Viernoles,Viernoles
@@ -68791,6 +68983,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 39400,39025,0006902,Somahoz,Somahoz
 39407,39021,0001701,Collado,Collado
 39407,39021,0002201,Villasuso,Villasuso
+39407,39021,0002299,Villasuso,*Diseminado*
 39407,39021,0003801,Villayuso,Villayuso
 39408,39025,0001707,Barros,Barros
 39408,39025,0003809,Coo,Coo
@@ -68851,6 +69044,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 39419,39094,0039801,"San Martin de Valdelomar","San Martin de Valdelomar"
 39419,39094,0041901,"Santa Maria de Valverde","Santa Maria de Valverde"
 39419,39094,0046101,Susilla,Susilla
+39419,39094,0053799,Moroso,*Diseminado*
 39420,39010,0001701,"Barcena de Pie de Concha","Barcena de Pie de Concha"
 39420,39010,0001799,"Barcena de Pie de Concha",*Diseminado*
 39420,39010,0003801,"Pie de Concha","Pie de Concha"
@@ -68914,6 +69108,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 39491,39051,0001701,Pesquera,Pesquera
 39491,39051,0002201,Ventorrillo,Ventorrillo
 39491,39070,0001701,"San Miguel de Aguayo","San Miguel de Aguayo"
+39491,39070,0001799,"San Miguel de Aguayo",*Diseminado*
 39491,39070,0002201,"Santa Maria de Aguayo","Santa Maria de Aguayo"
 39491,39070,0003801,"Santa Olalla de Aguayo","Santa Olalla de Aguayo"
 39491,39077,0002201,Rioseco,Rioseco
@@ -69018,7 +69213,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 39528,39091,0006903,"Tejo (El)",Larteme
 39528,39091,0006904,"Tejo (El)","Santa Ana"
 39530,39060,0006901,"Puente San Miguel","Puente San Miguel"
-39530,39076,0004301,Mijares,Mijares
 39538,39060,0005601,Helguera,Helguera
 39538,39060,0008101,Reocin,Reocin
 39538,39060,0011501,"Veguilla (La)","Veguilla (La)"
@@ -69874,6 +70068,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 40162,40007,0001701,Ceguilla,Ceguilla
 40162,40007,0001799,Ceguilla,*Diseminado*
 40162,40007,0002201,Galindez,Galindez
+40162,40007,0002299,Galindez,*Diseminado*
 40162,40007,0003801,Martincano,Martincano
 40162,40007,0003899,Martincano,*Diseminado*
 40162,40007,0004301,Cotanillo,Cotanillo
@@ -69958,6 +70153,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 40191,40077,0001701,Espirdo,Espirdo
 40191,40077,0001799,Espirdo,*Diseminado*
 40191,40077,0002201,"Higuera (La)","Higuera (La)"
+40191,40077,0002299,"Higuera (La)",*Diseminado*
 40191,40077,0003801,Tizneros,Tizneros
 40192,40002,0001701,"Adrada de Piron","Adrada de Piron"
 40192,40205,0001701,"Losana de Piron","Losana de Piron"
@@ -70317,6 +70513,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 40590,40191,0005601,Villarejo,Villarejo
 40590,40191,0005699,Villarejo,*Diseminado*
 40591,40053,0001701,"Cerezo de Abajo","Cerezo de Abajo"
+40591,40053,0001799,"Cerezo de Abajo",*Diseminado*
 40591,40053,0002201,Mansilla,Mansilla
 40592,40053,0002201,Mansilla,Mansilla
 40592,40054,0001701,"Cerezo de Arriba","Cerezo de Arriba"
@@ -70356,6 +70553,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41019,41091,0002299,Sevilla,*Diseminado*
 41020,41091,0002201,Sevilla,Sevilla
 41020,41091,0002299,Sevilla,*Diseminado*
+41073,41038,0002201,"Fuente del Rey","Fuente del Rey"
 41089,41038,0005601,Quinto,Quinto
 41092,41091,0002201,Sevilla,Sevilla
 41092,41091,0002299,Sevilla,*Diseminado*
@@ -70511,16 +70709,15 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41410,41024,0001703,Carmona,"Cañada Baja"
 41410,41024,0001704,Carmona,"Celada (La)"
 41410,41024,0001705,Carmona,"Cerros del Alcor"
-41410,41024,0001707,Carmona,"Chaparral (El)"
+41410,41024,0001707,Carmona,"Barca (La)"
 41410,41024,0001708,Carmona,"Cierva (La)"
 41410,41024,0001709,Carmona,"Cortijos del Alcor (Los)"
 41410,41024,0001710,Carmona,"Corzo (El)"
 41410,41024,0001711,Carmona,Entrearroyos
-41410,41024,0001712,Carmona,"Este Es Mi Caudal"
+41410,41024,0001712,Carmona,"Caudal (El)"
 41410,41024,0001713,Carmona,"Frutales del Alcor (Los)"
 41410,41024,0001714,Carmona,"Giralda (La)"
 41410,41024,0001715,Carmona,"Jinetes (Los)"
-41410,41024,0001716,Carmona,"Llave (La)"
 41410,41024,0001717,Carmona,"Matallana (La)"
 41410,41024,0001718,Carmona,"Monjas (Las)"
 41410,41024,0001719,Carmona,"Nietos (Los)"
@@ -70536,11 +70733,11 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41410,41024,0001729,Carmona,Torrelaguna
 41410,41024,0001730,Carmona,Torrepalma
 41410,41024,0001731,Carmona,"Tres Palmeras (Las)"
-41410,41024,0001732,Carmona,"Tres Rosas (Las)"
-41410,41024,0001733,Carmona,Valsequillo
+41410,41024,0001733,Carmona,Arrobones
 41410,41024,0001734,Carmona,"Ventanal Bajo"
 41410,41024,0001735,Carmona,"Viñas Viejas (Las Arenas)"
 41410,41024,0001736,Carmona,"Virgen de Araceli"
+41410,41024,0001737,Carmona,"Pinos de la Algabarra (Lo"
 41410,41024,0001799,Carmona,*Diseminado*
 41410,41024,0002201,Guadajoz,Guadajoz
 41410,41024,0002299,Guadajoz,*Diseminado*
@@ -70713,8 +70910,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41610,41071,0004399,Paradas,*Diseminado*
 41620,41060,0005601,Marchena,Marchena
 41620,41060,0005699,Marchena,*Diseminado*
-41630,41052,0001701,"Lantejuela (La)","Lantejuela (La)"
-41630,41052,0001799,"Lantejuela (La)",*Diseminado*
+41630,41052,0001701,Lantejuela,Lantejuela
+41630,41052,0001799,Lantejuela,*Diseminado*
 41640,41068,0001701,Osuna,Osuna
 41640,41068,0001799,Osuna,*Diseminado*
 41640,41068,0002201,"Puerto de la Encina","Puerto de la Encina"
@@ -70908,6 +71105,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41890,41031,0011599,"Pedrosillo (El)",*Diseminado*
 41890,41031,0012001,"Peralejo (El)","Peralejo (El)"
 41890,41031,0013601,Peroamigo,Peroamigo
+41897,41057,0003801,"Juan Gallego","Juan Gallego"
 41897,41057,0003899,"Juan Gallego",*Diseminado*
 41897,41057,0004301,"Madroño (El)","Madroño (El)"
 41897,41057,0004399,"Madroño (El)",*Diseminado*
@@ -70941,6 +71139,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 41909,41085,0005602,Salteras,"Dehesilla (La)"
 41909,41085,0005603,Salteras,"Fuemblanca (La)"
 41909,41085,0005604,Salteras,Salteras
+41909,41085,0005699,Salteras,*Diseminado*
 41910,41021,0001701,Camas,Camas
 41920,41086,0001701,"San Juan de Aznalfarache","San Juan de Aznalfarache"
 41927,41059,0005603,"Mairena del Aljarafe","Mairena del Aljarafe"
@@ -71024,10 +71223,10 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42129,42096,0005601,"Torralba de Arciel","Torralba de Arciel"
 42129,42213,0001701,"Villaseca de Arciel","Villaseca de Arciel"
 42130,42022,0001701,"Almenar de Soria","Almenar de Soria"
-42131,42022,0003801,"Castejon del Campo","Castejon del Campo"
-42131,42022,0004301,"Esteras de Lubia","Esteras de Lubia"
-42131,42022,0005601,Jaray,Jaray
-42131,42022,0006901,"Peroniel del Campo","Peroniel del Campo"
+42130,42022,0003801,"Castejon del Campo","Castejon del Campo"
+42130,42022,0004301,"Esteras de Lubia","Esteras de Lubia"
+42130,42022,0006901,"Peroniel del Campo","Peroniel del Campo"
+42132,42022,0005601,Jaray,Jaray
 42132,42132,0001701,Noviercas,Noviercas
 42133,42006,0001701,Alconaba,Alconaba
 42133,42006,0002201,"Cubo de Hogueras","Cubo de Hogueras"
@@ -71090,9 +71289,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42150,42215,0003801,Vinuesa,Vinuesa
 42151,42215,0001701,"Quintanarejo (El)","Quintanarejo (El)"
 42151,42215,0002201,"Santa Ines","Santa Ines"
-42152,42173,0002201,Oteruelos,Oteruelos
-42152,42173,0003801,Pedrajas,Pedrajas
-42152,42173,0005601,Toledillo,Toledillo
 42153,42160,0001701,Derroñadas,Derroñadas
 42153,42160,0002201,"Hinojosa de la Sierra","Hinojosa de la Sierra"
 42153,42160,0004301,"Royo (El)","Royo (El)"
@@ -71221,6 +71417,9 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42190,42095,0006902,Golmayo,"Urb. Las Camaretas"
 42190,42095,0006999,Golmayo,*Diseminado*
 42190,42173,0001701,"Casas (Las)","Casas (Las)"
+42190,42173,0002201,Oteruelos,Oteruelos
+42190,42173,0003801,Pedrajas,Pedrajas
+42190,42173,0005601,Toledillo,Toledillo
 42191,42071,0001701,Almarail,Almarail
 42191,42071,0002201,"Cubo de la Solana","Cubo de la Solana"
 42191,42071,0003801,Ituero,Ituero
@@ -71320,6 +71519,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42230,42113,0007501,"Fuencaliente Medinaceli","Fuencaliente Medinaceli"
 42230,42113,0011501,"Torralba del Moral","Torralba del Moral"
 42230,42115,0001701,Ambrona,Ambrona
+42230,42115,0002201,Conquezuela,Conquezuela
 42230,42115,0003801,"Miño de Medinaceli","Miño de Medinaceli"
 42240,42113,0009401,Medinaceli,Centro
 42240,42113,0009402,Medinaceli,Estacion
@@ -71410,6 +71610,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42311,42120,0004301,"Hoz de Arriba","Hoz de Arriba"
 42312,42043,0015401,Vilde,Vilde
 42312,42206,0001701,"Villanueva de Gormaz","Villanueva de Gormaz"
+42313,42043,0006901,"Lodares de Osma","Lodares de Osma"
 42313,42043,0007501,"Olmeda (La)","Olmeda (La)"
 42313,42097,0001701,Gormaz,Gormaz
 42313,42145,0001701,"Quintanas de Gormaz",Centro
@@ -71524,6 +71725,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 42392,42200,0001701,"Fuente Tovar","Fuente Tovar"
 42392,42200,0002201,"Rebollo de Duero","Rebollo de Duero"
 42392,42200,0003801,Velamazan,Velamazan
+42592,43052,0001799,Xerta,*Diseminado*
 43001,43148,0013601,Tarragona,Tarragona
 43002,43148,0013601,Tarragona,Tarragona
 43002,43148,0013699,Tarragona,*Diseminado*
@@ -72224,6 +72426,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 43786,43022,0001701,Batea,Batea
 43786,43022,0001799,Batea,*Diseminado*
 43787,43041,0001701,Caseres,Caseres
+43787,43041,0001799,Caseres,*Diseminado*
 43790,43125,0001701,"Riba-Roja D'Ebre","Riba-Roja D'Ebre"
 43790,43125,0001799,"Riba-Roja D'Ebre",*Diseminado*
 43791,43019,0001701,Ascó,Ascó
@@ -72367,13 +72570,14 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 43879,43902,0001799,"Muntells (Els)",*Diseminado*
 43879,43902,0002299,"Sant Jaume D'Enveja",*Diseminado*
 43879,43902,0003801,Balada,Balada
-43880,43163,0001701,"Barri Maritim S Salvador","Barri Maritim S Salvador"
+43880,43163,0001701,"Barri Marítim St Salvador","Barri Marítim St Salvador"
 43880,43163,0002201,"Barri Marítim Coma-Ruga","Barri Marítim Coma-Ruga"
 43880,43163,0002299,"Barri Marítim Coma-Ruga",*Diseminado*
-43880,43163,0003801,"Estacio S Vicenç Calders","Estacio S Vicenç Calders"
+43880,43163,0003801,"Estació St Vicenç Calders","Estació St Vicenç Calders"
 43880,43163,0004301,"Sant Vicenç de Calders","Sant Vicenç de Calders"
 43880,43163,0005601,"Sanatori (El)","Sanatori (El)"
-43880,43163,0007501,"Barri Maritim del Francas","Barri Maritim del Francas"
+43880,43163,0006999,"Vendrell (El)",*Diseminado*
+43880,43163,0007501,"Barri Marítim del Francàs","Barri Marítim del Francàs"
 43880,43163,0010801,"Masos (Els)","Masos (Els)"
 43881,43051,0001701,Cunit,Cunit
 43881,43051,0001799,Cunit,*Diseminado*
@@ -72444,7 +72648,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 43894,43903,0003899,"Ligallo del Roig",*Diseminado*
 43895,43906,0001701,"Ampolla (L')","Ampolla (L')"
 43895,43906,0001704,"Ampolla (L')",Cap-Roig
-43895,43906,0001705,"Ampolla (L')",Roque
 43895,43906,0001799,"Ampolla (L')",*Diseminado*
 43896,43904,0001701,"Aldea (L')","Aldea (L')"
 43896,43904,0001799,"Aldea (L')",*Diseminado*
@@ -73272,6 +73475,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 45400,45106,0001799,Mora,*Diseminado*
 45400,45142,0001701,"Quintanar de la Orden","Quintanar de la Orden"
 45410,45193,0001701,"Villanueva de Bogas","Villanueva de Bogas"
+45410,45193,0001799,"Villanueva de Bogas",*Diseminado*
 45420,45012,0001701,"Almonacid de Toledo","Almonacid de Toledo"
 45420,45012,0001799,"Almonacid de Toledo",*Diseminado*
 45430,45094,0001701,Mascaraque,Mascaraque
@@ -73502,8 +73706,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 45651,45170,0001799,"Fresneda (La)",*Diseminado*
 45651,45170,0002201,"Torrecilla de la Jara","Torrecilla de la Jara"
 45651,45170,0002299,"Torrecilla de la Jara",*Diseminado*
-45652,45146,0001701,Retamoso,Retamoso
-45652,45146,0001799,Retamoso,*Diseminado*
+45652,45146,0001701,"Retamoso de la Jara","Retamoso de la Jara"
+45652,45146,0001799,"Retamoso de la Jara",*Diseminado*
 45653,45155,0001701,"Santa Ana de Pusa","Santa Ana de Pusa"
 45653,45155,0001799,"Santa Ana de Pusa",*Diseminado*
 45654,45150,0001701,"S Bartolome Las Abiertas","S Bartolome Las Abiertas"
@@ -73524,6 +73728,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 45670,45108,0001799,"Nava de Ricomalillo (La)",*Diseminado*
 45671,45162,0002201,Gargantilla,Gargantilla
 45671,45162,0002299,Gargantilla,*Diseminado*
+45671,45162,0003899,"Minas de Santa Quiteria",*Diseminado*
 45671,45162,0004301,"Puerto Rey","Puerto Rey"
 45671,45162,0005601,"Sevilleja de la Jara","Sevilleja de la Jara"
 45671,45162,0005699,"Sevilleja de la Jara",*Diseminado*
@@ -73553,6 +73758,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 45685,45104,0001799,Montearagon,*Diseminado*
 45686,45028,0002201,"Calera Y Chozas","Calera Y Chozas"
 45686,45028,0002299,"Calera Y Chozas",*Diseminado*
+45686,45028,0003801,Montepalomas,Montepalomas
 45687,45005,0001701,Alcañizo,Alcañizo
 45687,45005,0001799,Alcañizo,*Diseminado*
 45690,45137,0001701,"Pueblanueva (La)","Pueblanueva (La)"
@@ -73846,20 +74052,20 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 46140,46001,0002299,"Mas del Olmo",*Diseminado*
 46140,46001,0003899,Sesga,*Diseminado*
 46140,46001,0004399,"Val de la Sabina (El)",*Diseminado*
-46140,46092,0001701,"Arroyo Cerezo","Arroyo Cerezo"
 46140,46201,0001701,"Puebla de San Miguel","Puebla de San Miguel"
+46141,46092,0001701,"Arroyo Cerezo","Arroyo Cerezo"
 46141,46092,0002201,Castielfabib,Castielfabib
 46141,46092,0002299,Castielfabib,*Diseminado*
 46141,46092,0003801,"Cuesta del Rato","Cuesta del Rato"
 46141,46092,0003899,"Cuesta del Rato",*Diseminado*
-46141,46092,0004301,"Mas de Jacinto","Mas de Jacinto"
-46141,46092,0005601,"Mas de Los Mudos","Mas de Los Mudos"
-46141,46092,0006901,"Pajares (Los)","Pajares (Los)"
-46141,46092,0007501,"Santos (Los)","Santos (Los)"
+46142,46092,0007501,"Santos (Los)","Santos (Los)"
+46143,46092,0006901,"Pajares (Los)","Pajares (Los)"
 46143,46242,0001701,Torrebaja,Torrebaja
 46143,46242,0001799,Torrebaja,*Diseminado*
 46143,46242,0002201,Torrealta,Torrealta
 46143,46242,0002299,Torrealta,*Diseminado*
+46144,46092,0004301,"Mas de Jacinto","Mas de Jacinto"
+46144,46092,0005601,"Mas de Los Mudos","Mas de Los Mudos"
 46145,46252,0001701,Negron,Negron
 46145,46252,0002201,Vallanca,Vallanca
 46146,46088,0001701,"Casas Bajas","Casas Bajas"
@@ -73992,6 +74198,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 46178,46241,0001799,Titaguas,*Diseminado*
 46178,46262,0001701,"Cuevarruz (La)","Cuevarruz (La)"
 46178,46262,0002201,"Yesa (La)","Yesa (La)"
+46178,46262,0002299,"Yesa (La)",*Diseminado*
 46179,46041,0001701,"Aras de Los Olmos","Aras de Los Olmos"
 46179,46041,0001799,"Aras de Los Olmos",*Diseminado*
 46179,46041,0002201,Losilla,Losilla
@@ -74153,7 +74360,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 46250,46019,0001799,"Alcudia (L')",*Diseminado*
 46250,46019,0002201,"Comes (Les)","Comes (Les)"
 46250,46019,0003801,Montortal,Montortal
-46250,46220,0005601,"Puerto (El)","Puerto (El)"
 46260,46011,0001701,Alberic,Alberic
 46260,46011,0001702,Alberic,"Monte Jucar"
 46260,46011,0001703,Alberic,"San Cristobal"
@@ -74289,6 +74495,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 46370,46111,0001717,Chiva,"Felipes (Los)"
 46370,46111,0001718,Chiva,"Pilo Gros"
 46370,46111,0001719,Chiva,"Loma de Castillo"
+46370,46111,0001720,Chiva,Altamar
 46370,46111,0001799,Chiva,*Diseminado*
 46380,46109,0001701,Cheste,Cheste
 46380,46109,0001702,Cheste,"Urbanizacion Cañada Fria"
@@ -74951,6 +75158,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 47131,47071,0001702,Geria,"Ventas de Geria"
 47131,47071,0001799,Geria,*Diseminado*
 47131,47135,0001701,Robladillo,Robladillo
+47131,47135,0001799,Robladillo,*Diseminado*
 47131,47191,0001701,Velliza,Velliza
 47131,47216,0001701,"Villan de Tordesillas","Villan de Tordesillas"
 47132,47146,0001701,"San Miguel del Pino","San Miguel del Pino"
@@ -75149,6 +75357,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 47318,47106,0001799,"Olmos de Peñafiel",*Diseminado*
 47318,47114,0002201,Melida,Melida
 47319,47131,0001701,Rabano,Rabano
+47319,47170,0001701,Molpeceres,Molpeceres
 47319,47170,0002201,"Torre de Peñafiel","Torre de Peñafiel"
 47320,47093,0001701,"Montemayor de Pililla","Montemayor de Pililla"
 47320,47093,0001799,"Montemayor de Pililla",*Diseminado*
@@ -75787,7 +75996,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 48360,48068,0001799,Arketas-Aranburu,*Diseminado*
 48360,48068,0002201,Mundaka,Mundaka
 48360,48068,0003899,Portuondo-Basaran,*Diseminado*
-48370,48017,0001701,Agirre,Agirre
+48370,48017,0001799,Agirre,*Diseminado*
 48370,48017,0002299,Almika,*Diseminado*
 48370,48017,0004399,Arranotegi,*Diseminado*
 48370,48017,0005699,Artika,*Diseminado*
@@ -75999,6 +76208,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 48610,48089,0004399,Mendiondo,*Diseminado*
 48610,48089,0005699,Zalbidea,*Diseminado*
 48620,48043,0006999,Agirre-Areantza-Guzurmend,*Diseminado*
+48620,48056,0001701,Andraka,Andraka
 48620,48056,0001799,Andraka,*Diseminado*
 48620,48056,0002201,Armintza,Armintza
 48620,48056,0003801,Gure-Mendi,Gure-Mendi
@@ -76479,6 +76689,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 49319,49112,0005601,"Otero de Los Centenos","Otero de Los Centenos"
 49319,49112,0005699,"Otero de Los Centenos",*Diseminado*
 49319,49134,0002201,Gramedo,Gramedo
+49319,49134,0002299,Gramedo,*Diseminado*
 49320,49143,0001701,"Otero de Sanabria","Otero de Sanabria"
 49320,49179,0007501,Triufe,Triufe
 49320,49179,0007599,Triufe,*Diseminado*
@@ -76551,6 +76762,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 49342,49062,0003801,"Faramontanos de la Sierra","Faramontanos de la Sierra"
 49342,49181,0010801,"Villarejo de la Sierra","Villarejo de la Sierra"
 49343,49097,0003801,Villalverde,Villalverde
+49343,49097,0003899,Villalverde,*Diseminado*
 49344,49134,0001701,Donado,Donado
 49344,49134,0001799,Donado,*Diseminado*
 49345,49062,0005601,"Utrera de la Encomienda","Utrera de la Encomienda"
@@ -76655,8 +76867,8 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 49514,49003,0004301,Vivinera,Vivinera
 49514,49071,0001701,Arcillera,Arcillera
 49514,49071,0008101,Moveros,Moveros
-49514,49157,0001701,Pino,Pino
-49514,49157,0001799,Pino,*Diseminado*
+49514,49157,0001701,"Pino del Oro","Pino del Oro"
+49514,49157,0001799,"Pino del Oro",*Diseminado*
 49515,49173,0001701,"Rabano de Aliste","Rabano de Aliste"
 49515,49173,0003801,"Sejas de Aliste","Sejas de Aliste"
 49515,49273,0001701,Ribas,Ribas
@@ -76861,7 +77073,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 49690,49187,0001701,"S Cristobal de Entreviñas","S Cristobal de Entreviñas"
 49690,49187,0001702,"S Cristobal de Entreviñas","Urbanizacion Entreviñas"
 49690,49187,0001799,"S Cristobal de Entreviñas",*Diseminado*
-49691,49187,0001701,"S Cristobal de Entreviñas","S Cristobal de Entreviñas"
 49691,49187,0002201,"San Miguel del Esla","San Miguel del Esla"
 49691,49187,0003801,"Sta Colomba Las Carabias","Sta Colomba Las Carabias"
 49692,49113,0001701,"Matilla de Arzon","Matilla de Arzon"
@@ -77059,6 +77270,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50059,50297,0007502,Montañana,"Barrio del Saso"
 50059,50297,0007503,Montañana,Montañana
 50059,50297,0007599,Montañana,Diseminado
+50059,50297,0009499,Movera,Diseminado
 50090,50297,0005602,Juslibol,"Academia General Militar"
 50100,50025,0001701,"Almunia Doña Godina (La)","Almunia Doña Godina (La)"
 50100,50025,0001799,"Almunia Doña Godina (La)",Diseminado
@@ -77193,6 +77405,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50211,50076,0001701,"Castejon de Las Armas","Castejon de Las Armas"
 50212,50072,0001701,Carenas,Carenas
 50212,50072,0002201,"Tranquera (La)","Tranquera (La)"
+50212,50072,0002299,"Tranquera (La)",Diseminado
 50213,50082,0001701,Cimballa,Cimballa
 50213,50173,0001701,Llumes,Llumes
 50213,50173,0002201,Monterde,Monterde
@@ -77334,6 +77547,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50322,50110,0001701,Aluenda,Aluenda
 50322,50110,0001799,Aluenda,Diseminado
 50323,50110,0003801,Inoges,Inoges
+50324,50236,0001799,"Aldehuela Sta. Cruz (La)",Diseminado
 50324,50236,0002201,"Santa Cruz de Grio","Santa Cruz de Grio"
 50324,50236,0002299,"Santa Cruz de Grio",Diseminado
 50325,50255,0001701,Tobed,Tobed
@@ -77514,6 +77728,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50591,50014,0001701,"Alcala de Moncayo","Alcala de Moncayo"
 50591,50014,0001799,"Alcala de Moncayo",*Diseminado*
 50600,50095,0003801,"Ejea de Los Caballeros","Ejea de Los Caballeros"
+50600,50095,0003810,"Ejea de Los Caballeros","Poligono Valdeferrin"
 50600,50095,0003899,"Ejea de Los Caballeros",Diseminado
 50610,50109,0001701,"Frago (El)","Frago (El)"
 50610,50151,0002201,Luna,Luna
@@ -77652,7 +77867,6 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50720,50297,0002201,"Cartuja Baja","Cartuja Baja"
 50720,50297,0002299,"Cartuja Baja",Diseminado
 50720,50297,0017301,Zaragoza,Zaragoza
-50720,50297,0017399,Zaragoza,Diseminado
 50730,50062,0001701,"Burgo de Ebro (El)","Burgo de Ebro (El)"
 50730,50062,0001799,"Burgo de Ebro (El)",Diseminado
 50730,50062,0002201,"Urbanizacion Virgen Colum","Urbanizacion Virgen Colum"
@@ -77663,6 +77877,7 @@ codigo_postal,municipio_id,codigo_unidad_poblacional,entidad_singular_nombre,nuc
 50750,50208,0001701,"Pina de Ebro","Pina de Ebro"
 50750,50208,0001799,"Pina de Ebro",*Diseminado*
 50760,50278,0001701,"Velilla de Ebro","Velilla de Ebro"
+50760,50278,0001799,"Velilla de Ebro",Diseminado
 50770,50222,0001701,Quinto,Quinto
 50770,50222,0001799,Quinto,Diseminado
 50780,50240,0002201,Sastago,Sastago
