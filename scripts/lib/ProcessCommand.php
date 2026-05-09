@@ -47,15 +47,40 @@ class ProcessCommand extends ConsoleKit\Command
         $box = new ConsoleKit\Widgets\Box($this->getConsole(), 'Generando Histórico');
         $box->write();$this->getConsole()->writeln("");
 
-        $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE . ".csv", 'w+');
-        $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE_ENTIDADES . ".csv", 'w+');
+        $destFile = BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE . ".csv";
+        $destEntidadesFile = BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_HISTORICAL_FILE_ENTIDADES . ".csv";
+        $tmpDestFile = $this->tempFile(Config::DEST_HISTORICAL_FILE);
+        $tmpDestEntidadesFile = $this->tempFile(Config::DEST_HISTORICAL_FILE_ENTIDADES);
+        $rebuild = isset($options['force']) || isset($options['f']) || !file_exists($destFile) || !file_exists($destEntidadesFile);
+        $processedPeriods = $rebuild ? array() : $this->readHistoricalPeriods($destFile);
 
-        $this->writeHeaderToFile($dest,Config::$datapackage['resources']['4']['schema']['fields']);
-        $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['5']['schema']['fields']);
+        $dest = fopen($tmpDestFile, 'w+');
+        $destEntidades = fopen($tmpDestEntidadesFile, 'w+');
+
+        if ($rebuild) {
+            $this->writeHeaderToFile($dest,Config::$datapackage['resources']['4']['schema']['fields']);
+            $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['5']['schema']['fields']);
+        } else {
+            $this->copyFileToHandle($destFile, $dest);
+            $this->copyFileToHandle($destEntidadesFile, $destEntidades);
+        }
 
         foreach (glob(BASE_PATH . DS . Config::ARCHIVE_FOLDER . DS . "*.zip") as $source) {
-            $this->parseSourceToFile($source,$dest,$destEntidades);
+            if (isset($processedPeriods[$this->periodFromSource($source)])) {
+                continue;
+            }
+
+            $this->getConsole()->writeln("Procesando " . basename($source));
+            $this->appendSortedSourceToFiles($source,$dest,$destEntidades);
         }
+
+        fclose($dest);
+        fclose($destEntidades);
+
+        rename($tmpDestFile, $destFile);
+        rename($tmpDestEntidadesFile, $destEntidadesFile);
+        chmod($destFile, 0644);
+        chmod($destEntidadesFile, 0644);
     }
 
 
@@ -91,13 +116,26 @@ class ProcessCommand extends ConsoleKit\Command
         $box = new ConsoleKit\Widgets\Box($this->getConsole(), "Procesando {$source}");
         $box->write();$this->getConsole()->writeln("");
 
-        $dest = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv", 'w+');
-        $destEntidades = fopen(BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE_ENTIDADES . ".csv", 'w+');
+        $destFile = BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE . ".csv";
+        $destEntidadesFile = BASE_PATH . DS . Config::DATA_FOLDER . DS . Config::DEST_FILE_ENTIDADES . ".csv";
+        $tmpDestFile = $this->tempFile(Config::DEST_FILE);
+        $tmpDestEntidadesFile = $this->tempFile(Config::DEST_FILE_ENTIDADES);
+
+        $dest = fopen($tmpDestFile, 'w+');
+        $destEntidades = fopen($tmpDestEntidadesFile, 'w+');
 
         $this->writeHeaderToFile($dest,Config::$datapackage['resources']['2']['schema']['fields']);
         $this->writeHeaderToFile($destEntidades,Config::$datapackage['resources']['3']['schema']['fields']);
 
-        $this->parseSourceToFile($source, $dest, $destEntidades, false);
+        $this->appendSortedSourceToFiles($source, $dest, $destEntidades, false);
+
+        fclose($dest);
+        fclose($destEntidades);
+
+        rename($tmpDestFile, $destFile);
+        rename($tmpDestEntidadesFile, $destEntidadesFile);
+        chmod($destFile, 0644);
+        chmod($destEntidadesFile, 0644);
     }
 
 
@@ -112,6 +150,100 @@ class ProcessCommand extends ConsoleKit\Command
     {
         fputcsv($file, array_map(function($var){ return $var['name']; }, $columns));
         return;
+    }
+
+    private function appendSortedSourceToFiles($source,$file,$fileEntidades,$includeYear=true)
+    {
+        $tmpFile = $this->tempFile('process_rows');
+        $tmpEntidadesFile = $this->tempFile('process_entidades_rows');
+
+        $rows = fopen($tmpFile, 'w+');
+        $rowsEntidades = fopen($tmpEntidadesFile, 'w+');
+
+        $this->parseSourceToFile($source, $rows, $rowsEntidades, $includeYear);
+
+        fclose($rows);
+        fclose($rowsEntidades);
+
+        $this->appendSortedUniqueFile($tmpFile, $file, '1,1 -k2,2');
+        $this->appendSortedUniqueFile($tmpEntidadesFile, $fileEntidades, '1,1 -k2,2 -k3,3');
+
+        unlink($tmpFile);
+        unlink($tmpEntidadesFile);
+    }
+
+    private function appendSortedUniqueFile($sourceFile,$dest,$keys)
+    {
+        $command = 'LC_ALL=C sort -t, -u -k' . $keys . ' ' . escapeshellarg($sourceFile);
+        $sorted = popen($command, 'r');
+
+        if (!$sorted) {
+            $this->writeerr("Error: could not sort {$sourceFile}\n");
+            die();
+        }
+
+        while (($line = fgets($sorted)) !== false) {
+            fwrite($dest, $line);
+        }
+
+        $status = pclose($sorted);
+        if ($status !== 0) {
+            $this->writeerr("Error: sort failed for {$sourceFile}\n");
+            die();
+        }
+    }
+
+    private function tempFile($prefix)
+    {
+        $file = tempnam(BASE_PATH . DS . Config::DATA_FOLDER, $prefix . '.');
+        if ($file === false) {
+            $this->writeerr("Error: could not create temporary file\n");
+            die();
+        }
+
+        return $file;
+    }
+
+    private function readHistoricalPeriods($file)
+    {
+        $periods = array();
+        $source = fopen($file, 'r');
+
+        if (!$source) {
+            return $periods;
+        }
+
+        fgetcsv($source);
+        while (($row = fgetcsv($source)) !== false) {
+            if (isset($row[2]) && isset($row[3])) {
+                $periods[$row[2] . '-' . $row[3]] = true;
+            }
+        }
+
+        fclose($source);
+        return $periods;
+    }
+
+    private function copyFileToHandle($sourceFile,$dest)
+    {
+        $source = fopen($sourceFile, 'r');
+
+        if (!$source) {
+            $this->writeerr("Error: could not open {$sourceFile}\n");
+            die();
+        }
+
+        while (!feof($source)) {
+            fwrite($dest, fread($source, 1048576));
+        }
+
+        fclose($source);
+    }
+
+    private function periodFromSource($source)
+    {
+        list($year,$month) = explode("-",basename($source,'.zip'));
+        return $year . '-' . $month;
     }
 
 
@@ -182,28 +314,15 @@ class ProcessCommand extends ConsoleKit\Command
             $nombre_nucleo = $this->titleCase(trim(mb_substr($line,135,25)));
 
             if ($includeYear) {
-                $items[$codigo_postal.$municipio_id.$year.$month] = [$codigo_postal, $municipio_id, $year,$month];
-                $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional.$year.$month] =
-                    [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo ,$year,$month];
+                fputcsv($file, [$codigo_postal, $municipio_id, $year,$month]);
+                fputcsv($fileEntidades, [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo ,$year,$month]);
             } else {
-                $items[$codigo_postal.$municipio_id] = [$codigo_postal, $municipio_id];
-                $itemsEntidades[$codigo_postal.$municipio_id.$codigo_unidad_poblacional] =
-                    [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo];
+                fputcsv($file, [$codigo_postal, $municipio_id]);
+                fputcsv($fileEntidades, [$codigo_postal, $municipio_id, $codigo_unidad_poblacional,$nombre_entidad_singular,$nombre_nucleo]);
 
                 //echo $codigo_postal . "\r\n";
             }
 
-        }
-
-        ksort($items);
-        ksort($itemsEntidades);
-
-        foreach ($items as $item){
-            fputcsv($file, $item);
-        }
-
-        foreach ($itemsEntidades as $item){
-            fputcsv($fileEntidades, $item);
         }
 
     }
